@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Summer of Haskell 2017 - ideas</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="haskell-logo" src="https://www.haskell.org/static/img/logo.png?etag=rJR84DMh" alt="haskell logo" />
+      Summer of Haskell 2017
+      <nav>
+        <a href="./">Home</a>
+        <a href="./faq.html">Faq</a>
+        <a href="./ideas.html">Ideas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Ideas</h1>
+<p>
+  This is a list of ideas for students who are considering to apply to the
+  Summer of Haskell.
+  You can contribute ideas by sending a pull request to our
+  <a href="TODO">github repository</a>.
+</p>
+
+<h1>Table of Contents</h1>
+<ul>
+  
+    <li><a href="#liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions</a></li>
+  
+</ul>
+
+
+  <h2 id="liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions<a class="anchor" href="#liquid-haskell-base">🔗</a></h2>
+  <p>The base contains many partial functions that are poorly documented. Liquid Haskell can be used to verify that all functions are total (by restricting the domain of the functions input with refinement types).</p>
+<p>Though Liquid Haksell comes with <a href="https://github.com/ucsd-progsys/liquidhaskell/tree/develop/include">some speficiations for base</a>, these specifications:</p>
+<ul>
+<li>are not checked against the base implementations and</li>
+<li>are not part of the base libraries.</li>
+</ul>
+<p>Inspired by <a href="https://github.com/aelve/haskell-issues/issues/52" class="uri">https://github.com/aelve/haskell-issues/issues/52</a></p>
+<p><strong>Mentors</strong>: Niki Vazou</p>
+
+
+    </main>
+    <footer>
+      This website is maintained by the
+      <a href="https://wiki.haskell.org/Haskell.org_committee"">Haskell.org
+      committee</a>.  Summer of Haskell is made possible by our
+      <a href="./#sponsors">sponsors</a>.
+    </footer>
+  </body>
+</html>

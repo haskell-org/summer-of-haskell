@@ -1,0 +1,19 @@
+<h1>Ideas</h1>
+<p>
+  This is a list of ideas for students who are considering to apply to the
+  Summer of Haskell.
+  You can contribute ideas by sending a pull request to our
+  <a href="TODO">github repository</a>.
+</p>
+
+<h1>Table of Contents</h1>
+<ul>
+  $for(ideas)$
+    <li><a href="#$slug$">$title$</a></li>
+  $endfor$
+</ul>
+
+$for(ideas)$
+  <h2 id="$slug$">$title$<a class="anchor" href="#$slug$">🔗</a></h2>
+  $body$
+$endfor$
