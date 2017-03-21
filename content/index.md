@@ -46,6 +46,29 @@ September 12th  Final results announced
 
 </div>
 
+# Sponsors (2017)
+
+<div class="sponsors">
+<img src="/images/company-logo.png" alt="company logo" class="sponsor">
+<img src="/images/company-logo.png" alt="company logo" class="sponsor">
+<img src="/images/company-logo.png" alt="company logo" class="sponsor">
+</div>
+
+This is a placeholder description for the first sponsor, who is proud to support
+Haskell development.
+
+This is a placeholder description for the second sponsor, who is proud to support
+Haskell development.
+
+This is a placeholder description for the third sponsor, who is proud to support
+Haskell development.
+
+<div class="become-a-sponsor">
+<a href="mailto:committee@haskell.org">
+<img src="/images/haskell-logo.png" alt="haskell logo"> Become a sponsor
+</a>
+</div>
+
 # Sponsors (2016)
 
 [haskell.org](http://haskell.org) kicked things off this year by funding a

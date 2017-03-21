@@ -114,6 +114,39 @@ p {
   padding-right: 36px;
 }
 
+.sponsors {
+  text-align: center;
+}
+
+.sponsors img {
+  height: 150px;
+  margin: 0px 12px;
+  display: inline;
+}
+
+.become-a-sponsor {
+  margin: 24px;
+  padding: 6px;
+  text-align: center;
+}
+
+.become-a-sponsor img {
+  display: inline;
+  height: 18px;
+  margin: 0px 6px -2px 0px;
+}
+
+.become-a-sponsor a {
+  background-image: url('https://www.haskell.org/static/img/pattern.png');
+  background-size: cover;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 18px;
+  font-variant: small-caps;
+  padding: 12px 36px;
+  text-decoration: none;
+}
+
 /* Anchors after headers */
 a.anchor {
   color: #64328c;
