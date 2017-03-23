@@ -30,10 +30,17 @@
 <h1>Table of Contents</h1>
 <ul>
   
+    <li><a href="#hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC</a></li>
+  
     <li><a href="#liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions</a></li>
   
 </ul>
 
+
+  <h2 id="hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC<a class="anchor" href="#hadrian-ghc">🔗</a></h2>
+  <p>Advance the Hadrian build system to the point that it can replace the existing GHC build system in practice, including specifically adding support for cross compilation, source and binary distribution generation, dynamic way, and test suite support. Most of these issues are detailed in the “Current Limitations” section of the <a href="https://github.com/snowleopard/hadrian/blob/master/README.md">README.md</a></p>
+<p>This project may well entail working further on the Shake tool itself to increase its featureset as a prerequisite for use of these features in hadrian.</p>
+<p><strong>Mentors</strong>: Hadrian team</p>
 
   <h2 id="liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions<a class="anchor" href="#liquid-haskell-base">🔗</a></h2>
   <p>The base contains many partial functions that are poorly documented. Liquid Haskell can be used to verify that all functions are total (by restricting the domain of the functions input with refinement types).</p>
