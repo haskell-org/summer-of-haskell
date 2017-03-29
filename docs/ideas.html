@@ -32,6 +32,8 @@
   
     <li><a href="#hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC</a></li>
   
+    <li><a href="#linear-streaming">Safe streaming with linear types</a></li>
+  
     <li><a href="#liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions</a></li>
   
 </ul>
@@ -41,6 +43,18 @@
   <p>Advance the Hadrian build system to the point that it can replace the existing GHC build system in practice, including specifically adding support for cross compilation, source and binary distribution generation, dynamic way, and test suite support. Most of these issues are detailed in the “Current Limitations” section of the <a href="https://github.com/snowleopard/hadrian/blob/master/README.md">README.md</a></p>
 <p>This project may well entail working further on the Shake tool itself to increase its featureset as a prerequisite for use of these features in hadrian.</p>
 <p><strong>Mentors</strong>: Hadrian team</p>
+
+  <h2 id="linear-streaming">Safe streaming with linear types<a class="anchor" href="#linear-streaming">🔗</a></h2>
+  <p>Proposed solution to the problem of writing safe and efficient have abounded since Kiselyov <a href="http://dx.doi.org/10.1007/978-3-642-29822-6_15">argued against lazy IO</a>.</p>
+<p>Streaming libraries are typically of one of two kind:</p>
+<ul>
+<li>Safe at their core at the cost of expressiveness: such library model stream transformers rather than stream. They often also provide unsafe escape hatches for the cases where the model is too restrictive. The <code>conduit</code> library is of that form.</li>
+<li>Expressive, by modelling streams as first-class objects, but unsafe. Such library embraces the fact that the escape hatches are the key to expressiveness and place them at the core of their model. The <code>streaming</code> library is of that form.</li>
+</ul>
+<p>This project consists in adapting the <a href="https://www.stackage.org/lts-8.6/package/streaming-0.1.4.5"><code>streaming</code></a> library, so that it leverages the features of a prototype <a href="https://github.com/tweag/ghc/tree/linear-types">version of GHC that includes support for linear types</a> in order to make it safe.</p>
+<p>The key observation is that the unsafety of <code>streaming</code> is precisely one of linearity (or, rather, lack thereof), a linear version of <code>streaming</code> would have essentially the same feel as the existing, unsafe, library. Nonetheless, the modifications and additions to the <code>streaming</code> API to cope with linearity will require significant implementation and design effort.</p>
+<p>Reference: <a href="https://github.com/tweag/linear-types/releases/download/v1.0/hlt.pdf"><em>Retrofitting linear types</em></a></p>
+<p><strong>Mentors</strong>: Arnaud Spiwack (Tweag I/O)</p>
 
   <h2 id="liquid-haskell-base">Verify base using Liquid Haskell to ensure totality of functions<a class="anchor" href="#liquid-haskell-base">🔗</a></h2>
   <p>The base contains many partial functions that are poorly documented. Liquid Haskell can be used to verify that all functions are total (by restricting the domain of the functions input with refinement types).</p>
