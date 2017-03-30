@@ -119,9 +119,11 @@ p {
 }
 
 .sponsors img {
-  height: 150px;
-  margin: 0px 12px;
   display: inline;
+  margin: 0px 12px;
+  max-height: 150px;
+  max-width: 300px;
+  vertical-align: middle;
 }
 
 .become-a-sponsor {

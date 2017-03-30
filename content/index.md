@@ -46,51 +46,35 @@ September 12th  Final results announced
 
 </div>
 
-# Sponsors (2017)
+# Sponsors
 
 <div class="sponsors">
-<img src="/images/company-logo.png" alt="company logo" class="sponsor">
-<img src="/images/company-logo.png" alt="company logo" class="sponsor">
-<img src="/images/company-logo.png" alt="company logo" class="sponsor">
+<img src="/images/asahi-net-logo.png" alt="Asahi Net" class="sponsor">
+<img src="/images/company-logo.png" alt="Placeholder" class="sponsor">
+<img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
 </div>
 
-This is a placeholder description for the first sponsor, who is proud to support
-Haskell development.
+[haskell.org](http://haskell.org) kicked things off this year by funding a
+student and organizing the Summer of Haskell 2017 after a successful [Summer of
+Haskell 2016](https://mail.haskell.org/pipermail/haskell-cafe/2016-December/125702.html).
 
-This is a placeholder description for the second sponsor, who is proud to support
-Haskell development.
+[Asahi Net](http://asahinet.com/) is a Japanese Internet service provider that
+has been running stable systems for over 25 years.  They are a proud sponsor of
+the Summer of Haskell, and contribute to the Japanese Haskell community.
 
-This is a placeholder description for the third sponsor, who is proud to support
-Haskell development.
+[Fugue Inc.](http://fugue.co/) radically simplifies cloud operations with its
+software-defined system for dynamically orchestrating and enforcing cloud
+infrastructure at scale.  Fugue uses Haskell in its product and is proud to
+sponsor a student to improve the ecosystem.
+
+Davean has volunteered to fund a student expressly to work on the [Hadrian build
+system for GHC](/ideas.html#hadrian-ghc).
+
+Chris Smith has volunteered to fund two students to work on
+[CodeWorld](https://code.world/) in particular.
 
 <div class="become-a-sponsor">
 <a href="mailto:committee@haskell.org">
 <img src="/images/haskell-logo.png" alt="haskell logo"> Become a sponsor
 </a>
 </div>
-
-# Sponsors (2016)
-
-[haskell.org](http://haskell.org) kicked things off this year by funding a
-student and organizing the Summer of Haskell.
-
-[Awake Networks](http://awakenetworks.com/) is building a next generation
-network security and analytics platform. They are a proud sponsor of the Summer
-of Haskell and contribute broadly to the Haskell community.
-
-[Haskell Book](http://haskellbook.com/) is a proud sponsor of the Summer of
-Haskell and provides a complete and up-to-date resource for learning Haskell,
-suitable whether you're completely new to Haskell or are at an intermediate
-level and want to deepen your understanding.
-
-[YOW! Australia](http://yowconference.com.au/) is a proud sponsor of the Summer
-of Haskell and organizes conferences throughout Australia.
-
-Chris Smith has volunteered to fund two students to work on
-[CodeWorld](https://code.world/) in particular.
-
-[Edward Kmett](http://comonad.com/) and Gershom Bazerman have volunteered to
-personally fund a student project.
-
-If you are interested in helping us fund additional students, please [contact
-us](/contact.html).
