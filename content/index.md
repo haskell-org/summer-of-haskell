@@ -58,6 +58,9 @@ September 12th  Final results announced
 <a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
 </a>
+<a href="http://tweag.io">
+<img src="/images/tweag-io-logo.png" alt="Tweag I/O" class="sponsor">
+</a>
 </div>
 
 [haskell.org](http://haskell.org) kicked things off this year by funding a
@@ -76,6 +79,15 @@ volunteered to fund two students to work on CodeWorld in particular.
 software-defined system for dynamically orchestrating and enforcing cloud
 infrastructure at scale.  Fugue uses Haskell in its product and is proud to
 sponsor a student to improve the ecosystem.
+
+[Tweag I/O](http://tweag.io) is a network of software innovation labs across
+Europe. We develop novel solutions and products for our clients around the
+world. Haskell is key to delivering fast, correct and maintainable code. We have
+shipped Haskell in anything from tiny web services to large high-performance
+compute clusters with custom hardware. We're particularly keen to help the
+community grow Haskell into the strongest systems programming language and
+ecosystem out there. We're very proud to sponsor a student this summer to help
+make it happen.
 
 Davean has volunteered to fund a student expressly to work on the [Hadrian build
 system for GHC](/ideas.html#hadrian-ghc).

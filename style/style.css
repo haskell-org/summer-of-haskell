@@ -121,9 +121,13 @@ p {
 .sponsors img {
   display: inline;
   margin: 0px 12px;
-  max-height: 150px;
+  max-height: 120px;
   max-width: 300px;
   vertical-align: middle;
+}
+
+.sponsors a {
+  text-decoration: none;
 }
 
 .become-a-sponsor {
