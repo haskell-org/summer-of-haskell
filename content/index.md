@@ -49,9 +49,15 @@ September 12th  Final results announced
 # Sponsors
 
 <div class="sponsors">
+<a href="http://asahinet.com">
 <img src="/images/asahi-net-logo.png" alt="Asahi Net" class="sponsor">
-<img src="/images/company-logo.png" alt="Placeholder" class="sponsor">
+</a>
+<a href="http://code.world">
+<img src="/images/codeworld-logo.png" alt="Fugue" class="sponsor">
+</a>
+<a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
+</a>
 </div>
 
 [haskell.org](http://haskell.org) kicked things off this year by funding a
@@ -62,6 +68,10 @@ Haskell 2016](https://mail.haskell.org/pipermail/haskell-cafe/2016-December/1257
 has been running stable systems for over 25 years.  They are a proud sponsor of
 the Summer of Haskell, and contribute to the Japanese Haskell community.
 
+[CodeWorld](http://code.world/) is an educational project that blends
+mathematics and Haskell programming into a visual playground.  Chris Smith has
+volunteered to fund two students to work on CodeWorld in particular.
+
 [Fugue Inc.](http://fugue.co/) radically simplifies cloud operations with its
 software-defined system for dynamically orchestrating and enforcing cloud
 infrastructure at scale.  Fugue uses Haskell in its product and is proud to
@@ -69,9 +79,6 @@ sponsor a student to improve the ecosystem.
 
 Davean has volunteered to fund a student expressly to work on the [Hadrian build
 system for GHC](/ideas.html#hadrian-ghc).
-
-Chris Smith has volunteered to fund two students to work on
-[CodeWorld](https://code.world/) in particular.
 
 <div class="become-a-sponsor">
 <a href="mailto:committee@haskell.org">
