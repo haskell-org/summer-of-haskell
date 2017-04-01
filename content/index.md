@@ -53,7 +53,10 @@ September 12th  Final results announced
 <img src="/images/asahi-net-logo.png" alt="Asahi Net" class="sponsor">
 </a>
 <a href="http://code.world">
-<img src="/images/codeworld-logo.png" alt="Fugue" class="sponsor">
+<img src="/images/codeworld-logo.png" alt="CodeWorld" class="sponsor">
+</a>
+<a href="http://facebook.com">
+<img src="/images/facebook-logo.png" alt="Facebook" class="sponsor">
 </a>
 <a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
@@ -74,6 +77,14 @@ the Summer of Haskell, and contribute to the Japanese Haskell community.
 [CodeWorld](http://code.world/) is an educational project that blends
 mathematics and Haskell programming into a visual playground.  Chris Smith has
 volunteered to fund two students to work on CodeWorld in particular.
+
+[Facebook](http://facebook.com/) uses Haskell in its [anti-abuse
+infrastructure](https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/),
+and as part of that effort we open-sourced the
+[Haxl](https://github.com/facebook/Haxl) framework which is being used at scale
+in production to automatically parallelise data-fetching code.  We're delighted
+to be able to support the Haskell community's efforts by sponsoring a student
+for this year's Summer of Haskell.
 
 [Fugue Inc.](http://fugue.co/) radically simplifies cloud operations with its
 software-defined system for dynamically orchestrating and enforcing cloud
