@@ -1,5 +1,6 @@
-GHC Performance
-===============
+---
+title: GHC Performance
+---
 
 Love `ghc`? Think you can make it faster?
 
@@ -11,4 +12,4 @@ with several paths forward:
 The ideal candidate will have some experience with developing on `ghc`. That being said, we
 understand that the Summer of Haskell is also about learning.
 
-*Mentors:* (José Manuel Calderón Trilla | Iavor Diatchki | Trevor Eliot) @ Galois, Inc.
+**Mentors**: (José Manuel Calderón Trilla | Iavor Diatchki | Trevor Eliot) @ Galois, Inc.
