@@ -58,8 +58,13 @@ September 12th  Final results announced
 <a href="http://facebook.com">
 <img src="/images/facebook-logo.png" alt="Facebook" class="sponsor">
 </a>
+</div>
+<div class="sponsors">
 <a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
+</a>
+<a href="http://galois.com">
+<img src="/images/galois-logo.jpg" alt="Galois" class="sponsor">
 </a>
 <a href="http://tweag.io">
 <img src="/images/tweag-io-logo.png" alt="Tweag I/O" class="sponsor">
@@ -90,6 +95,11 @@ for this year's Summer of Haskell.
 software-defined system for dynamically orchestrating and enforcing cloud
 infrastructure at scale.  Fugue uses Haskell in its product and is proud to
 sponsor a student to improve the ecosystem.
+
+[Galois](http://galois.com/) applies cutting-edge computer science and applied
+mathematics to solve difficult technological problems, delivering practical
+solutions tailored to our clients’ needs.  Haskell and other functional
+programming languages are key tools we use in providing these solutions.
 
 [Tweag I/O](http://tweag.io) is a network of software innovation labs across
 Europe. We develop novel solutions and products for our clients around the

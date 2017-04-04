@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+  <head>
+    <title>
+      galois-blue.svg in Templates/Logos/CMYK/Blue
+     – Galois Intranet
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="search" href="/trac/galois/search" />
+        <link rel="help" href="/trac/galois/wiki/TracGuide" />
+        <link rel="alternate" href="/trac/galois/browser/Templates/Logos/CMYK/Blue/galois-blue.svg?format=txt" type="text/plain" title="Plain Text" /><link rel="alternate" href="/trac/galois/export/25225/Templates/Logos/CMYK/Blue/galois-blue.svg" type="image/svg+xml; charset=UTF-8" title="Original Format" />
+        <link rel="tracwysiwyg.base" href="/trac/galois" />
+        <link rel="start" href="/trac/galois/wiki" />
+        <link rel="stylesheet" href="/trac/galois/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/trac/galois/chrome/common/css/code.css" type="text/css" /><link rel="stylesheet" href="/trac/galois/chrome/common/css/browser.css" type="text/css" /><link rel="stylesheet" href="/trac/galois/chrome/tracwysiwyg/wysiwyg.css" type="text/css" />
+        <link rel="tracwysiwyg.stylesheet" href="/trac/galois/chrome/common/css/trac.css" /><link rel="tracwysiwyg.stylesheet" href="/trac/galois/chrome/tracwysiwyg/editor.css" />
+        <link rel="shortcut icon" href="/trac/galois/chrome/common/trac.ico" type="image/x-icon" />
+        <link rel="icon" href="/trac/galois/chrome/common/trac.ico" type="image/x-icon" />
+      <link type="application/opensearchdescription+xml" rel="search" href="/trac/galois/search/opensearch" title="Search Galois Intranet" />
+    <script type="text/javascript">
+      var _tracwysiwyg={"escapeNewlines":false};
+    </script>
+    <script type="text/javascript" src="/trac/galois/chrome/common/js/jquery.js"></script><script type="text/javascript" src="/trac/galois/chrome/common/js/babel.js"></script><script type="text/javascript" src="/trac/galois/chrome/common/js/trac.js"></script><script type="text/javascript" src="/trac/galois/chrome/common/js/search.js"></script><script type="text/javascript" src="/trac/galois/chrome/tracwysiwyg/wysiwyg.js"></script><script type="text/javascript" src="/trac/galois/chrome/tracwysiwyg/wysiwyg-load.js"></script>
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="/trac/galois/chrome/common/js/ie_pre7_hacks.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/trac/galois/chrome/common/js/folding.js"></script><script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".trac-toggledeleted").show().click(function() {
+                  $(this).siblings().find(".trac-deleted").toggle();
+                  return false;
+        }).click();
+        $("#jumploc input").hide();
+        $("#jumploc select").change(function () {
+          this.parentNode.parentNode.submit();
+        });
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+      });
+    </script>
+    <style type="text/css">
+      @import url(/css/trac-topbar.css);
+      @import url(/css/trac.galois.css);
+    </style>
+  </head>
+  <body>
+    <div id="topbar">
+      <ul>
+        <li><a href="http://wiki.galois.com/trac/galois/"><span>Galois Wiki</span></a></li>
+        <li><a href="/trac/"><span>Wiki Directory</span></a></li>
+        <li><a href="/gitweb/gitweb.cgi"><span>Git Repositories</span></a></li>
+        <li><a href="/cgi-bin/ticket-report"><span>My Tickets</span></a></li>
+      </ul>
+    </div>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="/trac/galois/"><img src="/trac/galois/chrome/site/galois.png" alt="Galois Intranet" height="46" width="168" /></a>
+      </div>
+      <form id="search" action="/trac/galois/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first">logged in as jefb</li><li><a href="/trac/galois/prefs">Preferences</a></li><li><a href="/trac/galois/wiki/TracGuide">Help/Guide</a></li><li><a href="/trac/galois/about">About Trac</a></li><li class="last"><a href="/trac/galois/logout">Logout</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first"><a href="/trac/galois/wiki">Wiki</a></li><li><a href="/trac/galois/timeline">Timeline</a></li><li><a href="/trac/galois/roadmap">Roadmap</a></li><li class="active"><a href="/trac/galois/browser">Browse Source</a></li><li><a href="/trac/galois/report">View Tickets</a></li><li><a href="/trac/galois/newticket">New Ticket</a></li><li><a href="/trac/galois/search">Search</a></li><li class="last"><a href="/trac/galois/admin" title="Administration">Admin</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+          <ul>
+              <li class="first"><a href="/trac/galois/browser/Templates/Logos/CMYK/Blue/galois-blue.svg?annotate=blame&amp;rev=20074" title="Annotate each line with the last changed revision (this can be time consuming...)">Annotate</a></li><li class="last"><a href="/trac/galois/log/Templates/Logos/CMYK/Blue/galois-blue.svg">Revision Log</a></li>
+          </ul>
+        <hr />
+      </div>
+    <div id="content" class="browser">
+          <h1>
+<a class="pathentry first" href="/trac/galois/browser?order=name" title="Go to repository root">source:</a>
+<a class="pathentry" href="/trac/galois/browser/Templates?order=name" title="View Templates">Templates</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/galois/browser/Templates/Logos?order=name" title="View Logos">Logos</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/galois/browser/Templates/Logos/CMYK?order=name" title="View CMYK">CMYK</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/galois/browser/Templates/Logos/CMYK/Blue?order=name" title="View Blue">Blue</a><span class="pathentry sep">/</span><a class="pathentry" href="/trac/galois/browser/Templates/Logos/CMYK/Blue/galois-blue.svg?order=name" title="View galois-blue.svg">galois-blue.svg</a>
+<span class="pathentry sep">@</span>
+  <a class="pathentry" href="/trac/galois/changeset/20074" title="View changeset 20074">20074</a>
+<br style="clear: both" />
+</h1>
+        <div id="jumprev">
+          <form action="" method="get">
+            <div>
+              <label for="rev">
+                View revision:</label>
+              <input type="text" id="rev" name="rev" size="6" />
+            </div>
+          </form>
+        </div>
+      <table id="info" summary="Revision info">
+        <tr>
+          <th scope="col">Revision <a href="/trac/galois/changeset/20074">20074</a>,
+            <span title="29097 bytes">28.4 KB</span>
+            checked in by sharley, <a class="timeline" href="/trac/galois/timeline?from=2014-11-04T10%3A28%3A52-08%3A00&amp;precision=second" title="2014-11-04T10:28:52-08:00 in Timeline">2 years</a> ago
+            (<a href="/trac/galois/changeset/20074/Templates/Logos/CMYK/Blue/galois-blue.svg">diff</a>)</th>
+        </tr>
+        <tr>
+          <td class="message searchable">
+              <p>
+Removing redundant "logo" folder within "Logos" folder.<br />
+</p>
+          </td>
+        </tr>
+      </table>
+      <div id="preview" class="searchable">
+        
+  <div class="image-file"><img src="/trac/galois/export/25225/Templates/Logos/CMYK/Blue/galois-blue.svg" alt="Templates/Logos/CMYK/Blue/galois-blue.svg" /></div>
+
+      </div>
+      <div id="help"><strong>Note:</strong> See <a href="/trac/galois/wiki/TracBrowser">TracBrowser</a>
+        for help on using the repository browser.</div>
+      <div id="anydiff">
+        <form action="/trac/galois/diff" method="get">
+          <div class="buttons">
+            <input type="hidden" name="new_path" value="/Templates/Logos/CMYK/Blue/galois-blue.svg" />
+            <input type="hidden" name="old_path" value="/Templates/Logos/CMYK/Blue/galois-blue.svg" />
+            <input type="hidden" name="new_rev" />
+            <input type="hidden" name="old_rev" />
+            <input type="submit" value="View changes..." title="Select paths and revs for Diff" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="first">
+          <a rel="nofollow" href="/trac/galois/browser/Templates/Logos/CMYK/Blue/galois-blue.svg?format=txt">Plain Text</a>
+        </li><li class="last">
+          <a rel="nofollow" href="/trac/galois/export/25225/Templates/Logos/CMYK/Blue/galois-blue.svg">Original Format</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/trac/galois/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">Powered by <a href="/trac/galois/about"><strong>Trac 0.12</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Unless otherwise specified, all wiki contents are to be considered<br />Galois Proprietary information and are copyright Galois, Inc.</p>
+    </div>
+    <div id="topbar">
+      <ul>
+        <li><a href="/trac/galois/about"><strong>Trac 0.12</strong></a></li>
+        <li><a href="/trac/galois/wiki"><span>Galois Wiki</span></a></li>
+        <li><a href="/trac/"><span>Wiki Directory</span></a></li>
+        <li><a href="/gitweb/gitweb.cgi"><span>Git Repositories</span></a></li>
+        <li><a href="/cgi-bin/ticket-report"><span>My Tickets</span></a></li>
+      </ul>
+    </div>
+  </body>
+</html>
