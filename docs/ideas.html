@@ -32,6 +32,10 @@
   
     <li><a href="#code-world">CodeWorld projects</a></li>
   
+    <li><a href="#galois-cabal">Last Mile for `cabal new-build`</a></li>
+  
+    <li><a href="#galois-ghc">GHC Performance</a></li>
+  
     <li><a href="#hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC</a></li>
   
     <li><a href="#linear-streaming">Safe streaming with linear types</a></li>
@@ -46,6 +50,18 @@
 <p>CodeWorld is an educational environment using a variant of Haskell. It provides a simple mathematical model for geometric figures, animations, and interactive and multi-player games. The web-based programming environment supports this educational mission with a zero-setup editor and compiler, easy sharing and cloud storage of projects, and the ability to run programs right in the web browser using GHCJS.</p>
 <p>The list of ideas for CodeWorld can be found <a href="https://github.com/google/codeworld/blob/master/SummerOfHaskell.md">here</a>.</p>
 <p><strong>Mentors</strong>: Chris Smith</p>
+
+  <h2 id="galois-cabal">Last Mile for `cabal new-build`<a class="anchor" href="#galois-cabal">🔗</a></h2>
+  <p>Cabal’s <code>new-build</code> system has help solved many of the problems that plagued Haskell development for years. You can read an introduction to <code>cabal new-build</code> on <a href="http://blog.ezyang.com/2016/05/announcing-cabal-new-build-nix-style-local-builds/">Edward Yang’s blog</a> While the work is exciting it is not quite ready for prime-time.</p>
+<p>The project is looking for an intrepid Haskeller that is willing to help get <code>cabal new-build</code> out the door. More specifically the project aims to help port some of the commands from standard <code>cabal</code> that have not been ported yet, many of which are kept track of with <a href="https://github.com/haskell/cabal/milestone/42">this <code>cabal</code> issue</a>.</p>
+<p>Ideally, a candidate hoping to work on this project will have some experience with <code>cabal</code>, but we understand that the Summer of Haskell is for learning too :)</p>
+<p><strong>Mentor:</strong> Someone at Galois, Inc.</p>
+
+  <h2 id="galois-ghc">GHC Performance<a class="anchor" href="#galois-ghc">🔗</a></h2>
+  <p>Love <code>ghc</code>? Think you can make it faster?</p>
+<p>This project has the aim of improving the performance of <code>ghc</code>. As the language that <code>ghc</code> accepts has become more intricate the compiler has seen a slowdown in compile times. This is a known problem with several paths forward: <a href="https://ghc.haskell.org/trac/ghc/wiki/Performance/Compiler">GHC-Wiki page on performance</a></p>
+<p>The ideal candidate will have some experience with developing on <code>ghc</code>. That being said, we understand that the Summer of Haskell is also about learning.</p>
+<p><strong>Mentors</strong>: (José Manuel Calderón Trilla | Iavor Diatchki | Trevor Eliot) @ Galois, Inc.</p>
 
   <h2 id="hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC<a class="anchor" href="#hadrian-ghc">🔗</a></h2>
   <p>Advance the Hadrian build system to the point that it can replace the existing GHC build system in practice, including specifically adding support for cross compilation, source and binary distribution generation, dynamic way, and test suite support. Most of these issues are detailed in the “Current Limitations” section of the <a href="https://github.com/snowleopard/hadrian/blob/master/README.md">README.md</a></p>
