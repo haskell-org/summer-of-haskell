@@ -64,7 +64,7 @@ September 12th  Final results announced
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
 </a>
 <a href="http://galois.com">
-<img src="/images/galois-logo.jpg" alt="Galois" class="sponsor">
+<img src="/images/galois-logo.png" alt="Galois" class="sponsor">
 </a>
 <a href="http://tweag.io">
 <img src="/images/tweag-io-logo.png" alt="Tweag I/O" class="sponsor">
