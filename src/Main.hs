@@ -28,6 +28,24 @@ main = hakyllWith sohConfiguration $ do
             loadAndApplyTemplate "templates/default.html" defaultContext >>=
             relativizeUrls
 
+    match "content/news/*" $ do
+        route $ dropContentRoute `composeRoutes` setExtension "html"
+        compile $
+            pandocCompiler >>=
+            return . fmap demoteHeaders >>=
+            loadAndApplyTemplate "templates/news.html" newsContext >>=
+            saveSnapshot "content" >>=
+            loadAndApplyTemplate "templates/default.html" defaultContext >>=
+            relativizeUrls
+
+    match "content/news.html" $ do
+        route $ dropContentRoute `composeRoutes` setExtension "html"
+        compile $
+            getResourceString >>=
+            applyAsTemplate newsIndexContext >>=
+            loadAndApplyTemplate "templates/default.html" defaultContext >>=
+            relativizeUrls
+
     match "content/ideas.html" $ do
         route $ dropContentRoute `composeRoutes` setExtension "html"
         compile $
@@ -83,4 +101,17 @@ ideaContext =
 ideasContext :: Context String
 ideasContext =
     listField "ideas" ideaContext (loadAll "content/ideas/*") <>
+    defaultContext
+
+newsContext :: Context String
+newsContext =
+    dateField "date" "%B %e, %Y" <>
+    defaultContext
+
+newsIndexContext :: Context String
+newsIndexContext =
+    listField "posts" newsContext
+        (loadAllSnapshots "content/news/*" "content" >>= recentFirst) <>
+    listField "last" newsContext
+        (loadAllSnapshots "content/news/*" "content" >>= fmap (take 1) . recentFirst) <>
     defaultContext

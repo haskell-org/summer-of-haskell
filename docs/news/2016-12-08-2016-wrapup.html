@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Summer of Haskell 2017 - Summer of Haskell 2016 Wrap-Up</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="haskell-logo" src="https://www.haskell.org/static/img/logo.png?etag=rJR84DMh" alt="haskell logo" />
+      Summer of Haskell 2017
+      <nav>
+        <a href="../">Home</a>
+        <a href="../news.html">News</a>
+        <a href="../faq.html">Faq</a>
+        <a href="../ideas.html">Ideas</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Summer of Haskell 2016 Wrap-Up</h1>
+<p>
+  Posted on <em>December  8, 2016</em> by <em>Gershom B</em> (<a href="../news/2016-12-08-2016-wrapup.html">permalink</a>)
+</p>
+<p>We wanted to let folks know what happened with all our Summer of Haskell projects, and thank again all those who donated as individuals or sponsored students to make this possible. As a reminder, the accepted projects were announced on reddit at:</p>
+<p><a href="https://www.reddit.com/r/haskell/comments/4kp6zg/summer_of_haskell_2016_accepted_projects/" class="uri">https://www.reddit.com/r/haskell/comments/4kp6zg/summer_of_haskell_2016_accepted_projects/</a></p>
+<hr />
+<ol style="list-style-type: decimal">
+<li><p>Native Metaprogramming in Haskell</p>
+<p>This very ambitious project made significant progress, though is not yet ready for a full merge into GHC. A talk and paper on work relating to it were presented at the Haskell Implementors Workshop at ICFP, and a page on the GHC wiki describes the current status.</p>
+<ul>
+<li>https://www.youtube.com/watch?v=DSWoGdfYt68</li>
+<li>https://arxiv.org/abs/1610.04799</li>
+<li>https://ghc.haskell.org/trac/ghc/wiki/NativeMetaprogramming</li>
+</ul></li>
+<li><p>GHCVM - A JVM Backend for GHC</p>
+<p>Again, significant progress made on a very ambitious project, which has now been renamed to “eta”. A talk on the work done was given at the HIW, and the project is considered ready for “hobbyist use”.</p>
+<ul>
+<li>https://www.youtube.com/watch?v=G4m7xFVzd50</li>
+<li>https://github.com/typelead/eta</li>
+</ul></li>
+<li><p>Completing the LLVM backend for Accelerate</p>
+<p>All operators of the LLVM backend are now implemented, and we’re told that the accelerate-llvm project, already usable, will be get a more proper announcement as ready for widespread use real soon now (tm).</p>
+<ul>
+<li>https://github.com/AccelerateHS/accelerate-llvm</li>
+<li>https://github.com/AccelerateHS/accelerate-llvm/commits?author=ZihengJiang</li>
+</ul></li>
+<li><p>Hackage Improvements</p>
+<p>A whole raft of usability improvements to hackage (including the long-awaited rollout of reverse dependency tracking, and a very usable package browser interface) are undergoing final code review and polish in a PR before being rolled out. The student’s blog contains more information about what’s on the way.</p>
+<ul>
+<li>http://sooryanarayan.me/blog/hsoc-testimonial/</li>
+</ul></li>
+<li><p>Derivable Storable and Prim instances</p>
+<p>This work resulted in both a package (usable today) and a plugin to improve the performance of the derived code. Updates on the decisions made and work done were posted to the numerical-haskell group</p>
+<ul>
+<li>https://hackage.haskell.org/package/derive-storable</li>
+<li>http://hackage.haskell.org/package/derive-storable-plugin</li>
+<li>https://groups.google.com/forum/#!forum/numericalhaskell</li>
+</ul></li>
+<li><p>Visual functional block-based programming language for CodeWorld</p>
+<p>This work went well and is described on the student’s blog. It is usable today at https://code.world/blocks and apparently has already begun to be integrated into CodeWorld lesson plans.</p>
+<ul>
+<li>http://stefanj.me/funblocks/</li>
+<li>https://code.world/blocks</li>
+</ul></li>
+<li><p>Jupyter for GHCJS</p>
+<p>Apparently this ran into a far amount of difficulties and didn’t make significant progress, though not for lack of effort. The student is anticipated to write up an experience report describing some of the problems encountered and how others might work around them in the future.</p></li>
+<li><p>Live Profiling and Performance Monitoring Server</p>
+<p>A lot of work was accomplished on various fronts here. A number of changes to the GHC RTS are in review and pending merge. A tool has been written to take advantage of the newly available information. And various other small packages that met needs along the way were extracted and contributed to hackage. A fuller write-up of progress and future work is available at the student’s blog.</p>
+<ul>
+<li>https://phabricator.haskell.org/D2522</li>
+<li>https://github.com/NCrashed/live-profile-monitor</li>
+<li>http://ncrashed.github.io/blog/posts/2016-09-11-hsoc-results.html</li>
+</ul></li>
+</ol>
+<hr />
+<p>Apologies for the delays in assembling this information – as they say, man plans, the fates laugh.</p>
+<p>Thanks to all our students for their dedicated work and contributions to the ecosystem. We hope to see much more from all of you in the future. And thanks to all our mentors for donating their time to guide, teach, and make this possible.</p>
+<p>And a very special thanks to Edward Kmett for co-ordinating much of the administrative work here, as well as fundraising towards this great Summer of Haskell.</p>
+<hr />
+<p>Sponsors (listed on summer.haskell.org):</p>
+<ul>
+<li><p>haskell.org kicked things off this year by funding a student and organizing the Summer of Haskell.</p></li>
+<li><p>Awake Networks is building a next generation network security and analytics platform. They are a proud sponsor of the Summer of Haskell and contribute broadly to the Haskell community.</p></li>
+<li><p>Haskell Book is a proud sponsor of the Summer of Haskell and provides a complete and up-to-date resource for learning Haskell, suitable whether you’re completely new to Haskell or are at an intermediate level and want to deepen your understanding.</p></li>
+<li><p>YOW! Australia is a proud sponsor of the Summer of Haskell and organizes conferences throughout Australia.</p></li>
+<li><p>Chris Smith volunteered to fund two students to work on CodeWorld in particular.</p></li>
+<li><p>Edward Kmett and Gershom Bazerman volunteered to personally fund a student project.</p></li>
+</ul>
+<p>Best, Gershom Bazerman Haskell.org Committee</p>
+
+    </main>
+    <footer>
+      This website is maintained by the
+      <a href="https://wiki.haskell.org/Haskell.org_committee"">Haskell.org
+      committee</a>.  Summer of Haskell is made possible by our
+      <a href="../#sponsors">sponsors</a>.
+    </footer>
+  </body>
+</html>
