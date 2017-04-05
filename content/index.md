@@ -52,14 +52,17 @@ September 12th  Final results announced
 <a href="http://asahinet.com">
 <img src="/images/asahi-net-logo.png" alt="Asahi Net" class="sponsor">
 </a>
+<a href="http://www.awakenetworks.com/">
+<img src="/images/awake-logo.png" alt="Awake Networks" class="sponsor">
+</a>
 <a href="http://code.world">
 <img src="/images/codeworld-logo.png" alt="CodeWorld" class="sponsor">
 </a>
+</div>
+<div class="sponsors">
 <a href="http://facebook.com">
 <img src="/images/facebook-logo.png" alt="Facebook" class="sponsor">
 </a>
-</div>
-<div class="sponsors">
 <a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
 </a>
@@ -78,6 +81,10 @@ Haskell 2016](https://mail.haskell.org/pipermail/haskell-cafe/2016-December/1257
 [Asahi Net](http://asahinet.com/) is a Japanese Internet service provider that
 has been running stable systems for over 25 years.  They are a proud sponsor of
 the Summer of Haskell, and contribute to the Japanese Haskell community.
+
+[Awake Networks](http://www.awakenetworks.com/) is building a next generation
+network security and analytics platform.  They are a proud sponsor of the Summer
+of Haskell and contribute broadly to the Haskell community.
 
 [CodeWorld](http://code.world/) is an educational project that blends
 mathematics and Haskell programming into a visual playground.  Chris Smith has
