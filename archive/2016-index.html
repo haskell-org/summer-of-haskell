@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Summer of Haskell - 2016</title>
+    <style>
+      body {
+        margin: 0 auto;
+        font-size: 100%;
+        color: #000;
+        font-family: Ubuntu, sans-serif;
+        background: #fff;
+      }
+
+      #intro {
+        background: linear-gradient(to right, #19111f 0%,#2c1e37 100%);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+     }
+
+      #introc {
+        padding: 20px;
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      #introc h1 {
+        line-height: 50px;
+        font-size: 50px;
+        font-family: Ubuntu, sans-serif;
+        background-size: 70px;
+        background-image: url(https://haskell.org/static/img/logo.png?etag=rJR84DMh);
+        background-position: left;
+        background-repeat: no-repeat;
+        padding-left: 80px;
+      }
+
+      #apply {
+        background: black;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        color: blue;
+        font-size: 300%;
+        text-align: center;
+        line-height: 200%;
+     }
+
+      #timeline {
+        list-style: none;
+        margin: auto;
+        padding-left: 30px;
+        border-left: 8px solid #000;
+        width: 50%;
+      }
+
+      #timeline li {
+        margin: 40px 0;
+        position: relative;
+      }
+
+      #timeline p {
+        margin: 0 0 15px;
+      }
+
+      .date {
+        margin-top: -10px;
+        top: 50%;
+        left: -158px;
+        font-size: 0.95em;
+        line-height: 20px;
+        position: absolute;
+      }
+
+      .content {
+        padding: 20px 20px 0;
+        border-width: 2px;
+        border-style: solid;
+        border-radius: 0.5em;
+        position: relative;
+      }
+
+      .content p {
+        word-break: break-word;
+        hyphens: auto;
+        overflow: hidden;
+      }
+
+      #faq {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: block;
+      }
+
+      .row {
+        margin-left: -15px;
+        margin-right: -15px;
+      }
+
+      .question {
+        display: inline;
+      }
+      
+      @media (min-width: 992px) {
+        .question {
+          width: 45%;
+        }
+      }
+
+      #sponsorbackground {
+        background: #1b2332;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+
+      #sponsors {
+        background: #1b2332;
+        color: #f0f0f0;
+        padding: 20px;
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      #sponsors a {
+        color: #428bca;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="intro">
+      <div id="introc">
+	<h1>Summer of Haskell 2016</h1>
+	<p>The Summer of Haskell is an effort by haskell.org to reach out to students and encourage them to contribute to the Haskell community with the aid of experienced mentors.</p>
+	<p>This program is open to college students, 18 or older, in most countries.</p>
+	<p>The general structure of our program is set up to mirror the Google Summer of Code.</p>
+	<p>Participation in the Summer of Haskell represents a similar level of commitment to taking a job or internship for the summer in terms of time investment. The compensation for accepted student projects is 5500 USD, to be paid in two lump sums, half at the beginning of the summer, and half upon receiving a passing midterm evaluation. As with the Google Summer Of Code, participation in the Summer of Haskell is not an internship or employment but simply an activity that the student performs as an independent developer for which he/she is paid a stipend.</p>
+      </div>
+    </div>
+    <ul id="timeline">
+      <li>
+        <span class="date">April 25th</span>
+        <div class="content"><p>The student application period begins</p></div>
+      </li>
+      <li>
+        <span class="date">May 6th</span>
+        <div class="content"><p>The student application period ends</p></div>
+      </li>
+      <li>
+	<span class="date">May 20th</span>
+	<div class="content"><p>Student applications are sifted through by mentors</p></div>
+      </li>
+      <li>
+	<span class="date">May 22nd</span>
+	<div class="content"><p>Accepted students are announced</p></div>
+      </li>
+      <li>
+	<span class="date">May 22nd<br />June 12th</span>
+        <div class="content"><p>Community bonding period</p></div>
+      </li>
+      <li>
+        <span class="date">June 13th</span>
+        <div class="content"><p>Students begin work, initial payment is made</p></div>
+      </li>
+      <li>
+        <span class="date">July 18st</span>
+        <div class="content"><p>Midterm evaluations begin</p></div>
+      </li>
+      <li>
+        <span class="date">July 22th</span>
+        <div class="content"><p>Midterm evaluations are due from both students and mentors</p></div>
+      </li>
+      <li>
+        <span class="date">July 25th</span>
+        <div class="content"><p>Second payment is made to students passing the midterm evaluation</p></div>
+      </li>
+      <li>
+        <span class="date">September 2nd</span>
+        <div class="content"><p>End of work period</p></div>
+      </li>
+      <li>
+        <span class="date">September 5th</span>
+        <div class="content"><p>Final evaluations begin</p></div>
+      </li>
+      <li>
+        <span class="date">September 9th</span>
+        <div class="content"><p>Final evaluations are due from both student and mentors</p></div>
+      </li>
+      <li>
+        <span class="date">September 12th</span>
+        <div class="content"><p>Final results announced</p></div>
+      </li>
+    </ul>
+    <div id="faq">
+      <div class="row">
+	<div class="question">
+	  <h1>Why are we doing this rather than simply participating in the Google Summer of Code?</h1>
+	  <p>haskell.org has participated in the Google Summer of Code for the last several years. Sadly, this year we were not accepted into the program. Rather than risk the supply of mentors and students drying up, we've resolved to try to go it on our own for a summer.
+	  </p>
+	</div>
+	<div class="question">
+	  <h1>Am I elegible to participate as a student?</h1>
+	  <p>We're following the same general guidelines as the Google Summer of Code:
+	    <br />
+	    <ul>
+	      <li>You must be at least 18 years of age</li>
+	      <li>You must be a full or part-time student at an accredited university (or have been accepted as of April 22, 2016)</li>
+	      <li>You must be eligible to work in the country you will reside in during the program</li>
+	      <li>You must reside in a country that is not currently embargoed by the United States.</li>
+	    </ul>
+	    <br />
+	    If you aren't sure if these conditions apply, please <a href="mailto:ekmett@gmail.com">contact us</a>.
+	  </p>
+	</div>
+      </div>
+    </div>
+    <div id="sponsorbackground">
+      <div id="sponsors">
+	<h1>Sponsors</h1>
+	<br />
+         <a href="http://haskell.org">haskell.org</a> kicked things off this year by funding a student and organizing the Summer of Haskell.<br />
+         <br />
+         <a href="http://awakenetworks.com/">Awake Networks</a> is building a next generation network security and analytics platform. They are a proud sponsor of the Summer of Haskell and contribute broadly to the Haskell community.<br />
+         <br />
+         <a href="http://haskellbook.com/">Haskell Book</a> is a proud sponsor of the Summer of Haskell and provides a complete and up-to-date resource for learning Haskell, suitable whether you're completely new to Haskell or are at an intermediate level and want to deepen your understanding.<br />
+	 <br />
+         <a href="http://yowconference.com.au/">YOW! Australia</a> is a proud sponsor of the Summer of Haskell and organizes conferences throughout Australia.<br />
+	 <br />
+         Chris Smith has volunteered to fund two students to work on <a href="https://code.world/">CodeWorld</a> in particular.<br />
+         <br />
+         <a href="http://comonad.com/">Edward Kmett</a> and Gershom Bazerman have volunteered to personally fund a student project.<br/>
+         <br />
+  	 If you are interested in helping us fund additional students, please <a href="mailto:ekmett@gmail.com">contact us</a>.<br />
+         <br />
+      </div>
+    </div>
+  </body>
+</html>
