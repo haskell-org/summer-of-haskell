@@ -38,6 +38,8 @@
   
     <li><a href="#galois-ghc">GHC Performance</a></li>
   
+    <li><a href="#ghc-performance-testing">Improve GHC Performance test suite</a></li>
+  
     <li><a href="#hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC</a></li>
   
     <li><a href="#linear-streaming">Safe streaming with linear types</a></li>
@@ -64,6 +66,12 @@
 <p>This project has the aim of improving the performance of <code>ghc</code>. As the language that <code>ghc</code> accepts has become more intricate the compiler has seen a slowdown in compile times. This is a known problem with several paths forward: <a href="https://ghc.haskell.org/trac/ghc/wiki/Performance/Compiler">GHC-Wiki page on performance</a></p>
 <p>The ideal candidate will have some experience with developing on <code>ghc</code>. That being said, we understand that the Summer of Haskell is also about learning.</p>
 <p><strong>Mentors</strong>: (José Manuel Calderón Trilla | Iavor Diatchki | Trevor Eliot) @ Galois, Inc.</p>
+
+  <h2 id="ghc-performance-testing">Improve GHC Performance test suite<a class="anchor" href="#ghc-performance-testing">🔗</a></h2>
+  <p>The GHC testsuite’s performance tests tends to be a constant source of busy-work as it requires that contributors manually bump performance numbers and propagate these changes across platforms. Moreover, the testsuite is poor at noticing performance regressions due to false positive failures (due to spurious environmental differences) and false negatives (due to the rather generous acceptance windows that many tests have).</p>
+<p>We would like to replace the mechanisms for tracking performance metrics in the GHC testsuite and nofib with a scheme more amenable to automation. This project will involve working with GHC developers to develop such a scheme and implementing tooling for the automation generation, tracking, and visualization of the resulting data.</p>
+<p>For more info see <a href="https://ghc.haskell.org/trac/ghc/ticket/12758" class="uri">https://ghc.haskell.org/trac/ghc/ticket/12758</a>.</p>
+<p><strong>Mentor:</strong>: Ben Gamari</p>
 
   <h2 id="hadrian-ghc">Improve the Shake-Based Hadrian Build System for GHC<a class="anchor" href="#hadrian-ghc">🔗</a></h2>
   <p>Advance the Hadrian build system to the point that it can replace the existing GHC build system in practice, including specifically adding support for cross compilation, source and binary distribution generation, dynamic way, and test suite support. Most of these issues are detailed in the “Current Limitations” section of the <a href="https://github.com/snowleopard/hadrian/blob/master/README.md">README.md</a></p>
