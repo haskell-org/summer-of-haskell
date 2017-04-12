@@ -49,7 +49,7 @@ September 12th  Final results announced
 # Sponsors
 
 <div class="sponsors">
-<a href="http://asahinet.com">
+<a href="https://asahi-net.jp/en/">
 <img src="/images/asahi-net-logo.png" alt="Asahi Net" class="sponsor">
 </a>
 <a href="http://www.awakenetworks.com/">
@@ -78,7 +78,7 @@ September 12th  Final results announced
 student and organizing the Summer of Haskell 2017 after a successful [Summer of
 Haskell 2016](https://mail.haskell.org/pipermail/haskell-cafe/2016-December/125702.html).
 
-[Asahi Net](http://asahinet.com/) is a Japanese Internet service provider that
+[Asahi Net](https://asahi-net.jp/en/) is a Japanese Internet service provider that
 has been running stable systems for over 25 years.  They are a proud sponsor of
 the Summer of Haskell, and contribute to the Japanese Haskell community.
 
