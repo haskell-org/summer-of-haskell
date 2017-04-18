@@ -6,7 +6,7 @@ import qualified Text.Pandoc      as Pandoc
 import qualified Text.Pandoc.Walk as Pandoc.Walk
 
 main :: IO ()
-main = hakyllWith sohConfiguration $ do
+main = hakyll $ do
     match "style/style.css" $ do
         route idRoute
         compile compressCssCompiler
@@ -57,13 +57,6 @@ main = hakyllWith sohConfiguration $ do
     match "content/ideas/*" $ compile pandocCompiler
 
     match "templates/*" $ compile templateCompiler
-
-sohConfiguration :: Configuration
-sohConfiguration = defaultConfiguration
-    { deployCommand = "rsync --checksum -ave 'ssh -p 2222' \
-                      \docs/* jaspervdj@jaspervdj.be:jaspervdj.be/tmp/xeShae1h-soh"
-    , destinationDirectory = "docs"
-    }
 
 -- | Drop the `content/` part from a route.
 dropContentRoute :: Routes
