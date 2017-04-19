@@ -24,8 +24,6 @@ stipend.
 
 # Timeline
 
-This timeline is not yet final.
-
 <div class="timeline">
 
 --------------  -----------------------------------------------------------------
@@ -45,6 +43,11 @@ September 12th  Final results announced
 --------------  -----------------------------------------------------------------
 
 </div>
+
+# Application form
+
+The student application period opens on the 25th of April, and we accept
+proposals until the 6th of May.
 
 # Sponsors
 
