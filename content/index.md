@@ -61,6 +61,9 @@ proposals until the 6th of May.
 <a href="http://code.world">
 <img src="/images/codeworld-logo.png" alt="CodeWorld" class="sponsor">
 </a>
+<a href="http://digitalasset.com">
+<img src="/images/digital-asset-logo.png" alt="Digital Asset" class="sponsor">
+</a>
 </div>
 <div class="sponsors">
 <a href="http://facebook.com">
@@ -92,6 +95,12 @@ of Haskell and contribute broadly to the Haskell community.
 [CodeWorld](http://code.world/) is an educational project that blends
 mathematics and Haskell programming into a visual playground.  Chris Smith has
 volunteered to fund two students to work on CodeWorld in particular.
+
+[Digital Asset](http://digitalasset.com/) provides Distributed Ledger solutions
+for financial institutions globally. They have developed a pure, typed,
+functional, domain specific language for writing contracts, called DAML.  They
+are a proud sponsor of the Summer of Haskell and contribute broadly to the
+Haskell community.
 
 [Facebook](http://facebook.com/) uses Haskell in its [anti-abuse
 infrastructure](https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/),
