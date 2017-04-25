@@ -64,13 +64,14 @@ proposals until the 6th of May.
 <a href="http://digitalasset.com">
 <img src="/images/digital-asset-logo.png" alt="Digital Asset" class="sponsor">
 </a>
-</div>
-<div class="sponsors">
 <a href="http://facebook.com">
 <img src="/images/facebook-logo.png" alt="Facebook" class="sponsor">
 </a>
 <a href="http://fugue.co">
 <img src="/images/fugue-logo.png" alt="Fugue" class="sponsor">
+</a>
+<a href="http://iohk.io">
+<img src="/images/iohk-logo.png" alt="IOHK" class="sponsor">
 </a>
 <a href="http://galois.com">
 <img src="/images/galois-logo.png" alt="Galois" class="sponsor">
@@ -119,6 +120,11 @@ sponsor a student to improve the ecosystem.
 mathematics to solve difficult technological problems, delivering practical
 solutions tailored to our clients’ needs.  Haskell and other functional
 programming languages are key tools we use in providing these solutions.
+
+[IOHK](https://iohk.io/) is a technology company committed to using peer-to-peer
+technologies to provide financial services to the three billion people who don't
+have them.  We implement our first-principles cryptographic research in Haskell
+and we are committed to the development of the Haskell ecosystem.
 
 [Tweag I/O](http://tweag.io) is a network of software innovation labs across
 Europe. We develop novel solutions and products for our clients around the
