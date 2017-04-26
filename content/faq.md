@@ -24,3 +24,8 @@ We're following the same general guidelines as the Google Summer of Code:
   States.
 
 If you aren't sure if these conditions apply, please [contact us](/contact.html)
+
+## Can I submit more than one proposal?
+
+Yes.  However, only one per student may be accepted. No more than one proposal
+per student will be accepted, no matter how many proposals you submit.
