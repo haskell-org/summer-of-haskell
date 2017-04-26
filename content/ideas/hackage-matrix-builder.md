@@ -1,5 +1,5 @@
 ---
-title: Improve the Hackage matrix builder.
+title: Improve the Hackage matrix builder
 ---
 
 This project is to help with the development and exploitation of the [Hackage
