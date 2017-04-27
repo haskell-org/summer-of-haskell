@@ -46,6 +46,13 @@ main = hakyll $ do
             loadAndApplyTemplate "templates/default.html" defaultContext >>=
             relativizeUrls
 
+    create ["news.xml"] $ do
+        route idRoute
+        compile $
+            loadAllSnapshots "content/news/*" "content" >>=
+            fmap (take 10) . recentFirst >>=
+            renderRss newsRssConfig newsRssContext
+
     match "content/ideas.html" $ do
         route $ dropContentRoute `composeRoutes` setExtension "html"
         compile $
@@ -108,3 +115,15 @@ newsIndexContext =
     listField "last" newsContext
         (loadAllSnapshots "content/news/*" "content" >>= fmap (take 1) . recentFirst) <>
     defaultContext
+
+newsRssConfig :: FeedConfiguration
+newsRssConfig = FeedConfiguration
+    { feedTitle       = "Summer of Haskell News"
+    , feedDescription = "Newest Summest of Haskell posts"
+    , feedAuthorName  = "Haskell.org committee"
+    , feedAuthorEmail = "committee@haskell.org"
+    , feedRoot        = "http://summer.haskell.org"
+    }
+
+newsRssContext :: Context String
+newsRssContext = bodyField "description" <> newsContext
