@@ -14,8 +14,3 @@ This is the source code for the summer of Haskell website.
 
     stack build
     stack exec -- summer-of-haskell preview
-
-## About github pages
-
-Since we are currently using github pages, the generated content is included in
-this repository as well, in the `docs/` folder.
