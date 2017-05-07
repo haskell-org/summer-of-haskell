@@ -49,12 +49,10 @@ September 12th  Final results announced
 The student application period opens on the 25th of April, and we accept
 proposals until the 6th of May.
 
-You can find the form here:
-
 <https://goo.gl/forms/OAfyD0Oen2KvKu6t2>
 
-Please do not hesitate to [contact us] if you have any problems with the
-application process.
+The application period is now closed.  Please do not hesitate to [contact us] if
+you have any questions about the application process.
 
 [contact us]: /contact.html
 
