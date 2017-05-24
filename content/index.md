@@ -44,17 +44,10 @@ September 12th  Final results announced
 
 </div>
 
-# Application form
+# Accepted projects
 
-The student application period opens on the 25th of April, and we accept
-proposals until the 6th of May.
-
-<https://goo.gl/forms/OAfyD0Oen2KvKu6t2>
-
-The application period is now closed.  Please do not hesitate to [contact us] if
-you have any questions about the application process.
-
-[contact us]: /contact.html
+See the
+[announcement of accepted projects](/news/2017-05-24-accepted-projects.html).
 
 # Sponsors
 
