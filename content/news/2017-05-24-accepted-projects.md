@@ -30,7 +30,8 @@ If there are people who would like to co-mentor a project, please let us know.
 
 5.  Totality checking base with Liquid Haskell  
     Student: Sean Leffler  
-    Mentor: Niki Vazou
+    Mentor: Niki Vazou  
+    Co-mentor: Eric Seidel
 
 6.  Modularizing haskell-mode and improving haskell-interactive-mode  
     Student: Vasantha Ganesh Kanniappan  
