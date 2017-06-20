@@ -136,7 +136,8 @@ ecosystem out there. We're very proud to sponsor a student this summer to help
 make it happen.
 
 Davean has volunteered to fund a student expressly to work on the [Hadrian build
-system for GHC](/ideas.html#hadrian-ghc).
+system for GHC](/ideas.html#hadrian-ghc).  Steven Keuchel has provided funds for
+a student to work on Haskey.
 
 <div class="become-a-sponsor">
 <a href="mailto:committee@haskell.org">

@@ -14,10 +14,11 @@ If there are people who would like to co-mentor a project, please let us know.
 
 1.  Safe streaming with linear types  
     Student: Edvard Hübinette  
-    Mentor: Arnaud Spiwack
+    Mentor: Arnaud Spiwack  
+    Blog: <https://m0ar.github.io/safe-streaming/>
 
-2.  Improve the GHC Performance test suite  
-    Student: Shivansh Rai  
+2.  Bringing Sanity to the GHC Performance Test-Suite  
+    Student: Jared Weakly  
     Mentor: Ben Gamari
 
 3.  Haskell IDE Engine  
