@@ -19,7 +19,8 @@ If there are people who would like to co-mentor a project, please let us know.
 
 2.  Bringing Sanity to the GHC Performance Test-Suite  
     Student: Jared Weakly  
-    Mentor: Ben Gamari
+    Mentor: Ben Gamari  
+    Blog: <https://jaredweakly.com/blog/category/blog/>
 
 3.  Haskell IDE Engine  
     Student: Zubin Duggal  
