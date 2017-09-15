@@ -44,10 +44,13 @@ September 12th  Final results announced
 
 </div>
 
-# Accepted projects
+# Projects
 
 See the
 [announcement of accepted projects](/news/2017-05-24-accepted-projects.html).
+
+The Summer of Haskell 2017 is over!  The
+[final results](/news/2017-09-15-final-results.html) are now available.
 
 # Sponsors
 
