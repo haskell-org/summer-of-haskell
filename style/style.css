@@ -167,3 +167,18 @@ h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor {
   display: inline;
   color: #64328c;
 }
+
+/* Nice quotation marks indicating block quotes. */
+blockquote {
+  position: relative;
+  margin: 0px 0px 0px 24px;
+}
+blockquote:before {
+  content: "\201C";
+  font-family: Georgia, serif;
+  position: absolute;
+  color: #64328c;
+  left: -64px;
+  font-size: 128px;
+  top: -32px;
+}
