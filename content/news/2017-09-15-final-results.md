@@ -40,7 +40,7 @@ Additionally, it seems like some students are very interested in continuing to
 contribute to the Haskell open-source community, which we of course gladly
 [encourage]!
 
-[encourage](http://fgaz.me/posts/2017-09-13-hsoc-cabal-new-build-status-update-1/#fn:bait)
+[encourage]: http://fgaz.me/posts/2017-09-13-hsoc-cabal-new-build-status-update-1/#fn:bait
 
 Here is what the students said about their Summer of Haskell 2017 projects:
 
