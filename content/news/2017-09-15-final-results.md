@@ -12,7 +12,7 @@ Getting ready for the next Summer of Haskell, if you have any project suggestion
 a pull request in the [summer-of-haskell repo](https://github.com/haskell-org/summer-of-haskell)
 or just an email (m@jaspervdj.be & nvazou@cs.umd.edu). 
 
-Here are the students' experiences of Summer of Haskell 2017.
+Here is what the students said about their Summer of Haskell 2017 projects
 
 1.  Safe streaming with linear types  
     Student: Edvard Hübinette  
@@ -36,7 +36,7 @@ Here are the students' experiences of Summer of Haskell 2017.
 
 2.  Bringing Sanity to the GHC Performance Test-Suite  
     Student: Jared Weakly  
-    Mentor: Ben Gamari  
+    Mentor: Ben Gamari
     Status: Completed
     Link: <https://jaredweakly.com/blog/category/blog/>
     
