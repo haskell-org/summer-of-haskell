@@ -214,6 +214,9 @@ Here is what the students said about their Summer of Haskell 2017 projects:
     > found great community (both Purescript and Haskell community) to discuss
     > whenever my mentor is not available.
 
+    For more information, see:
+    <https://medium.com/@rizary/hsoc-the-good-the-bad-and-the-ugly-70571458ad4b>.
+
 11. WebGHC (a WebAssembly backend for GHC)  
     Student: Michael Vogelsang  
     Mentor: Will Fancher
