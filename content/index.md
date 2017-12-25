@@ -4,55 +4,24 @@ title: Home
 
 # Introduction
 
-The Summer of Haskell is an effort by haskell.org to reach out to students and
+The Summer of Haskell is an effort by Haskell.org to reach out to students and
 encourage them to contribute to the Haskell community with the aid of
 experienced mentors.
 
 This program is open to college students, 18 or older, in most countries.
 
-The general structure of our program is set up to mirror the Google Summer of
-Code.
+This year, we will either organise it under the umbrella of the Google Summer of
+Code, our run our own program -- depending on whether or not we are selected for
+the former.
 
-Participation in the Summer of Haskell represents a similar level of commitment
-to taking a job or internship for the summer in terms of time investment. The
-compensation for accepted student projects is 5500 USD, to be paid in two lump
-sums, half at the beginning of the summer, and half upon receiving a passing
-midterm evaluation. As with the Google Summer Of Code, participation in the
-Summer of Haskell is not an internship or employment but simply an activity that
-the student performs as an independent developer for which he/she is paid a
-stipend.
+# Call for ideas
 
-# Timeline
+We are currently in the process of gathering ideas for the next batch of
+projects.  More information can be found here:
 
-<div class="timeline">
+<https://summer.haskell.org/news/2017-12-25-call-for-ideas.html>
 
---------------  -----------------------------------------------------------------
-April 25th      The student application period begins
-May 6th         The student application period ends
-May 20th        Student applications are sifted through by mentors
-May 22nd        Accepted students are announced
-May 22nd        Community bonding period begins
-June 13th       Students begin work, initial payment is made
-July 18st       Midterm evaluations begin
-July 22th       Midterm evaluations are due from both students and mentors
-July 25th       Second payment is made to students passing the midterm evaluation
-September 2nd   End of work period
-September 5th   Final evaluations begin
-September 9th   Final evaluations are due from both student and mentors
-September 12th  Final results announced
---------------  -----------------------------------------------------------------
-
-</div>
-
-# Projects
-
-See the
-[announcement of accepted projects](/news/2017-05-24-accepted-projects.html).
-
-The Summer of Haskell 2017 is over!  The
-[final results](/news/2017-09-15-final-results.html) are now available.
-
-# Sponsors
+# 2017 Sponsors
 
 <div class="sponsors">
 <a href="https://asahi-net.jp/en/">
