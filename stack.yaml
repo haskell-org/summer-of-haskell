@@ -1,5 +1,7 @@
-resolver: lts-8.5
-packages: ['.']
-extra-deps: []
-flags: {}
+resolver: nightly-2017-12-14
 extra-package-dbs: []
+packages:
+- '.'
+extra-deps:
+- 'hakyll-4.10.0.0'
+- 'pandoc-citeproc-0.12.1.1'
