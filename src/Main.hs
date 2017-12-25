@@ -75,8 +75,10 @@ dropContentRoute = customRoute $ \ident ->
 
 -- | Our own pandoc compiler which adds anchors automatically.
 anchorsPandocCompiler :: Compiler (Item String)
-anchorsPandocCompiler =
-    pandocCompilerWithTransform Pandoc.def Pandoc.def addAnchors
+anchorsPandocCompiler = pandocCompilerWithTransform
+    defaultHakyllReaderOptions
+    defaultHakyllWriterOptions
+    addAnchors
 
 -- | Modifie a headers to add an extra anchor which links to the header.  This
 -- allows you to easily copy an anchor link to a header.
