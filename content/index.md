@@ -11,7 +11,7 @@ experienced mentors.
 This program is open to college students, 18 or older, in most countries.
 
 This year, we will either organise it under the umbrella of the Google Summer of
-Code, our run our own program -- depending on whether or not we are selected for
+Code, or run our own program -- depending on whether or not we are selected for
 the former.
 
 # Call for ideas
