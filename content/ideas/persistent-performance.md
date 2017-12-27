@@ -17,4 +17,4 @@ Relevant links:
 * [3] https://www.yesodweb.com/book/persistent
 * [4] https://github.com/yesodweb/persistent
 
-Mentors: Michael Snoyman
+Mentors: Michael Snoyman, ??
