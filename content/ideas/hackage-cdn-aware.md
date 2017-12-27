@@ -23,4 +23,4 @@ This would be a two phase project:
     redirects, with the redirect always being hit, and the redirected-to `.tgz`
     file being cached.
 
-**Mentors**: ???
+**Mentors**: Gershom Bazerman, Herbert Valerio Riedel
