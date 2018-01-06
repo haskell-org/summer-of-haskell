@@ -3,8 +3,11 @@ title: Implement quantified contexts (or other type system goodies)
 ---
 
 In last year's Haskell Symposium, Gert-Jan Bottu et al. [described](http://homepages.inf.ed.ac.uk/wadler/papers/quantcc/quantcc.pdf)
-a plan for *quantified contexts*, where a user could write a type like `forall h. (forall f. Functor f => Functor (h f)) => h Maybe Int -> h [] Int`. The paper linked above has more realistic examples. The key is that a constraint is actually an implication. The idea as
-described in that paper would not jibe well with GHC, as the paper's specification requires backtracking in order to implement. However, a small tweak to what's described in the paper would no longer need backtracking and should be relatively straightforward to implement. The project would be to finish specifying and then implement this proposal. It will have significant real-world impact, fixing long-standing GHC bug [#2256](https://ghc.haskell.org/trac/ghc/ticket/2256) and allowing `join` to be added to the `Monad` typeclass, among other benefits. (The route from this proposal to `join` is a bit long and goes via roles, but trust me here that this proposal is the blocker.)
+a plan for *quantified contexts*, where a user could write a type like `forall h. (forall f. Functor f => Functor (h f)) => h Maybe Int -> h [] Int`. The paper linked above has more realistic examples. The key is that a constraint is actually an implication.
+
+The idea as described in that paper would not jibe well with GHC, as the paper's specification requires backtracking in order to implement. However, a small tweak to what's described in the paper would no longer need backtracking and should be relatively straightforward to implement. The project would be to finish specifying and then implement this proposal.
+
+It will have significant real-world impact, fixing long-standing GHC bug [#2256](https://ghc.haskell.org/trac/ghc/ticket/2256) and allowing `join` to be added to the `Monad` typeclass, among other benefits. (The route from this proposal to `join` is a bit long and goes via roles, but trust me here that this proposal is the blocker.)
 
 Beyond just quantified contexts, I'm happy to mentor students who wish to hack on GHC's type system.
 In particular, advances toward dependent
