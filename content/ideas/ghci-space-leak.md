@@ -11,3 +11,4 @@ Related tickets:
 * <https://github.com/commercialhaskell/intero/issues/84>
 
 **Mentors**: ??
+**Difficulty**: Advanced
