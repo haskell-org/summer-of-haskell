@@ -24,3 +24,4 @@ This would be a two phase project:
     file being cached.
 
 **Mentors**: Gershom Bazerman, Herbert Valerio Riedel
+**Difficulty**: Intermediate
