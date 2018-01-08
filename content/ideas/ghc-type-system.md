@@ -23,3 +23,4 @@ If you can relocate to the Philadelphia, PA, USA, area for the summer, there wil
 be able to work in a space with several other people hacking on GHC. Remote mentorship is also possible, of course.
 
 **Mentor**: [Richard Eisenberg](mailto:rae@cs.brynmawr.edu) (feel free to email to discuss ideas for your proposal)
+**Difficulty**: Advanced
