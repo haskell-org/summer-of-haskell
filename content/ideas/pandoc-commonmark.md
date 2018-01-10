@@ -35,3 +35,5 @@ Pandoc, too many to list them here.
 [more ideas]: https://github.com/jgm/pandoc/issues/1852
 
 **Mentors**: John McFarlane
+
+**Difficulty**: Beginner
