@@ -14,3 +14,5 @@ This is the source code for the summer of Haskell website.
 
     stack build
     stack exec -- summer-of-haskell preview
+    
+Then point your browser at `http://localhost:8000`
