@@ -27,9 +27,10 @@ But there is still plenty to be done to bring it closer to its potential.
 - Anything - Haskell tooling could support your favourite ide feature
 - Come up with a way to match the running hie server GHC version with the project GHC version.  See https://github.com/haskell/haskell-ide-engine/issues/439
 - Add a command to build the project
-- Bring in `cabal new-build` support, via updates to `ghc-mod`.
 
 Some of the above may not be substantial enough to fill up the entire summer. In
 that case, you may target multiple goals.
 
 **Mentors**: Alan Zimmerman, Zubin Duggal
+**Difficulty**: Medium
+
