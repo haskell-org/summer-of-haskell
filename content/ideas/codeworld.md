@@ -26,4 +26,5 @@ Specific ideas include:
    time-traveling debugging features, and other useful extensions.
 
 **Mentors**: Chris Smith
+
 **Difficulty**: Varies depending on proposal
