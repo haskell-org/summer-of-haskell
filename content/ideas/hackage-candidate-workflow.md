@@ -9,3 +9,5 @@ The [first step](https://github.com/haskell/hackage-server/issues/635) is moving
 Beyond this we want to extend the docbuilder and docuploads to work with candidates, and then implement a fixed workflow from candidacy to validation and then publishing.
 
 **Mentors**: Gershom Bazerman, Herbert Valerio Riedel
+
+**Difficulty**: Intermediate
