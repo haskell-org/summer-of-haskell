@@ -32,5 +32,6 @@ Some of the above may not be substantial enough to fill up the entire summer. In
 that case, you may target multiple goals.
 
 **Mentors**: Alan Zimmerman, Zubin Duggal
-**Difficulty**: Medium
+
+**Difficulty**: Intermediate
 
