@@ -1,5 +1,5 @@
 ---
-title: Support for Multiple Public Libraries in a .cabal package
+title: Proof of Concept Support for Multiple Public Libraries in a .cabal package
 ---
 
 A common pattern with large scale Haskell projects is to have a large number of
@@ -27,8 +27,10 @@ The package should remain the mechanism for distribution, but a package itself
 should contain multiple libraries, which are independent units of code that can
 be built separately.
 
-The goal of this project is to add support for it to Cabal and cabal-install.
-Patching hackage-server and/or Haddock will likely be also required.
+The goal of this project is to complete a proof-of-concept implementation of
+multiple public libraries in Cabal and cabal-install.
+The completion of this feature requires additional work outside the scope of
+this project, including patching hackage-server and Haddock.
 
 For additional information and discussion, see
 [cabal#4206](https://github.com/haskell/cabal/issues/4206)
