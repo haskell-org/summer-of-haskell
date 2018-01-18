@@ -3,7 +3,7 @@ title: Proof of Concept Support for Multiple Public Libraries in a .cabal packag
 ---
 
 A common pattern with large scale Haskell projects is to have a large number of
-tighty-coupled packages that are released in lockstep.
+tightly-coupled packages that are released in lockstep.
 One notable example is amazonka; as pointed out in
 [amazonka#4155](https://github.com/haskell/cabal/issues/4155#issuecomment-270126748)
 every release involves the lockstep release of 89 packages. Here, the tension
@@ -18,7 +18,7 @@ bringing one gigantic, mega-library as a dependency of the library.
 version, author, etc. amazonka is a tightly coupled series of libraries with a
 common author, and so it makes sense that they want to be distributed together.
 
-The concerns of (1) have overriden the concerns of (2): amazonka is split into
+The concerns of (1) have overridden the concerns of (2): amazonka is split into
 small packages which is nice for end-users, but means that the package
 maintainer needs to upload 89 packages whenever they need to do a new version.
 
