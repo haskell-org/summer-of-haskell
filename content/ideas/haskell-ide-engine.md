@@ -11,7 +11,6 @@ But there is still plenty to be done to bring it closer to its potential.
 ## Possible goals for a HIE project:
 
 - Rewriting the completion system
-  - Take advantage of the new async system, making it much faster
   - Complete for module names, ghc pragmas, .cabal files, syntax(if/case/let/where etc.)
   - Smart templates for case splitting,
   - Make completions include local definitions(possibly making it scope aware)
