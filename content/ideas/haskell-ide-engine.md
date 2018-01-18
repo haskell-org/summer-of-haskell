@@ -11,12 +11,12 @@ But there is still plenty to be done to bring it closer to its potential.
 ## Possible goals for a HIE project:
 
 - Rewriting the completion system
-- - Take advantage of the new async system, making it much faster
-- - Complete for module names, ghc pragmas, .cabal files, syntax(if/case/let/where etc.)
-- - Smart templates for case splitting,
-- - Make completions include local definitions(possibly making it scope aware)
-- - - Making completions scope aware would involve traversing the AST and collecting all the symbols defined until reaching the cursor position
-- - Less bugs
+  - Take advantage of the new async system, making it much faster
+  - Complete for module names, ghc pragmas, .cabal files, syntax(if/case/let/where etc.)
+  - Smart templates for case splitting,
+  - Make completions include local definitions(possibly making it scope aware)
+    - Making completions scope aware would involve traversing the AST and collecting all the symbols defined until reaching the cursor position
+  - Less bugs
 - Case splitting
 - Expanding Template Haskell in place
 - More extensive testing, testing a full LSP session from beginning to end.
@@ -32,5 +32,6 @@ Some of the above may not be substantial enough to fill up the entire summer. In
 that case, you may target multiple goals.
 
 **Mentors**: Alan Zimmerman, Zubin Duggal
-**Difficulty**: Medium
+
+**Difficulty**: Intermediate
 
