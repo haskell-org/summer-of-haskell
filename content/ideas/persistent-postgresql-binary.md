@@ -30,6 +30,6 @@ The project outline is something along the lines of:
 [postgresql-binary]: https://hackage.haskell.org/package/postgresql-binary
 [postgresql-simple]: https://hackage.haskell.org/package/postgresql-simple
 
-**Mentors**: Erik de Castro Lopo
+**Mentors**: Erik de Castro Lopo, Nikita Volkov
 
 **Difficulty**: Intermediate
