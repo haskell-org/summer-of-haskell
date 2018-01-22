@@ -14,7 +14,7 @@ operation, and makes for a poor developer experience.
 
 
 An equally long-standing suggestion to address this issue
-(c.f. https://mail.haskell.org/pipermail/ghc-devs/2014-March/004355.html)
+(c.f. <https://mail.haskell.org/pipermail/ghc-devs/2014-March/004355.html>)
 is to have GHC include enough information in the generated `.hi`
 interface files in order to avoid Haddock having to duplicate that
 work. This would pave the way for following use-cases and/or have the
@@ -48,13 +48,13 @@ and are out of scope for this proposal.
 - The student would add two new fields to GHC’s `ModIface` and
   `ModGuts` resembling `ifaceDocMap` and `ifaceArgMap` from Haddock’s
   interface files
-  (c.f. https://github.com/haskell/haddock/blob/master/haddock-api/src/Haddock/Types.hs#L111).
+  (c.f. <https://github.com/haskell/haddock/blob/master/haddock-api/src/Haddock/Types.hs#L111>).
 - Populate `ModGuts`
-  (https://github.com/ghc/ghc/blob/e237e1f132d0c0e1d9bf24d21cf688110305fb28/compiler/main/HscTypes.hs#L1255)
+  (<https://github.com/ghc/ghc/blob/e237e1f132d0c0e1d9bf24d21cf688110305fb28/compiler/main/HscTypes.hs#L1255>)
   with the documentation for declarations (taken from the
   `ParsedSource`).
 - Teach `MkIface`
-  (https://github.com/ghc/ghc/blob/e237e1f132d0c0e1d9bf24d21cf688110305fb28/compiler/iface/MkIface.hs)
+  (<https://github.com/ghc/ghc/blob/e237e1f132d0c0e1d9bf24d21cf688110305fb28/compiler/iface/MkIface.hs>)
   to serialise the collected documentation.
 - As a simple way to validate the new ability, teach GHCi’s `:info`
   (or alternatively add a new `:doc` command) how to read the
