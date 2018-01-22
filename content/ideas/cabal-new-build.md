@@ -37,4 +37,4 @@ Additional nice-to-have stretch goals:
 
 **Potential Mentors**: Edward Z. Yang, Mikhail Glushenkov, Herbert Valerio Riedel
 
-**Difficulty**: Advanced
+**Difficulty**: Intermediate to Advanced, depending on the chosen task(s).
