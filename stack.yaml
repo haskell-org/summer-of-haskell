@@ -1,7 +1,5 @@
-resolver: nightly-2017-12-14
+resolver: nightly-2018-01-18
 extra-package-dbs: []
 packages:
 - '.'
-extra-deps:
-- 'hakyll-4.10.0.0'
-- 'pandoc-citeproc-0.12.1.1'
+extra-deps: []
