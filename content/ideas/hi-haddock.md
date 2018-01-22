@@ -14,7 +14,7 @@ operation, and makes for a poor developer experience.
 
 
 An equally long-standing suggestion to address this issue
-(c.f. [Haddock strings in .hi files](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004355.html))
+(c.f. ["Haddock strings in .hi files" email thread](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004355.html))
 is to have GHC include enough information in the generated `.hi`
 interface files in order to avoid Haddock having to duplicate that
 work. This would pave the way for following use-cases and/or have the
