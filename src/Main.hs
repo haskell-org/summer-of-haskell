@@ -61,7 +61,9 @@ main = hakyll $ do
             loadAndApplyTemplate "templates/default.html" defaultContext >>=
             relativizeUrls
 
-    match "content/ideas/*" $ compile pandocCompiler
+    match "content/ideas/*" $ compile $
+        pandocCompiler >>=
+        return . fmap demoteHeaders
 
     match "templates/*" $ compile templateCompiler
 
