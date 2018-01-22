@@ -11,6 +11,11 @@ for an introduction to `new-build` and a more detailed explanation.
 
 Last year a lot of progress was made, and `cabal new-build` is already gaining
 popularity, despite being incomplete; we're quite close, but we're not there yet!
+
+There is likely too much for a single student to complete in a single summer, so
+we welcome proposals that include some reasonable subset of the functionality
+listed below.
+
 In order to reach the major "Cabal 3.0" milestone, which denotes switching over
 to the `new-build` infrastructure as the default (thus finally retiring the
 old/sandbox commands), the following critical features need to be completed or
