@@ -11,17 +11,14 @@ experienced mentors.
 This program is open to college students, 18 or older, in most countries.
 
 This year, we will either organise it under the umbrella of the Google Summer of
-Code, or run our own program -- depending on whether or not we are selected for
-the former.
-
-# Call for ideas
-
-We are currently in the process of gathering ideas for the next batch of
-projects.  More information can be found here:
-
-<https://summer.haskell.org/news/2017-12-25-call-for-ideas.html>
+Code, or attempt run our own program -- depending on whether or not we are
+selected for the former.
 
 # 2017 Sponsors
+
+In 2016 and 2017, we were unfortunately not selected for Google Summer of Code.
+We managed to get some other sponsors to pitch in, so we didn't lose our
+available pool of mentors.  Our sponsors in 2017 were:
 
 <div class="sponsors">
 <a href="https://asahi-net.jp/en/">
