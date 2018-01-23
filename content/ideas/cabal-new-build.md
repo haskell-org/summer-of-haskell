@@ -27,7 +27,7 @@ implemented:
 * Implement `cabal new-clean` command (see [cabal#3835](https://github.com/haskell/cabal/pull/3835)
   for an early attempt)
 * Resolve issues related to and complete `cabal new-haddock`
-* Fix high priority show-stopper bugs tagged `nix-local-builds` in the issue tracker
+* Fix high priority show-stopper bugs tagged `nix-local-build` in the issue tracker
 
 Additional nice-to-have stretch goals:
 * Support for remote Git-repository dependencies
