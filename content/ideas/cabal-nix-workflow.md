@@ -32,7 +32,7 @@ However, the ideal tool doesn't yet exist. We want a tool with the following phi
 Nix, you are responsible for provisioning the correct environment but I will take
 care of the all important build.
 
-The user provides a declarative specification of their necessary environement (by a cabal file
+The user provides a declarative specification of their necessary environment (by a cabal file
 or some other means), then when a user runs a command, nix provisions this
 environment and then the tool runs the haskell specific commands necessary to
 build the package locally.
@@ -41,7 +41,7 @@ As an exemplification of this, using workflow (3), by default invoking `cabal2ni
 will generate a nix expression which loads both the build and test dependencies into the
 environment. It is not usual for the test dependency tree to quite a bit larger than the
 build dependency tree. Ideally, when a user runs "cabal build", cabal should enter
-a nix shell with the appropiate build dependencies for building whichever component
+a nix shell with the appropriate build dependencies for building whichever component
 it wants to build and no more. Similarly, "cabal test" should load enter an
 environment with test dependencies. It is currently possible to achieve this
 for benchmarking dependencies by the somewhat archaic `nix-shell --argstr doBenchmark true`.
@@ -55,7 +55,7 @@ build them.
 
 * There should be an easy way to "pin" a nixpkgs version so that builds are reproducible.
 This could take the form of specifying a hash directly of a nixpkgs commit or more indirectly
-such as specifying a `lts` version (with an appropiately generated package set) and so on.
+such as specifying a `lts` version (with an appropriately generated package set) and so on.
 
 * `cabal build --nix -w ghc-8.0.2` should modify the environment to provision the
   8.0.2 package set rather than rely on the user to have already installed the
