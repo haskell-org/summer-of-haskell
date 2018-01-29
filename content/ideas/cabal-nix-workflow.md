@@ -64,8 +64,9 @@ such as specifying a `lts` version (with an appropriately generated package set)
 There are many more angles to explore. A successful proposal will flesh out in
 detail what would be necessary to implement one or perhaps two of these ideas.
 
-https://github.com/Gabriel439/haskell-nix/issues
+https://github.com/Gabriel439/haskell-nix/
 https://docs.haskellstack.org/en/stable/nix_integration/
 https://www.haskell.org/cabal/users-guide/nix-integration.html
+https://github.com/jyp/styx
 
 **Difficulty**: Intermediate
