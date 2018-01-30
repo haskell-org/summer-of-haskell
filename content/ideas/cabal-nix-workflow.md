@@ -42,7 +42,7 @@ will generate a nix expression which loads both the build and test dependencies 
 environment. It is not usual for the test dependency tree to quite a bit larger than the
 build dependency tree. Ideally, when a user runs "cabal build", cabal should enter
 a nix shell with the appropriate build dependencies for building whichever component
-it wants to build and no more. Similarly, "cabal test" should load enter an
+it wants to build and no more. Similarly, "cabal test" should enter an
 environment with test dependencies. It is currently possible to achieve this
 for benchmarking dependencies by the somewhat archaic `nix-shell --argstr doBenchmark true`.
 
@@ -68,5 +68,6 @@ https://github.com/Gabriel439/haskell-nix/
 https://docs.haskellstack.org/en/stable/nix_integration/
 https://www.haskell.org/cabal/users-guide/nix-integration.html
 https://github.com/jyp/styx
+https://nixos.org/nix-dev/2016-September/021765.html
 
 **Difficulty**: Intermediate
