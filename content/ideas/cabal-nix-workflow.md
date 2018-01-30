@@ -61,9 +61,12 @@ such as specifying a `lts` version (with an appropriately generated package set)
   8.0.2 package set rather than rely on the user to have already installed the
   compiler locally.
 
+* [Extending `cabal2nix` to work with `cabal.project` files.](https://github.com/haskell-org/summer-of-haskell/pull/45#issuecomment-361255425)
+
 There are many more angles to explore. A successful proposal will flesh out in
 detail what would be necessary to implement one or perhaps two of these ideas.
 
+https://github.com/haskell-org/summer-of-haskell/pull/45
 https://github.com/Gabriel439/haskell-nix/
 https://docs.haskellstack.org/en/stable/nix_integration/
 https://www.haskell.org/cabal/users-guide/nix-integration.html
