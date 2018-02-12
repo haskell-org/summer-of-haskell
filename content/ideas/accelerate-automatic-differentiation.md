@@ -14,11 +14,17 @@ which can be executed on <!-- multicore CPUs and --> the GPU. <!--
 However, in order to support the more restrictive GPU architecture, `accelerate`
 is implemented as an _embedded language_, and thus ... blah difficulties
 --> The goal of this project is to implement automatic differentiation on
-the GPU using `ad` and `accelerate`. The success of this project would allow
+the GPU using `accelerate`. The success of this project would allow
 Haskell to stake out territory in the ever expanding field of machine learning.
 
-### Proposed implementation strategy
+### Proposed implementation
 
+The aim of this project is to build an automatic differentiation package for use
+with `accelerate`. We propose to implement this as a new package, drawing
+inspiration from the design of the existing `ad` library rather than building
+directly atop it.
+
+<!--
 This proposal can be broken into two largely distinct phases:
 
   1. Update the `ad` library to work with a vectored representation, as
@@ -33,14 +39,13 @@ This proposal can be broken into two largely distinct phases:
      manipulate regular Haskell data types directly. Instead, we must specify
      how manipulating the AD variables corresponds to terms in the Accelerate
      language, so that these operations can be compiled into GPU code.
-
+-->
 
 ### Future work / possible extensions
 
-A vectored representation in `ad` also paves the way to leverage BLAS libraries
-such as [accelerate-blas][hackage-accelerate-blas], although this may introduce
-further complications.
-
+The use of BLAS libraries, such as via the bindings provided in
+[accelerate-blas][hackage-accelerate-blas], could further improve performance of
+the library.
 
 <!--
 [Accelerate](https://github.com/AccelerateHS) is a domain specific language for defining abstract
