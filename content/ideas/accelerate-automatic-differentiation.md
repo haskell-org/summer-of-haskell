@@ -5,7 +5,9 @@ title: Implementing Automatic Differentiation in Accelerate
 [Automatic Differentiation][wiki-ad] (AD) is a technique to calculate the
 derivative of numeric functions expressed as computer programs, and its
 implementation on massively parallel processors is one of the core technical
-advances driving the ongoing deep learning revolution.
+advances driving the ongoing deep learning revolution. The success of this
+project would allow Haskell to stake out territory in the ever expanding field
+of machine learning.
 
 In the Haskell ecosystem, the [`ad`][hackage-ad] library provides a
 comprehensive and intuitive implementation of automatic differentiation, while
@@ -14,17 +16,13 @@ which can be executed on <!-- multicore CPUs and --> the GPU. <!--
 However, in order to support the more restrictive GPU architecture, `accelerate`
 is implemented as an _embedded language_, and thus ... blah difficulties
 --> The goal of this project is to implement automatic differentiation on
-the GPU using `accelerate`. The success of this project would allow
-Haskell to stake out territory in the ever expanding field of machine learning.
-
-### Proposed implementation
-
-The aim of this project is to build an automatic differentiation package for use
-with `accelerate`. We propose to implement this as a new package, drawing
-inspiration from the design of the existing `ad` library rather than building
-directly atop it.
+the GPU using `accelerate`. We propose to implement this as a new package,
+drawing inspiration from the design of the existing `ad`, library rather than
+building directly atop it.
 
 <!--
+### Proposed implementation
+
 This proposal can be broken into two largely distinct phases:
 
   1. Update the `ad` library to work with a vectored representation, as
