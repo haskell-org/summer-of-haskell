@@ -68,13 +68,13 @@ such as specifying a `lts` version (with an appropriately generated package set)
 This is more of a framework for a project proposal rather than a concrete idea,
 and there are many more angles to explore. A successful proposal will need to
 flesh out in detail what would be necessary to implement one or perhaps two of
-these ideas.
+these ideas:
 
-- https://github.com/haskell-org/summer-of-haskell/pull/45
-- https://github.com/Gabriel439/haskell-nix/
-- https://docs.haskellstack.org/en/stable/nix_integration/
-- https://www.haskell.org/cabal/users-guide/nix-integration.html
-- https://github.com/jyp/styx
-- https://nixos.org/nix-dev/2016-September/021765.html
+- <https://github.com/haskell-org/summer-of-haskell/pull/45>
+- <https://github.com/Gabriel439/haskell-nix/>
+- <https://docs.haskellstack.org/en/stable/nix_integration/>
+- <https://www.haskell.org/cabal/users-guide/nix-integration.html>
+- <https://github.com/jyp/styx>
+- <https://nixos.org/nix-dev/2016-September/021765.html>
 
 **Difficulty**: Advanced
