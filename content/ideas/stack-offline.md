@@ -23,3 +23,5 @@ This work will require touching many different parts of the Stack codebase but
 it will not require a deep understanding of its internals.
 
 **Mentors**: Emanuel Borsboom, Stack Contributors
+
+**Difficulty**: Beginner to Intermediate
