@@ -78,3 +78,5 @@ these ideas:
 - <https://nixos.org/nix-dev/2016-September/021765.html>
 
 **Difficulty**: Advanced
+
+**Mentors**: Matthew Pickering, Will Fancher
