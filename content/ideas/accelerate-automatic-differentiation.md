@@ -16,10 +16,10 @@ an _embedded language_ with a distinct type system.
 The goal of this project is to implement automatic differentiation on
 the GPU (and by extension, other supported architectures) using `accelerate`. We
 propose to implement this as a new package, drawing inspiration from the design
-of the existing `ad`. The success of this project would allow Haskell to stake
+of the existing `ad` package. The success of this project would allow Haskell to stake
 out territory in the ever expanding field of machine learning, as a language
 capable of providing both high-performance numerics, as well as the safety of a
-strong typesystem.
+strong static type system.
 
 ### Implementation Strategies
 
