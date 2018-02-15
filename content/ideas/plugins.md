@@ -8,7 +8,7 @@ module, you need to know a lot of additional information such as where dependenc
 exist, which preprocessors to run and so on.  Syntactic analysis is somewhat possible
 but semantic analysis has been out of reach.
 
-In recent work, [@nboldi](https://github.com/nboldi) extended the plugin
+In recent work, [`@nboldi`](https://github.com/nboldi) extended the plugin
 interface to allow users to modify and inspect the compiler's AST as the program
 is compiled. This has the advantage that it can be integrated easily into any
 existing build system and the desired information is computed as the program is
