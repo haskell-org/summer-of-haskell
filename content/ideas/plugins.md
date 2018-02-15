@@ -47,6 +47,6 @@ https://github.com/google/haskell-indexer
 
 
 
-**Mentor**: ???
+**Mentors**: Boldizsár Németh, Oliver Charles
 
 **Difficulty**: Intermediate
