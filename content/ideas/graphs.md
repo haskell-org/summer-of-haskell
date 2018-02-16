@@ -1,27 +1,26 @@
 ---
-title: Benchmarking graphs libraries and optimizing algebraic graphs
+title: Benchmarking graph libraries and optimising algebraic graphs
 ---
 
-Graphs are a very important data structure and they are known to be a bit difficult to manipulate in functional languages. Several libraries are currently implemented to create and use graph in Haskell, each of them representing the data differently : [Data.Graph](https://hackage.haskell.org/package/containers-0.5.11.0/docs/Data-Graph.html) from containers, [fgl](https://hackage.haskell.org/package/fgl), [hash-graph](https://github.com/patrickdoc/hash-graph) and [alga](https://github.com/snowleopard/alga).
+Graphs are a very important data structure and they are known to be difficult to work with in functional programming languages. Several libraries are currently implemented to create and process graphs in Haskell, each of them using different graph representation: [Data.Graph](https://hackage.haskell.org/package/containers-0.5.11.0/docs/Data-Graph.html) from containers, [fgl](https://hackage.haskell.org/package/fgl), [hash-graph](https://github.com/patrickdoc/hash-graph) and [alga](https://github.com/snowleopard/alga).
 
-Due to their differences and the lack of a reference benchmark, it is not easy for a new user to find the best one for his project.
+Due to their differences and the lack of a reference benchmark, it is not easy for a new user to find the best one for their project.
 
+There will be two major tasks in this proposal:
 
-There will be two major tasks in this proposal
+* Develop a high-quality, automated and fair benchmarking suite for these libraries. The main goal is to help developers to choose easily the library that fits their project.
 
-* Write a high-quality, reusable and fair benchmarking of these libraries. The main goal is to help developers to choose easily the library that fits their project.
+* Help improve the [alga](https://github.com/snowleopard/alga) library. It is a promising and new approach (based on mathematical results about an algebra of graphs), but it lacks some important features, a user-friendly tutorial, and has not yet been optimised for performance. Hence the following subtasks:
 
-* Help Alga. Because of its promising and totally new approach (based on mathematical results about algebra of graph), Alga lack some important features and it is not yet user-friendly. So the majors tasks will be to:
+  * [Write a tutorial](https://github.com/snowleopard/alga/issues/41). Alga is well documented, but a new user can be lost in this new way of thinking about graphs.
+  * Implement missing algorithms and optimise existing ones on the basis of the developed benchmarking suite. Graph libraries are expected to provide some basic algorithms, but because Alga is so different from conventional graph representations most of these algorithms need to be designed from scratch.
+  * As a bonus, try to implement [edge-labelled graphs](https://github.com/snowleopard/alga/issues/17). It is a high-risk subtask, because the theory behind it is still being worked out and requires further discussions.
 
-  * [Write a tutorial](https://github.com/snowleopard/alga/issues/41). The project is well documented, but a new user can be lost in this new thinking of graphs.
-  * Implement missing algorithms and optimize existing one. Graphs library needs to provide some basic algorithms of graph theory, and due to the approach of alga, all of them needs to be re-designed.
-  * As a bonus, think and try to implement [labelled-edges graphs](https://github.com/snowleopard/alga/issues/17). It is listed as bonus, because the theory behind is not totally fixed and will need some discussion on the way to implement it.
+Working with the Haskell community is the core of this project. The student will engage Haskell developers, in particular both users and authors of existing graph libraries, in order to develop a high-quality well-documented benchmarking suite. 
+Concerning Alga, there is a lot to do and again, the input of the community will be essential to decide which algorithms are needed, how to implement them, and receive feedback on the results.
 
-The core of this project will be to work with the community. Only a large number of developer (especially the one from libraries themselves) can help to, for example, find a right approach for a useful benchmarking tool, how to represent the result in a good form and how to document them (which test-case represent which use-case). 
-Concerning Alga, there is a lot to do and again, nothing could be done without the community: Which algorithms are needed, the idea of an implementation, feedback on the current one...
-
-The outcome will also benefit the entire community: helping new developer to choose the right library, helping current developer of these libraries to focus on some optimization and make algebraic graph a real alternative to existing ones.
+It is hoped that the project will also benefit the entire community: it will help new developers to choose the right library, help current developers of these libraries to focus on specific optimisation goals and missing features, and, finally, make algebraic graphs a real alternative to existing graph libraries.
 
 **Mentor**: Andrey Mokhov
 
-**Difficulty**: Intermediate.
+**Difficulty**: Intermediate
