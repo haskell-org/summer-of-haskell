@@ -20,6 +20,8 @@ On sparse/dense and weighted/unweighted graphs.
 The "automated" adjective denote the ability to automatically update benchmarks when a new version of a graph library is released.
 The "fair" one is about the community part of the project. Haskell community should agree that the libraries are used correctly and to their full potential. The student will make effort to contact library authors to receive their feedback.
 
+The aim is to complete the benchmarking suite before the mid-term evaluation. 
+
 * Help improve the [alga](https://github.com/snowleopard/alga) library. It is a promising and new approach (based on mathematical results about an algebra of graphs), but it lacks some important features, a user-friendly tutorial, and has not yet been optimised for performance. Hence the following subtasks:
 
   * [Write a tutorial](https://github.com/snowleopard/alga/issues/41). Alga is well documented, but a new user can be lost in this new way of thinking about graphs.
