@@ -8,7 +8,17 @@ Due to their differences and the lack of a reference benchmark, it is not easy f
 
 There will be two major tasks in this proposal:
 
-* Develop a high-quality, automated and fair benchmarking suite for these libraries. The main goal is to help developers to choose easily the library that fits their project.
+* Develop an automated and fair benchmarking suite for these libraries. The main goal is to help developers to choose easily the library that fits their project.
+The suite will benchmark:
+  * Graph construction (e.g. from a list of edges).
+  * Graph deconstruction (e.g. to a list of edges).
+  * Graph manipulation (add/remove a vertex or an edge).
+  * Graph lookup (test existence of a vertex or an edge).
+  * Graph algorithms (reachability, topsort, DFS, BFS, SCC).
+On sparse/dense and weighted/unweighted graphs.
+
+The "automated" adjective denote the ability to automatically update benchmarks when a new version of a graph library is released.
+The "fair" one is about the community part of the project. Haskell community should agree that the libraries are used correctly and to their full potential. The student will make effort to contact library authors to receive their feedback.
 
 * Help improve the [alga](https://github.com/snowleopard/alga) library. It is a promising and new approach (based on mathematical results about an algebra of graphs), but it lacks some important features, a user-friendly tutorial, and has not yet been optimised for performance. Hence the following subtasks:
 
@@ -18,6 +28,7 @@ There will be two major tasks in this proposal:
 
 Working with the Haskell community is the core of this project. The student will engage Haskell developers, in particular both users and authors of existing graph libraries, in order to develop a high-quality well-documented benchmarking suite. 
 Concerning Alga, there is a lot to do and again, the input of the community will be essential to decide which algorithms are needed, how to implement them, and receive feedback on the results.
+Alga is new, but the student will have support from the library author and will share the challenges with the Haskell community in blog posts.
 
 It is hoped that the project will also benefit the entire community: it will help new developers to choose the right library, help current developers of these libraries to focus on specific optimisation goals and missing features, and, finally, make algebraic graphs a real alternative to existing graph libraries.
 
