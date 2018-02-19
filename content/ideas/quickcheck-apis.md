@@ -18,7 +18,12 @@ description (and perhaps other types of description as well), that indeed need
 not even by written in Haskell. (However, since more detailed customization,
 and the definition of new conditions or predicates, would happen in Haskell,
 this tool might serve, like XMonad, as an introduction to Haskell to many
-people.)
+people.) Some related work in this space already exists: `servant-swagger`
+generates Swagger definitions from `servant` types (i.e., the opposite
+direction), and Masahiro Yamauchi has added `servant` type generation to the
+Swagger tool, though this is a large Java project that would be hard to
+distribute, and wouldn't allow for developing annotations to Swagger
+descriptions that have meaning specific to this project.
 
 Beyond the development of translation from Swagger definitions to 'servant'
 types and of the executable, the project may include defining new common
