@@ -8,25 +8,23 @@ Due to their differences and the lack of a reference benchmark, it is not easy f
 
 There will be two major tasks in this proposal:
 
-* Develop an automated and fair benchmarking suite for these libraries. The main goal is to help developers to choose easily the library that fits their project.
-The suite will benchmark:
-  * Graph construction (e.g. from a list of edges).
-  * Graph deconstruction (e.g. to a list of edges).
-  * Graph manipulation (add/remove a vertex or an edge).
-  * Graph lookup (test existence of a vertex or an edge).
-  * Graph algorithms (reachability, topsort, DFS, BFS, SCC).
-On sparse/dense and weighted/unweighted graphs.
+1. Develop an automated and fair benchmarking suite for these libraries. The main goal is to help developers to choose easily the library that fits their project.
+The suite will benchmark (on sparse/dense and weighted/unweighted graphs):
+     * Graph construction (e.g. from a list of edges).
+     * Graph deconstruction (e.g. to a list of edges).
+     * Graph manipulation (add/remove a vertex or an edge).
+     * Graph lookup (test existence of a vertex or an edge).
+     * Graph algorithms (reachability, topsort, DFS, BFS, SCC).
 
 The "automated" adjective denote the ability to automatically update benchmarks when a new version of a graph library is released.
 The "fair" one is about the community part of the project. Haskell community should agree that the libraries are used correctly and to their full potential. The student will make effort to contact library authors to receive their feedback.
 
 The aim is to complete the benchmarking suite before the mid-term evaluation. 
 
-* Help improve the [alga](https://github.com/snowleopard/alga) library. It is a promising and new approach (based on mathematical results about an algebra of graphs), but it lacks some important features, a user-friendly tutorial, and has not yet been optimised for performance. Hence the following subtasks:
-
-  * [Write a tutorial](https://github.com/snowleopard/alga/issues/41). Alga is well documented, but a new user can be lost in this new way of thinking about graphs.
-  * Implement missing algorithms and optimise existing ones on the basis of the developed benchmarking suite. Graph libraries are expected to provide some basic algorithms, but because Alga is so different from conventional graph representations most of these algorithms need to be designed from scratch.
-  * As a bonus, try to implement [edge-labelled graphs](https://github.com/snowleopard/alga/issues/17). It is a high-risk subtask, because the theory behind it is still being worked out and requires further discussions.
+2. Help improve the [alga](https://github.com/snowleopard/alga) library. It is a promising and new approach (based on mathematical results about an algebra of graphs), but it lacks some important features, a user-friendly tutorial, and has not yet been optimised for performance. Hence the following subtasks:
+     * [Write a tutorial](https://github.com/snowleopard/alga/issues/41). Alga is well documented, but a new user can be lost in this new way of thinking about graphs.
+     * Implement missing algorithms and optimise existing ones on the basis of the developed benchmarking suite. Graph libraries are expected to provide some basic algorithms, but because Alga is so different from conventional graph representations most of these algorithms need to be designed from scratch.
+     * As a bonus, try to implement [edge-labelled graphs](https://github.com/snowleopard/alga/issues/17). It is a high-risk subtask, because the theory behind it is still being worked out and requires further discussions.
 
 Working with the Haskell community is the core of this project. The student will engage Haskell developers, in particular both users and authors of existing graph libraries, in order to develop a high-quality well-documented benchmarking suite. 
 Concerning Alga, there is a lot to do and again, the input of the community will be essential to decide which algorithms are needed, how to implement them, and receive feedback on the results.
