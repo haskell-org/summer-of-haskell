@@ -31,9 +31,9 @@ predicates.
 
 Some relevant background includes:
 
-  [servant-quickcheck](https://hackage.haskell.org/package/servant-quickcheck)
-  [Haskell eXchange talk](https://skillsmatter.com/skillscasts/8723-proving-and-testing-with-servant)
-  [Swagger codegen tool](https://github.com/swagger-api/swagger-codegen)
+- [servant-quickcheck](https://hackage.haskell.org/package/servant-quickcheck)
+- [Haskell eXchange talk](https://skillsmatter.com/skillscasts/8723-proving-and-testing-with-servant)
+- [Swagger codegen tool](https://github.com/swagger-api/swagger-codegen)
 
 **Mentors**: Julian K. Arni
 
