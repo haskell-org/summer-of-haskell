@@ -52,7 +52,7 @@ Some tickets that can be reviewd:
      5140 | Fix LLVM backend for PowerPC
 
 
-**Mentor**: Dominic Steinitz (aka idontgetoutmuch aka cinimod), Ben Gamari, Matthew Pickering
+**Mentor**: Dominic Steinitz (aka idontgetoutmuch aka cinimod), Ben Gamari, Matthew Pickering, Moritz Angermann
 
 **Difficulty**: Intermediate
 
