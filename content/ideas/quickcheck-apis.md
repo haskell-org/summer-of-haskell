@@ -18,7 +18,7 @@ description (and perhaps other types of description as well), that indeed need
 not even by written in Haskell. (However, since more detailed customization,
 and the definition of new conditions or predicates, would happen in Haskell,
 this tool might serve, like XMonad, as an introduction to Haskell to many
-people.) Some related work in this space already exists: `servant-swagger`
+people.) Some related work in this space already exists: [servant-swagger](https://hackage.haskell.org/package/servant-swagger)
 generates Swagger definitions from `servant` types (i.e., the opposite
 direction), and Masahiro Yamauchi has added `servant` type generation to the
 Swagger tool, though this is a large Java project that would be hard to
@@ -28,6 +28,12 @@ descriptions that have meaning specific to this project.
 Beyond the development of translation from Swagger definitions to 'servant'
 types and of the executable, the project may include defining new common
 predicates.
+
+Some relevant background includes:
+
+  [servant-quickcheck](https://hackage.haskell.org/package/servant-quickcheck)
+  [Haskell eXchange talk](https://skillsmatter.com/skillscasts/8723-proving-and-testing-with-servant)
+  [Swagger codegen tool](https://github.com/swagger-api/swagger-codegen)
 
 **Mentors**: Julian K. Arni
 
