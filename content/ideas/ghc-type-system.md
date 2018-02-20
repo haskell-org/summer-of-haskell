@@ -9,7 +9,7 @@ be found in
 [one](https://github.com/ghc-proposals/ghc-proposals/pull/54)
 [of](https://github.com/ghc-proposals/ghc-proposals/pull/81) [several](https://github.com/ghc-proposals/ghc-proposals/pull/83)
 [related](https://github.com/ghc-proposals/ghc-proposals/pull/80)
-[proposals](https://github.com/ghc-proposals/ghc-proposals/pull/99) [posted](https://github.com/ghc-proposals/ghc-proposals/pull/102) [recently](https://github.com/ghc-proposals/ghc-proposals/pull/103). Ideas beyond those proposals includes merging
+[proposals](https://github.com/ghc-proposals/ghc-proposals/pull/99) [posted](https://github.com/ghc-proposals/ghc-proposals/pull/102) [recently](https://github.com/ghc-proposals/ghc-proposals/pull/103). Ideas beyond those proposals include merging
 the parsers for types and terms, as well as to sort out The Namespace Problem (GHC allows declarations like `data T = T`. How would that
 work in a dependently typed language where terms are not syntactically distinct from types?). A student more versed in type theory
 (e.g., having experience with [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/), among [other](http://www.cs.cmu.edu/~rwh/pfpl.html) introductions) might even attempt implementing a dependently typed Core replacement. If you like, you can
