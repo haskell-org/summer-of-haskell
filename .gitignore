@@ -1,4 +1,7 @@
 dist
+dist-newstyle
+cabal.project.local*
+.ghc.environment.*
 _cache
 _site
 .stack-work
