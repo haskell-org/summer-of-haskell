@@ -39,7 +39,7 @@ implementing automatic differentiation within the `accelerate` framework:
   library.
 
 The first strategy is likely easier, and which strategy we choose can be based
-on the exprience of the student.
+on the experience of the student.
 
 
 ### Future work / possible extensions
