@@ -24,6 +24,7 @@ be as fast as other YAML parsers, since it needs to do extra bookkeeping for the
 metadata.
 
 **Difficulty**: Beginner to Intermediate
+
 **Mentor**: Tom Sydney Kerckhove, Jasper Van der Jeugt
 
 [YAML]: http://yaml.org/
