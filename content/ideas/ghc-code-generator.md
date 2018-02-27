@@ -50,6 +50,7 @@ Some tickets that can be reviewd:
     14528 | LLVM's CallAnalyzer Breaks
      4308 | LLVM compiles Updates.cmm badly
      5140 | Fix LLVM backend for PowerPC
+    14372 | CMM contains a bunch of tail-merging opportunities 
 
 
 **Mentor**: Dominic Steinitz (aka idontgetoutmuch aka cinimod), Ben Gamari, Matthew Pickering, Moritz Angermann, Carter Schonwald (SIMD/floating point semantics and api impact focus)
