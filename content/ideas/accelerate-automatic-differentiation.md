@@ -23,23 +23,12 @@ strong static type system.
 
 ### Implementation Strategies
 
-Basic automatic differentiation is relatively straightforward to implement, but
-a general implementation requires managing edge-cases for functions defined by
-branching and/or loops. Given this, there are two principal ways to approach
-implementing automatic differentiation within the `accelerate` framework:
-
-  1. Implement a simple form of AD without edge-case handling for simple
-  automatic differentiation of `accelerate` expressions, and build edge-case
-  handling on top. The downside of this approach is that the edge-case handling
-  may be costly for some workloads.
-
-  2. Alternatively, one could attempt to encode the edge-case logic in types
-  that could be exposed to `accelerate`. This would require more work, but would
-  allow a duplication of the robust semantics and functionally of the `ad`
-  library.
-
-The first strategy is likely easier, and which strategy we choose can be based
-on the experience of the student.
+Basic sequential automatic differentiation is relatively straightforward to
+implement (as in, for example, the `ad` package) but obtaining code which can be
+executed in parallel is trickier. Recent work by Fritz Henglein and Garbiele
+Keller provides a general framework for how to differentiate linear functions;
+implementing this framework in `accelerate` would be the best path towards
+vectorised automatic differentiation.
 
 
 ### Future work / possible extensions
@@ -49,7 +38,7 @@ The use of BLAS libraries, such as via the bindings provided in
 the library.
 
 
-**Mentor**: Trevor McDonell, Edward Kmett, Sacha Sokoloski
+**Mentor**: Fritz Henglein, Gabriele Keller, Trevor McDonell, Edward Kmett, Sacha Sokoloski
 
 **Difficulty**: Advanced
 
