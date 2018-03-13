@@ -20,7 +20,7 @@ Code] program, after missing out in 2016 and 2017.
 # Students and Mentors
 
 As a student, you can apply through the
-[Summer of Code Dashboard](https://summerocode.withgoogle.com/).  If you are
+[Summer of Code Dashboard](https://summerofcode.withgoogle.com/).  If you are
 interested in mentoring, please [contact us](/contact.html) so we can add you
 to the mentor list directly.
 
