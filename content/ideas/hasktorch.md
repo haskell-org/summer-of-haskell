@@ -22,6 +22,6 @@ Initial development has been done to comprehensively bind the the core Torch API
 4. Yann Lecun. https://www.facebook.com/yann.lecun/posts/10155003011462143
 5. Atilim Gunes Baydin, Barak A. Pearlmutter, Alexey Andreyevich Radul, Jeffrey Mark Siskind. Automatic differentiation in machine learning: a survey
 
-**Difficulty**: Intermediate
+**Difficulty**: Advanced
 
 **Mentors**: Sam Stites, Tim Pierson, Austin Huang
