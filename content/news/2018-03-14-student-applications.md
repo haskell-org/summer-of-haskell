@@ -14,7 +14,8 @@ accepted into [Google Summer of Code] 2018.
         style="width: 100%;">
 
 Students application have now opened.  Students can submit their proposal at the
-[Summer of Code Dashboard](https://summerofcode.withgoogle.com/).
+[Summer of Code Dashboard](https://summerofcode.withgoogle.com/).  The deadline
+for submissions is the **27th of March**.
 
 We are also seeking mentors for possible projects.  This year, we would like to
 assign a back-up mentor for each student.  If you are interested in mentoring,
