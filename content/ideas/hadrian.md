@@ -18,10 +18,12 @@ command line flag that will need to be added to or removed from a GHC build comm
 * There is currently no support for [binary distribution](https://github.com/snowleopard/hadrian/issues/219).
 You will need to implement the corresponding build rule in Hadrian.
 
+* Help integrating the [relocatable GHC branch](https://github.com/snowleopard/hadrian/pull/445) into master.
+
 _Warning: build systems are messy, even those that are written in Haskell._ This is not a very glamorous
 project but it is a very important one: you have a chance to increase the productivity of GHC
 developers, and hence help the whole community!
 
-**Mentor**: [Andrey Mokhov](mailto:andrey.mokhov@ncl.ac.uk) (feel free to email to discuss the project).
+**Mentor**: [Andrey Mokhov](mailto:andrey.mokhov@ncl.ac.uk) (feel free to email to discuss the project)
 
 **Difficulty**: Intermediate.
