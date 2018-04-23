@@ -17,26 +17,19 @@ Code] program, after missing out in 2016 and 2017.
 
 [Google Summer of Code]: https://summerofcode.withgoogle.com/organizations/5706672807346176/
 
-# Students and Mentors
+# Selected projects for 2018
 
-As a student, you can apply through the
-[Summer of Code Dashboard](https://summerofcode.withgoogle.com/).  If you are
-interested in mentoring, please [contact us](/contact.html) so we can add you
-to the mentor list directly.
-
-If you would like to apply but you don't know how to start your proposal, have a
-look at our [ideas list](/ideas.html) and [this great
-guide](http://write.flossmanuals.net/gsocstudentguide/writing-a-proposal/).
+[We have now announced the projects for 2018](/news/2018-04-23-accepted-projects.html)!
 
 # Timeline
 
 <div class="timeline">
 
-----------  -------------------------------------
-March 12    **Student application period begins**
+----------  ----------------------------------------
+March 12    Student application period begins
 March 27    Student application deadline
-April 23    Accepted student proposals announced
-April 23    Community Bonding Period begins
+April 23    **Accepted student proposals announced**
+April 23    **Community Bonding Period begins**
 May 14      Coding officially begins!
 June 11     Phase 1 evaluations begin
 June 15     Phase 1 Evaluation deadline
@@ -45,7 +38,7 @@ July 13     Phase 2 Evaluation deadline
 August 6    End of work period
 August 21   Final evaluations deadline
 August 22   Final results announced
-----------  -------------------------------------
+----------  ---------------------------------------
 
 </div>
 
