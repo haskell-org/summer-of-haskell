@@ -1,5 +1,5 @@
 ---
-title: 'Accepted projects for 2017'
+title: 'Accepted projects for 2018'
 author: 'Jasper Van der Jeugt'
 ---
 
