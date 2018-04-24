@@ -116,7 +116,7 @@ ecosystem to parallelize their code for free.
 
 # Crucible: A Library for In-Memory Data Analysis in Haskell
 
-Student: Gagan  
+Student: Gagandeep Bhatia  
 Mentors: Marco Zocca, Andika D. Riyandi
 
 _Note: this project was slightly adjusted from its proposed form after some
