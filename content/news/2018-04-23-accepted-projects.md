@@ -35,7 +35,8 @@ Without further ado, here are the accepted projects:
 # Visual Tools and Bindings for Debugging in Code World
 
 Student: Krystal Maughan  
-Mentors: Chris Smith, Gabriel Gonzalez
+Mentors: Chris Smith, Gabriel Gonzalez  
+Blog: <https://kammitama5.github.io/>
 
 Visual Debugging tools that will allow various ages to interact with and learn
 visually while tracing their bugs in Haskell.
@@ -161,7 +162,8 @@ replacement of GHC’s core language with a dependently-typed variant.
 # Benchmarking graph libraries and optimising algebraic graphs
 
 Student: Alexandre Moine  
-Mentors: Andrey Mokhov, Alois Cochard
+Mentors: Andrey Mokhov, Alois Cochard  
+Blog: <https://blog.nyarlathotep.one/>
 
 A graph represents a key structure in computer science and they are known to be
 difficult to work with in functional programming languages. Several libraries
