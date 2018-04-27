@@ -246,7 +246,8 @@ a better IDE support.
 # Format-Preserving YAML
 
 Student: Wisnu Adi Nurcahyo  
-Mentors: Tom Sydney Kerckhove, Jasper Van der Jeugt
+Mentors: Tom Sydney Kerckhove, Jasper Van der Jeugt  
+Blog: [medium.com/@nurcahyo](https://medium.com/@nurcahyo)
 
 Sometime Stack (The Haskell Tool Stack) ask us to add an extra dependency
 manually. Suppose that we use the latest Hakyll that needs a
