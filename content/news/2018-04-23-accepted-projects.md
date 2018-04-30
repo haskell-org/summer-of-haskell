@@ -303,7 +303,7 @@ rounding off the unfinished edges of the current proposal.
 # Parallel Automatic Differentiation
 
 Student: Andrew Knapp  
-Mentors: Trevor L. McDonell, Edward Kmett, Alois Cochard
+Mentors: Sacha Sokoloski, Trevor L. McDonell, Edward Kmett, Alois Cochard
 
 Automatic Differentation (AD) is a technique for computing derivatives of
 numerical functions that does not use symbolic differentiation or
