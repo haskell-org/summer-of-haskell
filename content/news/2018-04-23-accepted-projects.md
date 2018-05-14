@@ -216,7 +216,8 @@ issue](https://github.com/haskell/cabal/issues/4206) by ezyang.
 # Functional test framework for the Haskell IDE Engine and Language Server Protocol Library
 
 Student: Luke Lau  
-Mentors: Alan Zimmerman
+Mentors: Alan Zimmerman  
+Blog: <https://lukelau.me/haskell/>
 
 The Haskell IDE Engine is a Haskell backend for IDEs, which utilises the
 Language Server Protocol to communicate between clients and servers.
