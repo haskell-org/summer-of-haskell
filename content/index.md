@@ -28,9 +28,9 @@ Code] program, after missing out in 2016 and 2017.
 ----------  ----------------------------------------
 March 12    Student application period begins
 March 27    Student application deadline
-April 23    **Accepted student proposals announced**
-April 23    **Community Bonding Period begins**
-May 14      Coding officially begins!
+April 23    Accepted student proposals announced
+April 23    Community Bonding Period begins
+May 14      **Coding officially begins!**
 June 11     Phase 1 evaluations begin
 June 15     Phase 1 Evaluation deadline
 July 9      Phase 2 evaluations begin
