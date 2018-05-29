@@ -82,6 +82,7 @@ deprecated.
 
 Student: Simon Jakobi  
 Mentors: Herbert Valerio Riedel, Alex Biehl
+Blog: <https://sjakobi.github.io/>
 
 A long-standing issue with Haskell’s documentation tool Haddock is that it needs
 to effectively re-perform a large part of the parse/template-haskell/typecheck
