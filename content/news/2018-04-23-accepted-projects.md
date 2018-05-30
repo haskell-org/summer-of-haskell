@@ -81,7 +81,7 @@ deprecated.
 # Hi Haddock
 
 Student: Simon Jakobi  
-Mentors: Herbert Valerio Riedel, Alex Biehl
+Mentors: Herbert Valerio Riedel, Alex Biehl  
 Blog: <https://sjakobi.github.io/>
 
 A long-standing issue with Haskell’s documentation tool Haddock is that it needs
