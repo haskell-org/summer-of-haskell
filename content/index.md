@@ -30,10 +30,10 @@ March 12    Student application period begins
 March 27    Student application deadline
 April 23    Accepted student proposals announced
 April 23    Community Bonding Period begins
-May 14      **Coding officially begins!**
+May 14      Coding officially begins!
 June 11     Phase 1 evaluations begin
 June 15     Phase 1 Evaluation deadline
-July 9      Phase 2 evaluations begin
+July 9      **Phase 2 evaluations begin**
 July 13     Phase 2 Evaluation deadline
 August 6    End of work period
 August 21   Final evaluations deadline
