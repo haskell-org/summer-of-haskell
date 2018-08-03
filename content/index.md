@@ -34,8 +34,8 @@ May 14      Coding officially begins!
 June 11     Phase 1 evaluations begin
 June 15     Phase 1 Evaluation deadline
 July 9      Phase 2 evaluations begin
-July 13     **Phase 2 Evaluation deadline**
-August 6    End of work period
+July 13     Phase 2 Evaluation deadline
+August 6    **End of work period**
 August 21   Final evaluations deadline
 August 22   Final results announced
 ----------  ---------------------------------------
