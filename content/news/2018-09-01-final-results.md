@@ -5,11 +5,11 @@ author: 'Jasper Van der Jeugt'
 
 Hey all,
 
-Google Summer of Code 2018 is officially over.  The [Haskell.org] organisation
-had a very productive year with 17 accepted projects out of which 15 were
-successful.  We would like to thank the students and mentors for the great
-summer, and, of course, Google for its generous support towards the open source
-community.
+Google Summer of Code 2018 is officially over.  The
+[Haskell.org](http://haskell.org) organisation had a very productive year with
+17 accepted projects out of which 15 were successful.  We would like to thank
+the students and mentors for the great summer, and, of course, Google for its
+generous support towards the open source community.
 
 Before we get into the summary of this year, we'd like to bring attention to the
 fact that we will soon start preparing for GSoC 2019.  This means we will be
@@ -20,9 +20,11 @@ looking for:
   Haskell ecosystem.  If that is the case, please submit a PR against
   [this repo](https://github.com/haskell-org/summer-of-haskell) or just shoot us
   an email.
+
 - *Mentors*: If you are interested in mentoring a student throughout the summer,
   feel free to contact us.  You do not need a specific project idea -- anyone
   with some Haskell experience willing to help others is welcome.
+
 - *Students*: If you are thinking about applying to Haskell.org next year, it's
   never too early to look for interesting projects.
 
