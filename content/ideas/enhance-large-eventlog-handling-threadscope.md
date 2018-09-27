@@ -19,9 +19,12 @@ the mentor of this project, however there are [bugs to fix][4] and [code to
 refactor][5] before actually implementing this feature, and the actual
 implementation plan is open to discussion.
 
+In addition to Haskell experience, GTK+ experience will be useful for this
+project.
+
 **Mentor**: Ömer Sinan Ağacan
 
-**Difficulty**: Beginner to Intermediate
+**Difficulty**: Intermediate
 
 [1]: http://hackage.haskell.org/package/ThreadScope
 [2]: http://hackage.haskell.org/package/ghc-events
