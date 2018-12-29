@@ -6,7 +6,7 @@ author: 'Jasper Van der Jeugt'
 Google Summer of Code will take place again in 2019, [for the 15th year of the
 program](https://opensource.googleblog.com/2018/11/google-summer-of-code-15-years-strong.html)!
 We are very proud that Haskell.Org has been able to take part every year except
-for the initial year (2015) and 2016-2017, when we had to resort to running our
+for the initial year (2005) and 2016-2017, when we had to resort to running our
 own program.
 
 Last year, we were fortunate enough to join again, and we think the results
