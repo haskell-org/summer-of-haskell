@@ -26,7 +26,7 @@ project.
 
 **Difficulty**: Intermediate
 
-[1]: http://hackage.haskell.org/package/ThreadScope
+[1]: https://hackage.haskell.org/package/threadscope
 [2]: http://hackage.haskell.org/package/ghc-events
 [3]: https://github.com/haskell/ThreadScope/issues/29#issuecomment-415953934
 [4]: https://github.com/haskell/ghc-events/issues/41
