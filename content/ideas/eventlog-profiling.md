@@ -18,7 +18,7 @@ logic relating to making `.hp` files can be removed from the compiler. Secondly,
 users can better correlate over events in their program with the program's memory
 usage. This would [implement a feature](https://ghc.haskell.org/trac/ghc/ticket/3021) present in `nhc98` from over 20 years ago.
 
-![heap profile](https://user-images.githubusercontent.com/1216657/50958453-a23dae00-14b8-11e9-863a-fed94b8ae7b2.png)
+![Example heap profile](https://user-images.githubusercontent.com/1216657/50958453-a23dae00-14b8-11e9-863a-fed94b8ae7b2.png)
 
 The goal of this project is to eliminate the this redundancy by making the event log
 the primary way to produce heap profiles.
@@ -41,5 +41,5 @@ improvements.
 There is also much more scope for projects involving the profiler and event log
 such as:
 
-* https://ghc.haskell.org/trac/ghc/ticket/12582
-* http://ncrashed.github.io/blog/
+* <https://ghc.haskell.org/trac/ghc/ticket/12582>
+* <http://ncrashed.github.io/blog/>
