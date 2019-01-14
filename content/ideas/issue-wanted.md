@@ -25,6 +25,12 @@ The benefits of this project are the following:
 2. Haskell backend that provides REST API for fetched information.
 3. Elm frontend that displays this information.
 
+The student is expected to implement Haskell parts of the project on top of
+existing minimalistic scaffold of `issue-wanted`. Minimal goal: be able to find
+issues from GitHub using `issue-wanted` web interface by repository labels and
+`category` field from `.cabal` file. Maximal goal: implement user authentication
+via GitHub and achievement system (to motivate contributors even more).
+
 This project is an excellent way for students to work on the real-world Haskell
 application using modern libraries and approaches.
 
