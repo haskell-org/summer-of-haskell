@@ -10,12 +10,6 @@ problems you would like to work on. The goal of
 issues using GitHub labels and various metadata fields from `.cabal` files
 (like `category`).
 
-The project contains several parts:
-
-1. Haskell process that syncs information about Haskell repositories at GitHub.
-2. Haskell backend that provides REST API for fetched information.
-3. Elm frontend that displays this information.
-
 The benefits of this project are the following:
 
 1. With `issue-wanted` it's more accessible for beginners to find interesting
@@ -25,8 +19,14 @@ The benefits of this project are the following:
    information to their packages, and this actually pays off. As a consequence,
    such projects can become more popular and gather more attention.
 
-This project is an excellent way for students to work on the real-world Haskell project
-using modern libraries and approaches.
+`issue-wanted` contains several parts:
+
+1. Haskell process that syncs information about Haskell repositories at GitHub.
+2. Haskell backend that provides REST API for fetched information.
+3. Elm frontend that displays this information.
+
+This project is an excellent way for students to work on the real-world Haskell
+application using modern libraries and approaches.
 
 **What is expected from student**
 
