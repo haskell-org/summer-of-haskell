@@ -27,6 +27,6 @@ from previously mentioned projects but by the end of the project the student sho
 be implementing their own widgets from scratch.
 
 
-**Potential Mentors**: Jonathan Daugherty
+**Potential Mentors**: Roman Joost, Jonathan Daugherty (proposal review)
 
 **Difficulty**: Beginner/Intermediate
