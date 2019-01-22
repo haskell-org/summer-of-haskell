@@ -10,6 +10,6 @@ In addition to finding and addressing performance sensitive areas themselves, th
 * address as many of these individual topics as possible
 * provide updates to the community on the performance improvements achieved
 
-**Potential Mentors**: Michael Snoyman **FIXME others?**
+**Potential Mentors**: Michael Snoyman, Niklas Hambüchen **FIXME others?**
 
 **Difficulty**: Intermediate
