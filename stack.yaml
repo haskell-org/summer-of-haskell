@@ -1,5 +1,7 @@
-resolver: lts-11.7
+resolver: lts-13.0
 extra-package-dbs: []
 packages:
 - '.'
-extra-deps: []
+extra-deps:
+- 'hakyll-4.12.5.0'
+- 'lrucache-1.2.0.1'
