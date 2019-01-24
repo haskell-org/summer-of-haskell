@@ -18,7 +18,7 @@ project in particular.
 
 The intermediate candidate could:
 
-  1) Find an interesting Haskell library or application to test;
+  1) Find a commonly used and stateful Haskell library or application to test;
 
   2) Write a state machine model, for said library or application, together with
      at least a sequential property, and possibly a parallel property as well;
