@@ -22,7 +22,7 @@ The project comprises two parts:
 * Implementation and evalutaion: you will pick the most promising optimisation opportunities
   and implement them, measuring and reporting on the resulting improvements.
 
-The project is a great way to familirise yourself with the GHC codebase, and make a 
+The project is a great way to familiarise yourself with the GHC codebase, and make a 
 concrete and measurable impact on the productivity of all GHC developers.
 
 **Mentors**: Andrey Mokhov, Alp Mestanogullari, Neil Mitchell
