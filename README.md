@@ -4,7 +4,16 @@ This is the source code for the summer of Haskell website.
 
 ## How to build this website
 
-### Using cabal
+### Using `cabal`
+
+#### Modern method (Cabal 2.4 and newer)
+
+This is the recommended method and at time of writing is known
+to work with GHC 7.10.3 through GHC 8.6.3.
+
+    cabal v2-run exes -- preview
+
+#### Legacy method
 
     cabal install --only-dependencies
     cabal build
