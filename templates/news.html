@@ -1,5 +1,19 @@
-<h1>$title$</h1>
+$for(focus)$
+  <h1>$title$</h1>
+  <p>
+    Posted on <em>$date$</em> by <em>$author$</em> (<a href="$url$">permalink</a>)
+  </p>
+
+  $body$
+$endfor$
+
+<h1>Older posts</h1>
+<ul>
+  $for(all)$
+    <li><em>$date$</em> - <a href="$url$">$title$</a></li>
+  $endfor$
+</ul>
 <p>
-  Posted on <em>$date$</em> by <em>$author$</em> (<a href="$url$">permalink</a>)
+    An <a href="http://summer.haskell.org/news.xml">RSS feed</a> is also
+    available.
 </p>
-$body$
