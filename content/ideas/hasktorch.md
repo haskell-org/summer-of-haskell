@@ -18,6 +18,6 @@ At a higher level, we want to demonstrate proof-of-concept implementations of ma
 
 Skills Used: Machine learning, basic type-level programming, typeclasses
 
-**Difficulty**: Intermediate
+**Difficulty**: Advanced
 
 **Mentors**: Sam Stites, Austin Huang
