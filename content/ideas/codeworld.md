@@ -20,6 +20,6 @@ title: Improve the CodeWorld environment for Haskell in K-12 education
 
 Additional projects are also possible, and some of the best CodeWorld projects in Summer of Code have been students proposing their own ideas after familiarizing themselves with the environment.
 
-**Potential Mentors**: Chris Smith
+**Potential Mentors**: Chris Smith, [Brandon Barker](https://github.com/bbarker/)
 
 **Difficulty**: Varies (see specific ideas above)
