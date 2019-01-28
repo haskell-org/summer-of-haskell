@@ -21,6 +21,10 @@ The project comprises two parts:
   
 * Implementation and evalutaion: you will pick the most promising optimisation opportunities
   and implement them, measuring and reporting on the resulting improvements.
+  
+We have already identified several promising opportunities for optimisation, and several 
+profiling techniques that are certain to uncover others, so there are plenty of paths to
+follow. 
 
 The project is a great way to familiarise yourself with the GHC codebase, and make a 
 concrete and measurable impact on the productivity of all GHC developers.
