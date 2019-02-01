@@ -2,12 +2,7 @@
 title: More graph algorithms for Alga
 ---
 
-While graphs are ubiquitous in computer programming,
-they have long been underrepresented in Haskell
-due to the imperative nature and lack of type-safety
-of the existing implementations.
-
-The [Algebraic Graphs library](https://github.com/snowleopard/alga) has so far succeded 
+The [Algebraic Graphs library](https://github.com/snowleopard/alga) has so far succeeded
 (thanks in part to last years summer of code) in providing a common, 
 typesafe interface for graph instances. However, general ecosystem adoption remains low,
 in part due to the lack of graph algorithms provided.
@@ -19,20 +14,24 @@ to increase the usefulness of alga for a wider audience:
 
 Acyclic graphs are both common and heavily used in dependency
 management. Improvements in this area would therefore directly
-benefit downstream packages like `build` or `aura`.
+benefit downstream packages like [build](https://github.com/snowleopard/build),
+[plutus](https://github.com/input-output-hk/plutus) or
+[aura](https://github.com/aurapm/aura),
+as well as a few commercial users of the library.
 
 In particular, the result should be a type-safe abstraction,
-that makes it easier to work with algorithms like `scc` or `topSort`.
+that makes it easier to work with algorithms like `scc` or `topSort`
+as has been remarked in [some](https://github.com/snowleopard/alga/issues/152)
+[issues](https://github.com/snowleopard/alga/issues/154).
 
 ## Goal 2: Implement common graph algorithms like Kruskal, Dijkstra and Moore-Bellman-Ford
 
-Thanks to the edge-labels developed in the build-up of
+Thanks to the edge-labelled algebraic graphs developed in the build-up of
 last year's Summer of Code, it is now possible to encode
 distances in Alga; however, this feature is rarely used
 as there are nearly zero algorithms provided.
 
-The student should provide algorithms solving the following problems 
-on at least one representation:
+The student should provide algorithms solving the following problems:
  - Finding a minimum spanning tree (Kruskal, Prim, ..)
  - Finding shortest paths (Dijkstra, Moore-Bellman-Ford, Floyd-Warshall)
 
