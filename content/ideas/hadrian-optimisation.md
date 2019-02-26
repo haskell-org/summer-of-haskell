@@ -19,7 +19,7 @@ The project comprises two parts:
   Hadrian, and in the GHC dependency graph (i.e. analyse the critical path of the build
   graph and figure out potential GHC refactoring that could reduce it).
   
-* Implementation and evalutaion: you will pick the most promising optimisation opportunities
+* Implementation and evaluation: you will pick the most promising optimisation opportunities
   and implement them, measuring and reporting on the resulting improvements.
   
 We have already identified several promising opportunities for optimisation, and several 
