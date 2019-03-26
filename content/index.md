@@ -19,10 +19,11 @@ for [Google Summer of Code 2019](https://summerofcode.withgoogle.com/)!
 
 Currently, we are accepting student proposals:
 
-- **February 26 - March 25**: Potential student participants discuss application
-   ideas with mentors
 - **March 25 - April 9**: Students can submit applications
 - **May 6**: Accepted student proposals announced
+
+**Applications can be submitted at the
+[Google Summer of Code 2019 dashboard](https://summerofcode.withgoogle.com/).**
 
 # Summary for 2018
 
