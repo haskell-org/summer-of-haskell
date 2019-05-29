@@ -12,6 +12,8 @@ The idea of the project was on the
 [ideas list](https://summer.haskell.org/ideas.html#algebraic-graphs) published
 earlier. There are two of us who were accepted for this project, the other one
 is Adithya Kumar and it is he who will be doing the part described on the list.
+He told me his GSoC blog will probably be
+[there](https://adithyaov.github.io/).
 
 My task is to introduce bipartite graphs to Alga and that is what I am going to
 tell about now.
