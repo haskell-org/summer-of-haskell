@@ -1,5 +1,5 @@
 ---
-title: 'Introducing Bipartite Graphs in Alga'
+title: 'Student Blog: Introducing Bipartite Graphs in Alga'
 author: 'Vasily Alferov'
 ---
 
