@@ -28,14 +28,14 @@ There are three common ways to represent graphs in computing:
 All three of them have their advantages and disadvantages. The most commonly
 used is the adjacency lists approach: that is storing a list of neighbors for
 each vertex. In fact, I can think of only one common algorithm for which this
-approach is not perfect: it is Cruscal's algorithm for finding the minimum
+approach is not perfect: it is Kruskal's algorithm for finding the minimum
 spanning tree.
 
 However, the problem is that feeding graphs formed this way to algorithms is
 not always safe. For example, if the algorithm is designed for bidirectional
-graphs, it may rely on the fact that if some vertex $u$ is in the list of
-neighbors of some another vertex $v$ then $v$ is in the list of neighbors of
-$u$.
+graphs, it may rely on the fact that if some vertex `u` is in the list of
+neighbors of some another vertex `v` then `v` is in the list of neighbors of
+`u`.
 
 A traditional solution for functional programming would be to guarantee the
 consistency of input data for the algorithm by taking a representation of the
