@@ -7,7 +7,7 @@ import qualified Text.Pandoc.Walk as Pandoc.Walk
 
 main :: IO ()
 main = hakyll $ do
-    match "style/style.css" $ do
+    match "style/*.css" $ do
         route idRoute
         compile compressCssCompiler
 
