@@ -6,15 +6,15 @@ author: 'Vasily Alferov'
 I am a student at Summer of Haskell this year and this is my second post on
 this platform. In my previous
 [post](https://summer.haskell.org/news/2019-05-29-alga-introduction.html) I
-gave a brief explanation of my task. Now that I finished the huge routine
+gave a brief explanation of my task. Now that I finished the "routine"
 part of adding the necessary data types and manipulation functions, I'm here to
 tell you about my implementation of the algortihm for testing bipartiteness of
 graphs.
 
 # Vertex On Your Side
 
-This algorithm is usually one of the first graph algorithms given in the
-university course. The idea is rather straightforward. We try to assign
+This algorithm is usually one of the first graph algorithms given in any
+university course. The idea is rather straightforward: we try to assign
 vertices to left or right part in some way, and when we get a conflict, we
 claim that the graph is not bipartite.
 
@@ -33,7 +33,7 @@ There are two common ways of implementing this algorithms in linear time: using
 [Depth-First Search](https://en.wikipedia.org/wiki/Depth-first_search) or
 [Breadth-First Search](https://en.wikipedia.org/wiki/Breadth-first_search).
 We usually select DFS for this algorithm in imperative languages. The reason is
-that DFS implementation is a little bit simplier. I selected DFS, too, as a
+that DFS implementation is a little bit simpler. I selected DFS, too, as a
 traditional way.
 
 So, now we came to the following scheme. We go through the vertices in DFS
