@@ -217,7 +217,7 @@ of the algorithm.
 * `processVertex` checks if the vertex is visited and runs DFS on it if not.
 * `dfs` runs `processVertex` on all vertices.
 
-That's it — truly simple and very similar to imperative code.
+That's it.
 
 # The Story of INLINE
 
