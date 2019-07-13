@@ -194,12 +194,7 @@ detectParts g = case runState (runMaybeT dfs) Map.empty of
         dfs = msum [ processVertex v | v <- vertexList g ]
 
         oddCycle :: [a] -> [a]
-        oddCycle c = dropUntil (last c) c
-
-        dropUntil :: a -> [a] -> [a]
-        dropUntil _ []     = []
-        dropUntil x (y:yt) | y == x    = yt
-                           | otherwise = dropUntil x yt
+        oddCycle c = tail (dropWhile ((/=) last c) c)
 ```
 
 I'll try to explain each of the first four scoped functions: this is the core
