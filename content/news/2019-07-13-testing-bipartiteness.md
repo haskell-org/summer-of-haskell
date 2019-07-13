@@ -8,12 +8,17 @@ this platform. In my previous
 [post](https://summer.haskell.org/news/2019-05-29-alga-introduction.html) I
 gave a brief explanation of my task. Now that I finished the "routine"
 part of adding the necessary data types and manipulation functions, I'm here to
-tell you about my implementation of the algortihm for testing bipartiteness of
+tell you about my implementation of the algorithm for testing bipartiteness of
 graphs.
+
+A graph is called bipartite if its vertices can be splitted in two parts in
+such way that there are no edges inside one part. While testing graph on
+tripartiteness is NP-hard, there is a linear algorithm that tests graph on
+bipartiteness and restores the partition.
 
 # Vertex On Your Side
 
-This algorithm is usually one of the first graph algorithms given in any
+The algorithm is usually one of the first graph algorithms given in any
 university course. The idea is rather straightforward: we try to assign
 vertices to left or right part in some way, and when we get a conflict, we
 claim that the graph is not bipartite.
@@ -209,7 +214,7 @@ optimizer in some way that it didn't inline `action`.
 This is just a crazy thing about programming I didn't expect to come through
 with Haskell. Still, it seems that the optimizers make mistakes even in our
 time and it is our job to give them hints of what should be done. For example,
-here we knew that the function should be inline as it is in the imperative
+here we knew that the function should be inlined as it is in the imperative
 version, and that's a reason to give GHC a hint.
 
 # What Comes Next?
