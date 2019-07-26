@@ -61,7 +61,7 @@ The constructors mean the following:
 
 * `Empty` constructs an empty graph.
 * `Vertex v` constructs a graph of single vertex labeled `v`.
-* `Overlay g h` constructs a graph with sets of unions and edges united from
+* `Overlay g h` constructs a graph with sets of vertices and edges united from
   graphs `g` and `h`.
 * `Connect g h` does the same as `Overlay` and also connects all vertices of
   `g` to all vertices of `h`.
@@ -86,8 +86,8 @@ class rather than a data type. This approach is much more flexible.
 
 An important part of Alga is providing different type-safe representations for
 different kinds of graph. For example, one for edge-labeled graphs
-[was introduced](https://blog.nyarlathotep.one/2018/08/gsoc-results/) at Summer
-Of Code last year.
+[was introduced](http://hackage.haskell.org/package/algebraic-graphs-0.4/docs/Algebra-Graph-Labelled.html)
+last year.
 
 Another option is to add a representation that _restricts_ the set of possible
 graphs. One example from the ideas list is to represent only acyclic directed
