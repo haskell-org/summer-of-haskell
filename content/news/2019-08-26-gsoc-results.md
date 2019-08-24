@@ -5,28 +5,28 @@ author: 'Vasily Alferov'
 
 I am a student at Summer of Haskell this year, and that's my final post. This
 post is written to sum up the work I've done. Although this post is a formal
-requirement of GSoC, I hope that this post is attractive to everyone.
+requirement of GSoC, I wanted to publish it here to reach a wider audience.
 
 # My proposal
 
 When you apply to Summer of Code, you write a proposal. The proposal is a
 document in which you describe your ideas on the chosen project. It should be a
 clear, detailed text with suggestions on every subtask. The proposal should also
-include a timeline, in which you estimate the time you spend on every subtask.
+include a timeline, in which you estimate the time you intend to spend on each of those subtasks.
 
 I chose [this](https://summer.haskell.org/ideas.html#algebraic-graphs) project
 for my summer. In my proposal, I drafted all the algorithms mentioned in the
 list and suggested a few more. I published this part of my proposal as a Github
 gist [there](https://gist.github.com/vasalf/c246171d8ebd784487624853566b8df2).
 
-I don't suggest this gist as an example of a good proposal. It's only a part of
+I don't suggest this gist as a complete example of a good proposal: it's only a part of
 the document I submitted. You should also include some information about you,
 together with the timeline. Communication with your future mentors is also a
 significant part of the application.
 
 However, as I mentioned in
 [one of my previous posts](https://summer.haskell.org/news/2019-05-29-alga-introduction.html),
-another student is doing the part suggested in the ideas list. My task is to
+another student ended up doing the part suggested in the ideas list. So my task is to
 introduce bipartite graphs.
 
 This task was my idea. I mentioned it in my proposal. I meant that finding
@@ -37,7 +37,7 @@ an application of Dinic's algorithm.
 
 However, this option is not the best. Both algorithms have specialized
 implementations that work times faster. So my task for this summer was to
-introduce bipartite graphs and special functions for them.
+introduce bipartite graphs and special functions for working with them.
 
 # What I've done
 
@@ -52,12 +52,12 @@ declaration. After release, it will compile to beautiful Haddock file like
 
 # Part I. Definition and properties.
 
-**Link to PR:** [https://github.com/snowleopard/alga/pull/207](https://github.com/snowleopard/alga/pull/207)
+**Link to PR:** <https://github.com/snowleopard/alga/pull/207>
 
 In this part, I defined the `Bipartite.AdjacencyMap` datatype and added many
-functions for its properties.
+functions to work with adjacency maps.
 
-The datatype represents a map of vertices into their neighbours. I defined it a
+The datatype represents a map of vertices into their neighbours. I defined it as
 two maps:
 
 ```Haskell
@@ -67,16 +67,16 @@ data AdjacencyMap a b = BAM {
 }
 ```
 
-The properties are based on the
+The properties are based on the existing
 [properties](http://hackage.haskell.org/package/algebraic-graphs-0.4/docs/Algebra-Graph.html)
 of graphs in Alga.
 
 # Part II: Testing bipartiteness
 
-**Link to PR:** [https://github.com/snowleopard/alga/pull/218](https://github.com/snowleopard/alga/pull/218)
+**Link to PR:** <https://github.com/snowleopard/alga/pull/218>
 
-There is a folklore algorithm that tests a given graph on being bipartite. The
-task to implement this algorithm in Haskell was a little challenge for me.
+There is a folklore algorithm that checks if a given graph is bipartite. The
+task to implement this algorithm in Haskell was a little challenging for me.
 
 I finished up with the following definition of the function:
 
@@ -94,7 +94,7 @@ interesting benchmarks that pointed me to use the explicit `INLINE` directive.
 
 # [WIP] Part III. Graph families.
 
-**Link to the unfinished PR**: [https://github.com/snowleopard/alga/pull/226](https://github.com/snowleopard/alga/pull/226)
+**Link to the unfinished PR**: <https://github.com/snowleopard/alga/pull/226>
 
 Some families of graphs are bipartite: simple paths, even cycles, trees,
 bicliques, etc. The task is to provide a simple method to construct all those
@@ -124,11 +124,11 @@ So the `path` definition is:
 path :: (Ord a, Ord b) => List a b -> AdjacencyMap a b
 ```
 
-As for now, the PR is almost merge-ready, only several small notices need fixes.
+As for now, the PR is almost merge-ready, only several small comments need fixes.
 
 # [WIP] Part IV. Hopcroft-Karp algorithm for maximum matchings
 
-**Link to the unfinished PR**: [https://github.com/snowleopard/alga/pull/229](https://github.com/snowleopard/alga/pull/229)
+**Link to the unfinished PR**: <https://github.com/snowleopard/alga/pull/229>
 
 This algorithm is the fastest one for maximum matchings in bipartite graphs. The
 implementation is rather straightforward.
