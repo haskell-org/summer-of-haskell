@@ -84,8 +84,8 @@ I finished up with the following definition of the function:
 detectParts :: Ord a => AM.AdjacencyMap a -> Either (OddCycle a) (AdjacencyMap a a)
 ```
 
-This naturally means that the graph is either bipartite or contains an odd
-cycle.
+It is known that a graph is bipartite if and only if it contains no cycles of
+odd length. This function either finds an odd cycle or returns a partition.
 
 The implementation is so exciting that I wrote a whole
 [post](https://summer.haskell.org/news/2019-07-26-testing-bipartiteness.html)
