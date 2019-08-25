@@ -1,5 +1,5 @@
 ---
-title: 'Student Blog: GSoC Results'
+title: 'Student Blog: Results for Bipartite Graphs Project'
 author: 'Vasily Alferov'
 ---
 
