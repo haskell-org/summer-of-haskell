@@ -9,25 +9,10 @@ encourage them to contribute to the Haskell community with the aid of
 experienced mentors.  This program is open to college students, 18 or older, in
 most countries.
 
-# Google Summer of Code 2019
+# Google Summer of Code 2020
 
 <img src="/images/gsoc-logo.svg" alt="Google Summer of Code"
         style="width: 100%;">
 
-We have been [accepted](/news/2019-02-26-accepted-for-gsoc.html)
-for [Google Summer of Code 2019](https://summerofcode.withgoogle.com/)!
-
-Currently, we are accepting student proposals:
-
-- **March 25 - April 9**: Students can submit applications
-- **May 6**: Accepted student proposals announced
-
-**Applications can be submitted at the
-[Google Summer of Code 2019 dashboard](https://summerofcode.withgoogle.com/).**
-
-# Summary for 2018
-
-The Google Summer of Code 2018 program has ended.
-[You can read about the final results for Haskell.org
-here](/news/2018-09-01-final-results.html).  We are already looking forward to
-the next edition!
+We are currently planning to apply to Google Summer of Code 2020.  You can
+help us out by [contributing ideas](/news/2020-01-11-call-for-ideas.html).
