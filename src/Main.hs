@@ -7,7 +7,7 @@ import qualified Text.Pandoc.Walk as Pandoc.Walk
 
 main :: IO ()
 main = hakyll $ do
-    match "style/style.css" $ do
+    match "style/*.css" $ do
         route idRoute
         compile compressCssCompiler
 
@@ -28,28 +28,22 @@ main = hakyll $ do
             loadAndApplyTemplate "templates/default.html" defaultContext >>=
             relativizeUrls
 
+    match "content/news/*" $ version "plain" $
+        -- A plain version just with the content.
+        compile $ fmap demoteHeaders <$> pandocCompiler
+
     match "content/news/*" $ do
         route $ dropContentRoute `composeRoutes` setExtension "html"
-        compile $
-            pandocCompiler >>=
-            return . fmap demoteHeaders >>=
-            loadAndApplyTemplate "templates/news.html" newsContext >>=
-            saveSnapshot "content" >>=
-            loadAndApplyTemplate "templates/default.html" defaultContext >>=
-            relativizeUrls
+        compile $ getUnderlying >>= newsPage . Just
 
-    match "content/news.html" $ do
+    create ["content/news.html"] $ do
         route $ dropContentRoute `composeRoutes` setExtension "html"
-        compile $
-            getResourceString >>=
-            applyAsTemplate newsIndexContext >>=
-            loadAndApplyTemplate "templates/default.html" defaultContext >>=
-            relativizeUrls
+        compile $ newsPage Nothing
 
     create ["news.xml"] $ do
         route idRoute
         compile $
-            loadAllSnapshots "content/news/*" "content" >>=
+            loadAll ("content/news/*" .&&. hasVersion "plain") >>=
             fmap (take 10) . recentFirst >>=
             renderRss newsRssConfig newsRssContext
 
@@ -107,17 +101,39 @@ ideasContext =
     listField "ideas" ideaContext (loadAll "content/ideas/*") <>
     defaultContext
 
+newsPage :: Maybe Identifier -> Compiler (Item String)
+newsPage mbIdent =
+    makeItem "" >>=
+    loadAndApplyTemplate "templates/news.html" (newsIndexContext focus) >>=
+    loadAndApplyTemplate "templates/default.html" defaultContext >>=
+    relativizeUrls
+  where
+    -- If 'mbIdent' is specified, use that news item, otherwise use the most
+    -- recent one.
+    focus = case mbIdent of
+        Just i  -> do
+            item <- load (setVersion (Just "plain") i)
+            return [item]
+        Nothing -> do
+            items <- loadAll ("content/news/*" .&&. hasVersion "plain")
+            take 1 <$> recentFirst items
+
 newsContext :: Context String
 newsContext =
     dateField "date" "%B %e, %Y" <>
+    field "url" (\item -> do
+        -- We hijack/override the "url" field to get the "url" field of the
+        -- item without a version instead.  If we'd get the regular "plain"
+        -- version, we would end up without a URL.
+        mbRoute <- getRoute (setVersion Nothing $ itemIdentifier item)
+        return $ maybe mempty toUrl mbRoute) <>
     defaultContext
 
-newsIndexContext :: Context String
-newsIndexContext =
-    listField "posts" newsContext
-        (loadAllSnapshots "content/news/*" "content" >>= recentFirst) <>
-    listField "last" newsContext
-        (loadAllSnapshots "content/news/*" "content" >>= fmap (take 1) . recentFirst) <>
+newsIndexContext :: Compiler [Item String] -> Context String
+newsIndexContext focus =
+    listField "focus" newsContext focus <>
+    listField "all" newsContext
+        (loadAll ("content/news/*" .&&. hasVersion "plain") >>= recentFirst) <>
     defaultContext
 
 newsRssConfig :: FeedConfiguration
