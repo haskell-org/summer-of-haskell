@@ -15,4 +15,4 @@ most countries.
         style="width: 100%;">
 
 We are currently planning to apply to Google Summer of Code 2020.  You can
-help us out by [contributing ideas](/news/2020-01-11-call-for-ideas.html).
+help us out by [contributing ideas](/news/2020-01-12-call-for-ideas.html).
