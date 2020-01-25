@@ -1,4 +1,6 @@
-# Lua interface to the http-client library
+---
+title: Lua interface to the http-client library
+---
 
 The HsLua library allows to embed an interpreter for the [Lua]
 programming language into programs written in Haskell. One example is
