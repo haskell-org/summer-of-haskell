@@ -4,7 +4,7 @@ title: OpenTelemetry support for Haskell
 
 # What this project is about
 
-OpenTelemetry is a set of APIs and protocols for instrumenting code, gathering
+[OpenTelemetry](https://opentelemetry.io/) is a set of APIs and protocols for instrumenting code, gathering
 traces and metrics produced by running that code and analyzing all that data.
 
 Despite being targeted primarily at distributed systems it also can be useful for
@@ -20,8 +20,8 @@ to cover all of the OpenTelemetry API and to support all export targets.
 # The current state of the library
 
 * Minimal implementation of Trace portion of OpenTelemetry API
-* Exporter to a local file in [Chrome Tracing format]()
-* WIP: Exporter to [LightStep](), one of the services for analyzing telemetry
+* Exporter to a local file in [Chrome Tracing format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview)
+* WIP: Exporter to [LightStep](https://lightstep.com), one of the services for analyzing telemetry
   data. Will be functional before GSoC starts and serve as a starting point for
   implementing other exporters.
 
