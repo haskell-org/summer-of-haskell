@@ -9,19 +9,31 @@ traces and metrics produced by running that code and analyzing all that data.
 
 Despite being targeted primarily at distributed systems it also can be useful for
 non-networked single machine applications like CLI tools and GUI applications.
-This is especially important for Haskell since it's rather hard to profile Haskell
-applications compared to other languages: separate profiling build is required,
-profile visualizer tools don't enjoy hundreds of person-years spent on them.
+
+# Why Haskell should support OpenTelemetry
+
+Supporting a language-agnostic format like OpenTelemetry is important for Haskell
+because the profiling story is rather immature compared to other languages:
+
+  * Tools for visualizing profile data like ThreadScope and ghc-events-analyze didn't enjoy hundreds of person-years spent on them
+  * Haskell code needs to be rebuilt with profiling support
+  * But that might affect some optimizations you'd get a profile of not the thing you are running in production
+
+Instrumentation-based approach allows to have profiling data without recompiling your application and dependencies.
+
+Already existing tools like [Jaeger](https://www.jaegertracing.io/) and
+[LightStep](https://lightstep.com) can be used to visualize and explore the
+telemetry data.
+
+# The current state of the library
 
 The [current implementation](https://github.com/ethercrow/opentelemetry-haskell)
 of OpenTelemetry for Haskell is in its infancy and needs contributions
 to cover all of the OpenTelemetry API and to support all export targets.
 
-# The current state of the library
-
 * Minimal implementation of Trace portion of OpenTelemetry API
 * Exporter to a local file in [Chrome Tracing format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview)
-* WIP: Exporter to [LightStep](https://lightstep.com), one of the services for analyzing telemetry
+* WIP: Exporter to LightStep, one of the services for analyzing telemetry
   data. Will be functional before GSoC starts and serve as a starting point for
   implementing other exporters.
 
@@ -39,6 +51,10 @@ to cover all of the OpenTelemetry API and to support all export targets.
 * Developers of distributed systems which have components implemented in Haskell
 * Developers of Haskell applications and libraries that have some sufficiently slow parts
 * Indirectly: users of said systems and applications enjoying faster software
+
+# Additional links
+
+* [OpenTelemetry spec](https://github.com/open-telemetry/opentelemetry-specification)
 
 **Mentors**: Dmitry Ivanov
 
