@@ -10,6 +10,6 @@ To reach the goal the candidate could implement the [quadratic sieve](https://en
 
 The candidate should have a basic knowledge of linear algebra and number theory and be willing to learn more. This project may be a good fit for students with a strong mathematical background, but little practice in Haskell, because it is self-contained and involves neither scary types nor arcane interfaces.
 
-**Mentor**: Andrew Lelechenko.
+**Mentors**: Andrew Lelechenko, Sergey Vinokurov.
 
 **Difficulty**: Intermediate.
