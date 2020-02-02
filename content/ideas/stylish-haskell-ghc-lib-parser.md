@@ -4,7 +4,6 @@ title: Update stylish-haskell to use ghc-lib-parser
 
 [stylish-haskell] is a Haskell prettifier that currently uses
 [haskell-src-exts] as parser workhorse to parse Haskell code into an AST.
-
 Unfortunately, `haskell-src-exts` is not actively
 [maintained][haskell-src-exts-maintenance] at this point
 and it can not keep up with the de-facto standard compiler, GHC.
