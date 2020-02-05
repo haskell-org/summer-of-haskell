@@ -60,6 +60,10 @@ Example screenshot showing a trace of `stack build` executed in an already built
 
 * [OpenTelemetry spec](https://github.com/open-telemetry/opentelemetry-specification)
 
-**Mentors**: Dmitry Ivanov
+**Mentors**:
+
+- Dmitry Ivanov
+- Elena Kovalenko
+- Dmitrii Dolgov
 
 **Difficulty**: Any
