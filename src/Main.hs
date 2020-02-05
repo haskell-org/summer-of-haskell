@@ -57,7 +57,7 @@ main = hakyll $ do
 
     match "content/ideas/*" $ compile $
         pandocCompiler >>=
-        return . fmap demoteHeaders
+        return . fmap (demoteHeaders . demoteHeaders)
 
     match "templates/*" $ compile templateCompiler
 
