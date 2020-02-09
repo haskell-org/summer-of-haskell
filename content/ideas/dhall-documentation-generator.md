@@ -48,7 +48,7 @@ adding features common to other documentation generators, such as:
 * Type on hover (within the rendered source code)
 * Jump to definition (within the rendered source code)
 
-**Potential Mentors**: Gabriel Gonzalez, Simon Jakobi
+**Potential Mentors**: Gabriel Gonzalez, Simon Jakobi, Profpatsch
 
 **Difficulty**: Beginner
 
