@@ -8,7 +8,7 @@ The most advanced existing Haskell implementations still use integer factorizati
 
 To reach the goal the candidate could implement the [quadratic sieve](https://en.wikipedia.org/wiki/Quadratic_sieve), achieving decent performance characteristics. If there is still time left, we will proceed with the [general number field sieve](https://en.wikipedia.org/wiki/General_number_field_sieve).
 
-The candidate should have a basic knowledge of linear algebra and number theory and be willing to learn more. This project may be a good fit for students with a strong mathematical background, but little practice in Haskell, because it is self-contained and involves neither scary types nor arcane interfaces.
+The candidate should have a basic knowledge of linear algebra and number theory and be willing to learn more. This project may be a good fit for students with a strong mathematical background, but little practice in Haskell, because it is self-contained and involves neither scary types nor arcane interfaces. We nevertheless expect a decent understanding of [Haskell 2010](https://www.haskell.org/onlinereport/haskell2010/) (standard types and classes, folds, monads) and an acquaintance with core libraries, e. g., `containers` and `vector`. 
 
 **Mentors**: Andrew Lelechenko, Sergey Vinokurov.
 
