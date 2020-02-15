@@ -2,7 +2,7 @@
 title: '"New heads for Hydra": enhancing the framework for real world apps'
 ---
 
-## Hydra showcase project
+# Hydra showcase project
 
 The [Hydra][hydra] project is aimed to be a showcase for Software Design practices,
 and application architectures, best practices and patterns of building big,
@@ -27,7 +27,7 @@ The Hydra project also provides several demo applications and a testing framewor
 
 The Hydra project is a showcase project for the book ["Functional Design and Architecture"][book].
 
-## Tasks
+# Tasks
 
 The framework can be improved in many ways.
 
