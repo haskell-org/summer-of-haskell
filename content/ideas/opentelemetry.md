@@ -37,9 +37,7 @@ to cover all of the OpenTelemetry API and to support all export targets.
   data. Will be functional before GSoC starts and serve as a starting point for
   implementing other exporters.
 
-Example screenshot showing a trace of `stack build` executed in an already built project:
-
-![stack_build_trace][https://user-images.githubusercontent.com/222467/73593896-eb6c0000-4508-11ea-81b7-772fef3cadff.png]
+![Example screenshot showing a trace of `stack build` executed in an already built project](https://user-images.githubusercontent.com/222467/73593896-eb6c0000-4508-11ea-81b7-772fef3cadff.png)
 
 # Possible tasks for GSoC
 

@@ -173,6 +173,7 @@ blockquote {
   position: relative;
   margin: 0px 0px 0px 24px;
 }
+
 blockquote:before {
   content: "\201C";
   font-family: Georgia, serif;
@@ -181,4 +182,9 @@ blockquote:before {
   left: -64px;
   font-size: 128px;
   top: -32px;
+}
+
+/* Scale images down to text width. */
+figure img {
+  max-width: 90%;
 }

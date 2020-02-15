@@ -1,5 +1,5 @@
 ---
-title: "New heads for Hydra": enhansing the framework for real world apps
+title: '"New heads for Hydra": enhancing the framework for real world apps'
 ---
 
 ## Hydra showcase project
