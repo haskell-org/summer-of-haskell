@@ -3,7 +3,7 @@ title: Interactive reports for smos
 ---
 
 
-[Smos]((https://smos.cs-syd.eu) has a bunch of nice reports via `smos-query`
+[Smos](https://smos.cs-syd.eu) has a bunch of nice reports via `smos-query`
 but they are not interactive.
 There is one interactive report within smos: the next-action report.
 It would be nicer for users if they could stay within the editor to browse
