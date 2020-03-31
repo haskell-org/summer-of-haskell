@@ -16,12 +16,12 @@ most countries.
 
 We have been
 [accepted](https://summerofcode.withgoogle.com/organizations/6387985961975808/)
-for [Google Summer of Code 2019](https://summerofcode.withgoogle.com/)!
+for [Google Summer of Code 2020](https://summerofcode.withgoogle.com/)!
 
 Currently, we are accepting student proposals:
 
-- **Until April 1**: Students can submit applications
-- **May 5**: Accepted student proposals announced
+- **Until March 31**: Students can submit applications
+- **May 4**: Accepted student proposals announced
 
 There is a more detailed
 [timeline on the GSoC homepage](https://summerofcode.withgoogle.com/how-it-works/#timeline).
@@ -29,4 +29,4 @@ Note that due to the COVID-19 pandemic, several changes have been made to this
 timeline recently.
 
 **Applications can be submitted at the
-[Google Summer of Code 2019 dashboard](https://summerofcode.withgoogle.com/).**
+[Google Summer of Code 2020 dashboard](https://summerofcode.withgoogle.com/).**
