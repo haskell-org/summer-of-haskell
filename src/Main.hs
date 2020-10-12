@@ -85,7 +85,7 @@ addAnchors =
     addAnchor :: Pandoc.Block -> Pandoc.Block
     addAnchor (Pandoc.Header level attr@(id_, _, _) content) =
         Pandoc.Header level attr $ content ++
-            [Pandoc.Link ("", ["anchor"], []) [Pandoc.Str "🔗"] ('#' : id_, "")]
+        [Pandoc.Link ("", ["anchor"], []) [Pandoc.Str "🔗"] ("#" <> id_, "")]
     addAnchor block = block
 
 -- | Context for an individual "idea".
