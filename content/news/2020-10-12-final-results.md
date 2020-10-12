@@ -60,7 +60,7 @@ reports from the students for your convenience.
 9.  **Multiple Home Packages for GHC**  
     Student: fendor  
     Mentors: Zubin Duggal, John Ericson, Matthew Pickering  
-    [Student report](https://gist.github.com/fendor/5b26d36538787c8c2ed8c6eb6e68541f)
+    [Student report](https://mpickering.github.io/ide/posts/2020-10-12-multiple-home-units.html)
 
     > Haskell IDE Engine was the first open source project I ever contributed
     > to, and over time, it became of a project of passion for me. Over the
