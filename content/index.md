@@ -14,19 +14,12 @@ most countries.
 <img src="/images/gsoc-logo.svg" alt="Google Summer of Code"
         style="width: 100%;">
 
-We have been
-[accepted](https://summerofcode.withgoogle.com/organizations/6387985961975808/)
-for [Google Summer of Code 2020](https://summerofcode.withgoogle.com/)!
+GSoC 2020 is over!  You can read more about our projects in our
+[wrap-up blogpost](/news/2020-10-12-final-results.html).
 
-Currently, we are accepting student proposals:
+# Google Summer of Code 2021
 
-- **Until March 31**: Students can submit applications
-- **May 4**: Accepted student proposals announced
-
-There is a more detailed
-[timeline on the GSoC homepage](https://summerofcode.withgoogle.com/how-it-works/#timeline).
-Note that due to the COVID-19 pandemic, several changes have been made to this
-timeline recently.
-
-**Applications can be submitted at the
-[Google Summer of Code 2020 dashboard](https://summerofcode.withgoogle.com/).**
+Google will be hosting GSoC again in 2021, and of course we plan to apply again.
+If you have ideas for projects that students could work on, we'll be using the
+same format as the years before -- [this page](/ideas.html) has more information
+on how to submit an idea.
