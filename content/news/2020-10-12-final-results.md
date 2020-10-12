@@ -81,8 +81,22 @@ reports from the students for your convenience.
     [Student report](https://github.com/folidota/GSoC2020/blob/master/GSoC2020/NumberFieldSieves.pdf)
 
 11. **Optimising Haskell developer tool performance using OpenTelemetry**  
-    Student: mpardalos  
+    Student: Michalis Pardalos  
     Mentors: Dmitry Ivanov, Matthew Pickering  
+
+    > My project was about adding support for opentelemetry tracing into ghcide,
+    > the core component of haskell-language-server. I had very little
+    > experience with open-source development, or the internals of haskell
+    > and ghc before this project and I can say for sure that this has
+    > changed. Aside from working on ghcide itself, I also had to submit patches
+    > to haskell-opentelemetry, implementing features necessary for this
+    > project. When the project was blocked by a ghc bug, I also took this as an
+    > opportunity to dive into ghc and fix it myself, which I found incredibly
+    > rewarding and consider a valuable experience.
+    >
+    > Even though I ended up running out of time and not finishing everything
+    > I hoped for in the project, I can say for sure that it was a positive
+    > experience which I would absolutely recommend.
 
 12. **Update stylish-haskell to use ghc-lib-parser**  
     Student: Beatrice Vergani  
