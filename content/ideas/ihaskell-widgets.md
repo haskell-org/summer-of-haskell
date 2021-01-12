@@ -20,6 +20,6 @@ Lindeque
 
 **Difficulty**: Beginner
 
-[ihaskell-ipywidgets]: https://github.com/gibiansky/IHaskell/tree/master/ihaskell-display/ihaskell-widgets
+[ihaskell-widgets]: https://github.com/gibiansky/IHaskell/tree/master/ihaskell-display/ihaskell-widgets
 [ihaskell]: https://github.com/gibiansky/IHaskell
 [ipywidgets]: https://ipywidgets.readthedocs.io/en/latest/
