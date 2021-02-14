@@ -6,7 +6,7 @@ Hasktorch is a library for neural networks and tensor math in Haskell.
 It is leveraging the C++ backend of PyTorch for fast numerical computation with GPU support.
 Our goal with Hasktorch is to provide a platform for machine learning using typed functional programming.
 
-This summer, we have selected two exciting projects for GSoC contributors:
+This summer, we have selected three exciting projects for GSoC contributors:
 
 ### Integration between Hasktorch and Huggingface
 
@@ -45,6 +45,30 @@ A [proof of concept](https://twitter.com/tscholak/status/1356772217883869184?s=2
 Haskell support for DVC (data version control https://github.com/iterative/dvc) - a library that defines cross-language protocols supporting versioning datasets for machine learning and tracking/persistence of ML experiments.
 
 Wandb: A central dashboard to keep track of your hyperparameters, system metrics, and predictions so you can compare models live, and share your findings.
+
+### Gradually Typed Hasktorch
+
+Gradually typed Hasktorch, `Torch.GraduallyTyped`, is a new API for tensors and neural networks that interpolates between the already existing unchecked (untyped) and checked (typed) Hasktorch APIs, `Torch` and `Torch.Typed`. Thus far users had to choose if they wanted to commit fully to either typed or untyped tensors and models, the gradually typed API relaxes this black and white tradeoff and makes it more granular. In `Torch.GraduallyTyped`, users can choose whether or not they want type checking for every individual type variable (like a tensor's or model's device, their precision, or their shape). This allows users to enjoy the flexibility of an unchecked API for rapid prototyping, while they can also add as much type checking as they want later on. Alternatively, users can start with fully checked tensor and model types and relax them a bit here and there when they get in the way. Thus, `Torch.GraduallyTyped` combines the best of both worlds, of checked and of unchecked Hasktorch.
+
+In particular, consider that a typed tensor, `Torch.Typed.Tensor`, has three type annotations: a static device (of kind `(DeviceType, Nat)`), a precision (of kind `DType`), and a shape (of kind `[Nat]`). In the gradually typed API, these types are optional:
+
+* `(DeviceType, Nat)` becomes `Device (DeviceType Nat)` where `Device a ~ Maybe a` (i.e. `data Device a = UncheckedDevice | Device a`).
+* `DType` becomes `DataType DType` where `DataType a ~ Maybe a`.
+* `[Nat]` becomes `Shape [Dim (Name Symbol) (Size Nat)]` where `Shape a ~ Maybe a`, `Name a ~ Maybe a`, and `Size a ~ Maybe a`.
+
+The existing unchecked and checked APIs are thus special cases of the new gradually typed API. One can define:
+
+```haskell
+type UncheckedTensor = Tensor 'UncheckedDevice 'UncheckedDataType 'UncheckedShape
+type CheckedTensor deviceType dtype dims = Tensor ('Device deviceType) ('DataType dtype) ('Shape (ToGradualDims dims))
+```
+
+Here, `ToGradualDims` is a type family that converts types of kind `[(Symbol, Nat)]` to those of kind `[Dim (Name Symbol) (Size Nat)]`.
+
+In the case where things are tracked in the type system one doesn't need to specify them at the value level. However, when they are unchecked, one definitely needs to specify them. so the API needs to be flexible in this regard. In `Torch.GraduallyTyped`, smart constructors for tensors and model ADTs change signature depending on whether a type application is `~ Nothing` (unchecked) or not (checked). In the former case (and only in the former case), an additional value has to be provided.
+
+For GSoC, we are looking for individuals who are interested in developing the gradually typed API further, add missing functionality, and test out new ideas.
+
 
 ## Potential Mentors:
 
