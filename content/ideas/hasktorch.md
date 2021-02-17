@@ -6,7 +6,7 @@ Hasktorch is a library for neural networks and tensor math in Haskell. It is lev
 
 This summer, we have selected three exciting projects for GSoC contributors:
 
-### Integration between Hasktorch and Huggingface
+# Integration between Hasktorch and Huggingface
 
 Make State-of-the-art pre-trained neural network language models in Haskell.
 
@@ -45,7 +45,7 @@ A [proof of concept](https://twitter.com/tscholak/status/1356772217883869184?s=2
 **Difficulty**: Intermediate
 
 
-### Model Monitoring And Data Version Control
+# Model Monitoring And Data Version Control
 
 Haskell support for DVC (data version control https://github.com/iterative/dvc) - a library that defines cross-language protocols supporting versioning datasets for machine learning and tracking/persistence of ML experiments.
 
@@ -56,7 +56,7 @@ Wandb: A central dashboard to keep track of your hyperparameters, system metrics
 **Difficulty**: Intermediate
 
 
-### Gradually Typed Hasktorch
+# Gradually Typed Hasktorch
 
 Gradually typed Hasktorch, `Torch.GraduallyTyped`, is a new API for tensors and neural networks that interpolates between the already existing unchecked (untyped) and checked (typed) Hasktorch APIs, `Torch` and `Torch.Typed`, respectively. Thus far, users have to choose whether they want to commit fully to either typed or untyped tensors and models. The new gradually typed API relaxes this black-and-white tradeoff and makes the decision more granular. In `Torch.GraduallyTyped`, users can choose whether or not they want type checking for every individual type variable, like a tensor's compute device (e.g. the CPU or a GPU), its precision (`Bool`, `Int64`, `Float`, etc.), or its shape (the names and sizes of its dimensions). Thus, users can enjoy the flexibility of an unchecked API for rapid prototyping, while they can also add as much type checking as they want later on. Alternatively, users can start with fully checked tensor and model types and relax them when and where they get in the way. Thus, `Torch.GraduallyTyped` combines the best of both worlds, of checked and of unchecked Hasktorch.
 
