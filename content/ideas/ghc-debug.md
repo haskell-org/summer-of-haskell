@@ -29,6 +29,7 @@ before a proposal is submitted.
 * [Example of analysing fragmentation](https://well-typed.com/blog/2021/01/fragmentation-deeper-look/)
 
 **Mentors**: Matthew Pickering
+
 **Difficulty**: Advanced
 
 [ghc-debug]: https://gitlab.haskell.org/ghc/ghc-debug
