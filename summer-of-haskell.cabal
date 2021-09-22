@@ -24,6 +24,6 @@ Executable summer-of-haskell
   Build-depends:
     base         >= 4.8  && < 5,
     filepath     >= 1.4  && < 1.5,
-    hakyll       >= 4.10 && < 4.14,
-    pandoc       >= 2.10 && < 2.11,
-    pandoc-types >= 1.17 && < 1.22
+    hakyll       >= 4.10 && < 4.15,
+    pandoc       >= 2.10 && < 2.15,
+    pandoc-types >= 1.17 && < 1.23
