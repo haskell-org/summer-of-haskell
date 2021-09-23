@@ -29,7 +29,7 @@ which is super exciting.
 
 3.  **Dhall bindings to TOML configuration language**  
     Student: Marcos Lerones  
-    Mentors: Gabriel Gonzalez, Simon Jakobi  
+    Mentors: Gabriella Gonzalez, Simon Jakobi  
     [Student report](https://dev.to/marcosjlr/google-summer-of-code-summary-dhall-bindings-to-csv-4g0f)
 
 4.  **Haskell in CodeMirror 6**  
@@ -88,7 +88,7 @@ which is super exciting.
 
 10. **TOML Support in dhall-haskell**  
     Student: Julio Grillo  
-    Mentors: Gabriel Gonzalez, Simon Jakobi  
+    Mentors: Gabriella Gonzalez, Simon Jakobi  
     [Student report](https://gist.github.com/ear7h/78265c4755adc01fa6e6a19e3307ef4d)
 
 We hope that Google hosts the program in 2022; and in that case we plan to apply
