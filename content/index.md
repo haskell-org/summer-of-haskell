@@ -14,11 +14,5 @@ most countries.
 
 # Google Summer of Code 2021
 
-[We have been accepted in GSoC 2021](https://summerofcode.withgoogle.com/organizations/5997747863289856/)!
-Students can find [the list of ideas here](/ideas.html), and we're still taking
-suggestions for additional ideas as well.
-
-# Google Summer of Code 2020
-
-GSoC 2020 is over!  You can read more about our projects in our
-[wrap-up blogpost](/news/2020-10-12-final-results.html).
+GSoC 2021 is over!  You can read more about our projects in our
+[wrap-up blogpost](/news/2021-09-23-final-results.html)
