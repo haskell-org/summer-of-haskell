@@ -12,6 +12,11 @@ most countries.
 <img src="/images/gsoc-logo.svg" alt="Google Summer of Code"
         style="width: 100%;">
 
+# Google Summer of Code 2022
+
+We are [looking for ideas](/ideas.html) that students could work on during
+Google Summer of Code 2022.
+
 # Google Summer of Code 2021
 
 GSoC 2021 is over!  You can read more about our projects in our
