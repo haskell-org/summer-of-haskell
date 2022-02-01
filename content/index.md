@@ -15,7 +15,7 @@ most countries.
 # Google Summer of Code 2022
 
 Google Summer of Code 2022
-[has been announced with some changes](/news/2022-02-01-gsoc-changes-2022.html)
+[has been announced with some changes](/news/2022-02-01-gsoc-changes-2022.html).
 We are currently [looking for ideas](/ideas.html) that students/contributors
 could work on during Google Summer of Code 2022.
 
