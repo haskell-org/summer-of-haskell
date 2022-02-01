@@ -185,6 +185,6 @@ blockquote:before {
 }
 
 /* Scale images down to text width. */
-figure img {
+figure img, main p img {
   max-width: 90%;
 }
