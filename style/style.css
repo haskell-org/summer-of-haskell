@@ -185,6 +185,16 @@ blockquote:before {
 }
 
 /* Scale images down to text width. */
-figure img, main p img {
+figure {
+  margin: 0;
+  text-align: center
+}
+
+figure img {
   max-width: 90%;
+  margin: 2em auto 2em auto;
+}
+
+figcaption {
+  display: none;
 }
