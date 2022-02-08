@@ -8,9 +8,9 @@ That patterns run throughout technology and the arts and crafts allows us to app
 
 A project idea for the Summer of Haskell then could make use of Haskell's advanced type system for formalising the structures underlying such an arts or crafts practice. Once formalised, this could be developed into creative user interfaces for making new patterns.
 
-Such a project would not necessarily require Haskell or other programming skills, if the mentee is happy to develop such skills during the project. Much more important would be expertise in the artform or craft that is to be translated into code.
+Such a project would not necessarily require Haskell or other programming skills, if the mentee is happy to develop such skills during the project. Much more important would be expertise in the artform or craft that is to be translated into code. This work would be able to connect with the activities around the [Algorithmic Pattern](https://thentrythis.org/projects/alpaca/) research project.
 
-Feel free to contact me with questions.
+Feel free to contact me with questions in advance of submitting your proposal.
 
 **Mentor**: [Alex McLean](https://thentrythis.org/about/alex-mclean/)
 
