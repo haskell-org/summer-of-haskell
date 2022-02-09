@@ -12,8 +12,6 @@ A project idea for the Summer of Haskell then could make use of Haskell's advanc
  
 This work would connect with the [Algorithmic Pattern](https://thentrythis.org/projects/alpaca/) research project that I run. I'm also instigator/maintainer of the [TidalCycles](https://tidalcycles.org) free/open source live coding system, which the project could potentially feed into, but this is not a requirement.
 
-Feel free to [contact me](mailto:alex@slab.org) with questions in advance of submitting your proposal.
-
 **Mentor**: [Alex McLean](https://thentrythis.org/about/alex-mclean/)
 
 **Difficulty**: Beginner/intermediate
