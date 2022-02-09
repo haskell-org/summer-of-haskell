@@ -1,5 +1,5 @@
 ---
-title: Algorithmic Pattern: formalising heritage algorithms for new creative interfaces
+title: 'Algorithmic Pattern: formalising heritage algorithms for new creative interfaces'
 ---
 
 Functional programming (and mathematics in general) is founded on the idea of _patterns_, which have a very long cultural history, including in crafts (braiding, wire-bending, tile patterns) as well as the performing and community arts (konnakol, bell ringing, maypole dancing, juggling siteswaps etc).
