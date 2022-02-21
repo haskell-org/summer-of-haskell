@@ -19,6 +19,7 @@ main = hakyll $ do
             [ "content/index.md"
             , "content/faq.md"
             , "content/contact.md"
+            , "content/tips.md"
             ]
 
     match (fromList simplePages) $ do
