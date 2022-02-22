@@ -15,6 +15,9 @@ Some general tips on writing a proposal are discussed
  -  What interests you in the project?
 
  -  Please include a tentative plan or schedule with some milestones.
+    If you have existing commitments, such as university deadlines, please
+    communicate this clearly!  We can usually work around these, but we don't
+    want you disapearing without a word for two weeks.
 
  -  Feel free to provide a brief CV, but please keep it limited to the
     experience that is relevant for GSoC.  If you have contributed to Haskell
