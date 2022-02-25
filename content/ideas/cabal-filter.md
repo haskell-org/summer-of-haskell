@@ -17,4 +17,6 @@ provenance, etc.
 
 **Potential Mentors**: Gershom Bazerman
 
-**Difficulty**: Intermediate
+**Difficulty**: Medium
+
+**Size**: 350 hours, possibly 175 hours for a strong, experienced contributor

@@ -42,4 +42,7 @@ Haskellers!
 
 **Potential Mentors**: Michael Peyton Jones
 
-**Difficulty**: Intermediate
+**Difficulty**: Medium
+
+**Size**: 175 hours (implemeting 1-2 features) or 350 hours (implementing 3-4
+features)

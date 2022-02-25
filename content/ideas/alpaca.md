@@ -14,4 +14,6 @@ This work would connect with the [Algorithmic Pattern](https://thentrythis.org/p
 
 **Mentor**: [Alex McLean](https://thentrythis.org/about/alex-mclean/)
 
-**Difficulty**: Beginner/intermediate
+**Difficulty**: Easy/medium
+
+**Size**: 350 hours

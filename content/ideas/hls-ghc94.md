@@ -25,7 +25,9 @@ HLS has an excellent project track record including previous GSoC, Tweak fellows
 
 **Potential Mentors**: Zubin Dugal
 
-**Difficulty**: Intermediate
+**Difficulty**: Medium
+
+**Size**: 350 hours, possibly 175 hours for a strong, experienced contributor
 
 **Links**:
 

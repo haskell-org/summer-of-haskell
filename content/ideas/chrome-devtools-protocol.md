@@ -18,4 +18,6 @@ documents through Chrome.
 
 **Potential mentors**: Albert Krewinkel, Jasper Van der Jeugt
 
-**Difficulty**: Intermediate
+**Difficulty**: Medium
+
+**Size**: 350 hours

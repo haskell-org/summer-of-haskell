@@ -24,4 +24,6 @@ repo: <https://github.com/haskell/hackage-server/labels/component%3A%20ux>
 
 **Potential Mentors**: Gershom Bazerman
 
-**Difficulty**: Intermediate
+**Difficulty**: Medium
+
+**Size**: 350 hours
