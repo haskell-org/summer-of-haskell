@@ -62,7 +62,9 @@ considered a partial success of the internship.
 
 **Potential mentor**: Andreas Abel
 
-**Difficulty**: Intermediate.
+**Difficulty**: Intermediate
+
+**Size**: 350 hours
 
 **Required skills**:
 
