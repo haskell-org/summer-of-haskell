@@ -16,6 +16,9 @@ most countries.
 
 Google Summer of Code 2022
 [has been announced with some changes](/news/2022-02-01-gsoc-changes-2022.html).
+
+[Haskell.org has been accepted into GSoC 2022](https://summerofcode.withgoogle.com/programs/2022/organizations/haskellorg)!
+
 We are currently [looking for ideas](/ideas.html) that students/contributors
 could work on during Google Summer of Code 2022.
 
