@@ -10,7 +10,7 @@ ones, there are a few that haven't been implemented yet.
 Implementing some of those could be a very good way of helping out other
 Haskellers!
 
- -  [Change Annotations](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#changeAnnotation):
+ -  [Change Annotations](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#changeAnnotation):
     These let you annotate pieces of edits with notes explaining what they do,
     and in some clients may let the user review them before accepting. For
     example, this would let us annotate each
@@ -20,21 +20,21 @@ Haskellers!
 
  -  [Semantic Highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
 
- -  [Folding ranges](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#textDocument_foldingRange)
+ -  [Folding ranges](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_foldingRange)
 
- -  [Linked editing](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#textDocument_linkedEditingRange):
+ -  [Linked editing](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_linkedEditingRange):
     this could be a lightweight way of doing document-local renamings for e.g.
     local variables.
 
- -  [Completion](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#completionItem_resolve) /
-    [Code Action](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#textDocument_codeAction) /
-    [Code Lens](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#textDocument_codeLens)
+ -  [Completion](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#completionItem_resolve) /
+    [Code Action](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_codeAction) /
+    [Code Lens](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_codeLens)
     resolving.  This is definitely the most complicated, since it potentially
     requires state tracking on the part of the server. But if we could do it
     well then it might lead to improved performance.  Completions would probably
     be highest priority.
 
- -  [Document links](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#textDocument_documentLink):
+ -  [Document links](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_documentLink):
     these could be used for type references in Haddock, for example.
 
 [hls]: https://haskell-language-server.readthedocs.io/en/latest/
