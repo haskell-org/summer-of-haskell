@@ -10,4 +10,5 @@ can reach us by sending an email to `committee [AT] haskell.org`.
 Alternatively, you can contact `m [AT] jaspervdj.be` directly.
 
 There is also an IRC channel called `#haskell` on
-[libera](https://https://libera.chat//) where you can ask for help.
+[libera](https://libera.chat/) where you can ask for help.  More info on our
+IRC channels can be <a href="https://www.haskell.org/irc/">found here</a>.
