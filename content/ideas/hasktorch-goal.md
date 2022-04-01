@@ -8,7 +8,7 @@ Goal is high-performance, but ultimately CPU-bound. Nevertheless, the Goal type-
 
 Although this project is focused on my own libraries, I see it as fulfilling a broader need in the Haskell community. Users have long lamented the lack of data science tools in Haskell, even though Haskell's strong type-system would appear to be a natural fit for describing advanced machine learning models and algorithms. A critical part of progress is simply trying, and therefore even if the particular approach of Hasktorch + Goal that we propose does not satisfy all the needs of the wider community, it will serve as an important, yet also achievable and well-defined exploration of the space of Haskell-driven data science.
 
-**Potential Mentors**: [Sacha Sokoloski](https://gitlab.com/sacha-sokoloski), [Junji Hashimoto](https://github.com/junjihashimoto)
+**Mentors**: [Sacha Sokoloski](https://gitlab.com/sacha-sokoloski), [Junji Hashimoto](https://github.com/junjihashimoto)
 
 **Difficulty**: Medium
 
