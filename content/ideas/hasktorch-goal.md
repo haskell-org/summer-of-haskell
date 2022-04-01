@@ -13,4 +13,3 @@ Although this project is focused on my own libraries, I see it as fulfilling a b
 **Difficulty**: Medium
 
 **Size**: 350 hours
-features)
