@@ -25,5 +25,5 @@ Executable summer-of-haskell
     base         >= 4.8  && < 5,
     filepath     >= 1.4  && < 1.5,
     hakyll       >= 4.10 && < 4.16,
-    pandoc       >= 2.10 && < 2.15,
+    pandoc       >= 2.10 && < 2.18,
     pandoc-types >= 1.17 && < 1.23
