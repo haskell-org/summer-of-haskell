@@ -35,4 +35,4 @@ The example above shows a function `aggregate` which arguments depend on type cl
 
 **Difficulty**: Medium
 
-**Size**: 250 hours
+**Size**: 350 hours, possibly 175 for an experienced contributor
