@@ -22,4 +22,4 @@ process of a large and venerable open source codebase.
 
 **Difficulty**: Medium
 
-**Size**: between 50 and 150 hours
+**Size**: 175 hours
