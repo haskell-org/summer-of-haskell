@@ -15,4 +15,4 @@ For more information, please contact [ollie@ocharles.org.uk](mailto:ollie@ocharl
 
 **Difficulty**: Medium
 
-**Size**: 130 hours
+**Size**: 175 hours
