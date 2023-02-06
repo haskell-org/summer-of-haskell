@@ -1,3 +1,4 @@
+---
 title: 'Teaching Weeder about type class instances'
 ---
 
