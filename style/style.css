@@ -198,3 +198,9 @@ figure img {
 figcaption {
   display: none;
 }
+
+.notification {
+    background: #fff4b8;
+    padding: 12px;
+    border-radius: 12px;
+}

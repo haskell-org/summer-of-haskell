@@ -20,9 +20,11 @@ Google Summer of Code 2023
 We are currently [looking for ideas](/ideas.html) that students/contributors
 could work on during Google Summer of Code 2023.
 
-**Update**: Sadly, Haskell was not selected to take part in GSoC 2023. On the
-bright side, we are intending to run an independent _Haskell Summer of Code_
-program instead. Details are forthcoming.
+<p class="notification">
+  <strong>Update</strong>: Sadly, Haskell was not selected to take part in GSoC
+  2023. On the bright side, we are intending to run an independent <i>Haskell
+  Summer of Code</i> program instead. Details are forthcoming.
+</p>
 
 # Google Summer of Code 2022
 
