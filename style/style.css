@@ -204,3 +204,8 @@ figcaption {
     padding: 12px;
     border-radius: 12px;
 }
+
+#haskell-summer-of-code-2023 {
+  display: flex;
+  align-items: center;
+}

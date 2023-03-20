@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="176px" viewBox="0 0 200 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_lockup_summer_of_code_horizontal_Roboto</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo_lockup_summer_of_code_horizontal_Roboto" transform="translate(0.000000, -8.000000)">
+            <g id="Page-1">
+                <g id="logo_lockup_summer_of_code_horizontal_Roboto_lockup_summer_of_code_icon_horizontal">
+                    <g id="Group">
+                        <polygon id="Shape" fill="#FBBC05" points="113.7 158.1 150.1 158.1 150.1 121.7 175.8 96 150.1 70.3 150.1 33.9 113.7 33.9 88 8.2 62.3 33.9 25.9 33.9 25.9 70.3 0.2 96 25.9 121.7 25.9 158.1 62.3 158.1 88 183.8"></polygon>
+                        <path d="M88,39.9 C119,39.9 144.1,65.1 144.1,96 C144.1,126.9 119,152.2 88,152.2 C57,152.2 31.9,127 31.9,96 C31.9,65 57,39.9 88,39.9 M88,36.7 C55.2,36.7 28.7,63.3 28.7,96 C28.7,128.7 55.3,155.3 88,155.3 C120.7,155.3 147.3,128.7 147.3,96 C147.3,63.3 120.8,36.7 88,36.7" id="Shape" fill="#FFFFFF"></path>
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="8" cx="88" cy="96" r="58.7"></circle>
+                        <rect id="Rectangle-path" x="0" y="0" width="176" height="192"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="scale(3.8),translate(12,11)">
+      <path style="fill:#FFFFFF" xmlns="http://www.w3.org/2000/svg" d="M.006 20.47L5.649 12 .006 3.531h4.235l5.674 8.47-5.674 8.468zm5.643 0L11.29 12 5.65 3.531h4.266l11.253 16.938h-4.224l-3.535-5.34-3.495 5.34zM19.3 15.525l-1.877-2.827h6.571v2.826zm-2.826-4.235l-1.877-2.827h9.387v2.827z"/>
+    </g>
+</svg>
