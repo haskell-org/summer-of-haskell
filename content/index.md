@@ -9,29 +9,29 @@ encourage them to contribute to the Haskell community with the aid of
 experienced mentors. This program is open to all newcomers to open source, age
 18 years or older, in most countries.
 
-# <img src="/images/hsoc-logo.svg" alt="Haskell Summer of Code" style="width:90px"> Haskell Summer of Code 2023
+# <img src="/images/hsoc-logo.svg" alt="Summer of Haskell" style="width:90px"> Summer of Haskell 2023
 
 We are pleased to announce that <em>Haskell.Org</em> in collaboration with the
-<em>Haskell Foundation</em> will be hosting the <b>Haskell Summer of Code
-2023</b>! This program will be occurring independently from <i>Google Summer of
-Code</i> but offers the same opportunities and amenities, including mentorship
-and a stipend, to would-be Haskell contributors.
+<em>Haskell Foundation</em> will be hosting the <b>Summer of Haskell 2023</b>!
+This program will be occurring independently from <i>Google Summer of Code</i>
+but offers the same opportunities and amenities, including mentorship and a
+stipend, to would-be Haskell contributors.
 
 ### Participation
 
 We will begin accepting proposals from prospective contributors starting April
 3rd and the deadline for submissions is April 20th. If you would like to apply,
-please send an email to `hsoc [AT] haskell.org` with a Google doc containing
+please send an email to `summer [AT] haskell.org` with a Google doc containing
 your proposal. Tips for writing a good proposal can be found
 [here](/tips.html). We have a curated list of [project ideas](/ideas.html)
 that you can select from, or you may also propose an idea of your own if
 you'd prefer.
 
 Our guidelines around contributor eligibility as well as the stipend will
-mirror those of <i>Google Summer of Code</i>. See [here](https://buildyourfuture.withgoogle.com/programs/summer-of-code)
-for eligibility guidelines, and [here](https://developers.google.com/open-source/gsoc/help/student-stipends)
-for stipend information. Please be sure to review the eligibility guidelines
-before you start working on a proposal.
+mirror those of <i>Google Summer of Code</i>. See [here](/faq.html#what-are-the-eligibility-requirements-for-participation)
+for eligibility guidelines, and [here](/stipend.html) for stipend information.
+Please be sure to review the eligibility guidelines before you start working on
+a proposal.
 
 ### Projected timeline
 
@@ -94,19 +94,11 @@ before you start working on a proposal.
 
 ### Sponsors
 
-We'd like to give special thanks to the <em>Haskell Foundation</em> for
-providing the funds for a portion of the students, and to these individuals and
-organizations who have also pledged to sponsor students:
+We'd like to give special thanks to these individuals and organizations that
+have agreed to help fund this program by sponsoring students:
 
- -  Gershom Bazerman and Edward Kmett
+ -  [The Haskell Foundation](https://haskell.foundation/)
+ -  Gershom Bazerman
+ -  Edward Kmett
 
-If you or your organization would like to sponsor a student, please [contact us](/contact.html)!
-
----
-
-<img src="/images/gsoc-logo.svg" alt="Google Summer of Code" style="width: 100%;">
-
-# Google Summer of Code 2022
-
-GSoC 2022 is over!  We are really pleased since this is the **first year ever**
-that [all of our projects ended successfully](https://summerofcode.withgoogle.com/programs/2022/organizations/haskellorg)!
+If you or your organization would like to help sponsor students, please [contact us](/contact.html)!
