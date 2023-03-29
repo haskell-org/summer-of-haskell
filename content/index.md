@@ -28,7 +28,7 @@ that you can select from, or you may also propose an idea of your own if
 you'd prefer.
 
 Our guidelines around contributor eligibility as well as the stipend will
-mirror those of <i>Google Summer of Code</i>. See [here](/faq.html#what-are-the-eligibility-requirements-for-participation)
+mirror those of <i>Google Summer of Code</i>. See [here](https://developers.google.com/open-source/gsoc/help/student-stipends)
 for eligibility guidelines, and [here](/stipend.html) for stipend information.
 Please be sure to review the eligibility guidelines before you start working on
 a proposal.
