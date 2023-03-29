@@ -6,21 +6,21 @@ title: Home
 
 The Summer of Haskell is an effort by Haskell.Org to reach out to students and
 encourage them to contribute to the Haskell community with the aid of
-experienced mentors. This program is open to all newcomers to open source, age
-18 years or older, in most countries.
+experienced mentors. This program is open to all college students and newcomers
+to open-source Haskell contributions, age 18 years or older, in most countries.
 
 # <img src="/images/hsoc-logo.svg" alt="Summer of Haskell" style="width:90px"> Summer of Haskell 2023
 
 We are pleased to announce that <em>Haskell.Org</em> in collaboration with the
 <em>Haskell Foundation</em> will be hosting the <b>Summer of Haskell 2023</b>!
 This program will be occurring independently from <i>Google Summer of Code</i>
-but offers the same opportunities and amenities, including mentorship and a
-stipend, to would-be Haskell contributors.
+but offers the same opportunities, including mentorship and a stipend, to
+would-be Haskell contributors.
 
 ### Participation
 
 We will begin accepting proposals from prospective contributors starting April
-3rd and the deadline for submissions is April 20th. If you would like to apply,
+3rd, and the deadline for submissions is April 20th. If you would like to apply,
 please send an email to `summer [AT] haskell.org` with a Google doc containing
 your proposal. Tips for writing a good proposal can be found
 [here](/tips.html). We have a curated list of [project ideas](/ideas.html)
