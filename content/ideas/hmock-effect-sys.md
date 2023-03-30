@@ -8,7 +8,7 @@ There is a lot of interest in the Haskell community in effect systems, which are
 
 HMock makes significant use of Template Haskell, Data Kinds, Type Families, GADTs, and more, so this isn't the right project for a Haskell beginner.  If beating GHC into submission is more your style, look here!
 
-**Mentor**: [Chris Smith](cdsmith@gmail.com)
+**Mentor**: [Chris Smith](mailto:cdsmith@gmail.com)
 
 **Difficulty**: Advanced
 
