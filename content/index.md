@@ -29,9 +29,7 @@ you'd prefer.
 
 Our guidelines around contributor eligibility as well as the stipend will
 mirror those of <i>Google Summer of Code</i>. See
-[here](https://developers.google.com/open-source/gsoc/faq#what_are_the_eligibility_requirements_for_participation)
-and
-[here](https://developers.google.com/open-source/gsoc/faq#are_participants_from_ukraine_russia_or_belarus_allowed_to_participate_in_gsoc_2023)
+[here](./faq.html#what-are-the-eligibility-requirements-for-participation)
 for eligibility guidelines, and [here](/stipend.html) for stipend information.
 Please be sure to review the eligibility guidelines before you start working on
 a proposal.
