@@ -53,13 +53,13 @@ Haskell timeline.
 
 ### How does the program work?
 Newcomers are mentored by experienced contributors, and learn how to work with
-open-source and improve their ability to write Haskell code. No previous open
-source experience is needed to attend the program as a would-to-be contributor,
-however you need to have some knowledge of writing Haskell code. The program is
-addressed to everyone; there's no need to be a student. All the contributors
-are paid for their work; even if the work is unfinished or the produced code
-won't be used in the future, you will get a stipend. The program is run
-entirely online.
+open source software development and improve their ability to write Haskell
+code. No previous open source experience is needed to participate in the
+program as a contributor, however you need to have some knowledge of writing
+Haskell code. The program is addressed to everyone; there's no need to be a
+student. All the contributors will receive a stipend for their work, even if
+the work is unfinished or the produced code won't be used in the future. The
+program is run entirely online.
 
 ---
 
@@ -72,8 +72,8 @@ the mentors are experienced contributors and maintainers.
 ### Why are you running this program?
 The Haskell ecosystem relies on volunteer work. The majority of tools and
 libraries are open source and we want to be aware and educate developers on the
-importance of OSS. Having active contributors and devoted maintainers is
-crucial for our ecosystem to function smoothly.
+importance of open source software. Having active contributors and devoted
+maintainers is crucial for our ecosystem to function smoothly.
 
 ---
 
@@ -89,7 +89,7 @@ No, we accept only individuals as contributors.
 ---
 
 ### Can I submit more than one proposal?
-We accept two proposals from each candidate maximum.
+We accept at most two proposals from each candidate.
 
 ---
 
