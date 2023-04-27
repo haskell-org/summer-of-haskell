@@ -101,5 +101,6 @@ have agreed to help fund this program by sponsoring students:
  -  [The Haskell Foundation](https://haskell.foundation/)
  -  Gershom Bazerman
  -  Edward Kmett
+ -  [MLabs](https://mlabs.city)
 
 If you or your organization would like to help sponsor students, please [contact us](/contact.html)!
