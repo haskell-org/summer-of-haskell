@@ -27,6 +27,10 @@ your proposal. Tips for writing a good proposal can be found
 that you can select from, or you may also propose an idea of your own if
 you'd prefer.
 
+**Update:** The project selections have been made! Go
+[here](./news/2023-05-14-summer-of-haskell-2023-project-selections.html) for
+details.
+
 Our guidelines around contributor eligibility as well as the stipend will
 mirror those of <i>Google Summer of Code</i>. See
 [here](./faq.html#what-are-the-eligibility-requirements-for-participation)
@@ -99,8 +103,11 @@ We'd like to give special thanks to these individuals and organizations that
 have agreed to help fund this program by sponsoring students:
 
  -  [The Haskell Foundation](https://haskell.foundation/)
+ -  [Kadena](https://kadena.io/)
+ -  [Jane Street](https://www.janestreet.com/)
  -  Gershom Bazerman
  -  Edward Kmett
  -  [MLabs](https://mlabs.city)
+ -  [Flipstone](https://flipstone.com/)
 
 If you or your organization would like to help sponsor students, please [contact us](/contact.html)!
