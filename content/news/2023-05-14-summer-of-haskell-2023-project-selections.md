@@ -5,7 +5,7 @@ author: 'Aaron Allen'
 
 Summer of Haskell 2023 is off to a great start and we have some exciting news
 to share! We received many quality proposals from which to choose and our
-mentors have made their selections. Thanks to our [incredibly generous sponsors](./index.html#sponsors),
+mentors have made their selections. Thanks to our [incredibly generous sponsors](/index.html#sponsors),
 we have secured funding for nine projects! Without further ado, here are the
 accepted projects:
 
