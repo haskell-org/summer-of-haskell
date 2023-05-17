@@ -109,5 +109,6 @@ have agreed to help fund this program by sponsoring students:
  -  Edward Kmett
  -  [MLabs](https://mlabs.city)
  -  [Flipstone](https://flipstone.com/)
+ -  [Holmusk](https://www.holmusk.com/)
 
 If you or your organization would like to help sponsor students, please [contact us](/contact.html)!
