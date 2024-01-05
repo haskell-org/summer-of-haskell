@@ -20,7 +20,6 @@ main = hakyll $ do
             , "content/faq.md"
             , "content/contact.md"
             , "content/tips.md"
-            , "content/stipend.md"
             ]
 
     match (fromList simplePages) $ do
