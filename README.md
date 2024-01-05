@@ -9,7 +9,7 @@ This is the source code for the summer of Haskell website.
 #### Modern method (Cabal 2.4 and newer)
 
 This is the recommended method and at the time of writing is known
-to work with GHC 7.10.3 through GHC 8.6.3.
+to work with GHC 7.10.3 through GHC 9.4.8.
 
     cabal v2-run exes -- preview
 
