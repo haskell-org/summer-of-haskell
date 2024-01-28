@@ -12,9 +12,9 @@ This project is for an audit of the monoidal semantics of the various setting wh
 
 Related tickets are 
 
-[https://github.com/haskell/cabal/issues/8568]
-[https://github.com/haskell/cabal/pull/9510]
-[https://github.com/haskell/cabal/issues/7556#issuecomment-1120433903]
+* <https://github.com/haskell/cabal/issues/8568>
+* <https://github.com/haskell/cabal/pull/9510>
+* <https://github.com/haskell/cabal/issues/7556#issuecomment-1120433903>
 
 ## Mentorship
 
