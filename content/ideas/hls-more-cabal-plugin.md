@@ -1,5 +1,5 @@
 ---
-title: Haskell Language Server: Cabal Plugin Continuation
+title: Haskell Language Server Cabal Plugin Continuation
 ---
 
 The [`hls-cabal-plugin`](https://github.com/haskell/haskell-language-server/tree/master/plugins/hls-cabal-plugin) is a Haskell Language Server (HLS) plugin that allows HLS to be a Language Server for `.cabal` files as well as Haskell files.

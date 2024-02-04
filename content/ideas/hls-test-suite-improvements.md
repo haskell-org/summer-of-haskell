@@ -1,5 +1,5 @@
 ---
-title: Haskell Language Server: Test suite Improvements
+title: Haskell Language Server Test Suite Improvements
 ---
 
 Haskell Language Server (HLS) has an extensive test suite that is run on every commit.
