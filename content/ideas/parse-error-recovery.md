@@ -26,13 +26,19 @@ parse error messages in GHC.
 There are a couple of stretch goals:
 
   * `happy` could further be improved to pass a closure of its
-    parse state to reduction actions, so as to enable incremental parsing.
+    parse state to reduction actions, so as to enable incremental parsing
+    in GHC's parser.
   * Improve `happy` so that it provides a convenient and encapsulated way to
     introspect the LALR item stack, for example to identify bracketing
-    productions such as `'(' expr . ')'` in order to report mismatched brackets.
+    productions such as `'(' expr . ')'` in GHC's parser in order to report mismatched brackets.
     There is a [hacky GHC Merge Request](https://gitlab.haskell.org/ghc/ghc/-/merge_requests/4711) 
     that tries to achieve as much without buy in from happy.
-  * Improve `happy`s code base, which by now is over 25 years old. 
+  * Improve `happy`s code base, which by now is over 25 years old.
+    For example, recently `happy` has been modularised, thus split
+    into multiple independently usable packages (for modelling grammars,
+    building LALR tables, producing Haskell code from LALR tables, etc.),
+    but unfortunately the individual packages
+    [lack documentation and examples](https://github.com/haskell/happy/issues/238#issuecomment-1925804930).
 
 **Potential Mentors**: 
 Sebastian Graf
