@@ -36,12 +36,12 @@ contributors a smoother experience.
 ### Existing Tooling
 
 Some tooling to support this technique is found at
-https://gitlab.haskell.org/chreekat/spurious-failures/-/tree/master/local-tooling.
+<https://gitlab.haskell.org/chreekat/spurious-failures/-/tree/master/local-tooling>.
 It requires the user to manually download all job logs, and the "interface" is
 nothing more than a sqlite database. This project will improve on the idea.
 
 There is already a service that listens to job events, found at
-https://gitlab.haskell.org/chreekat/spurious-failures/-/tree/master/spuriobot.
+<https://gitlab.haskell.org/chreekat/spurious-failures/-/tree/master/spuriobot>.
 Therefore, the first component of the project goal (creating a service that
 automatically inserts test logs into a full text search database) will only need
 to extend that service with the log-insertion feature.
