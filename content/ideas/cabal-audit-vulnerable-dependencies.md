@@ -81,6 +81,7 @@ See also David Christian's [call to action][] for writing a security
 advisory analyser for Haskell, which discusses the same general
 topic.
 
+[advisory-db]: https://github.com/haskell/security-advisories
 [VEX]: https://www.cisa.gov/resources-tools/resources/minimum-requirements-vulnerability-exploitability-exchange-vex
 [call to action]: https://discourse.haskell.org/t/would-you-like-to-write-a-security-advisory-analyzer/7638
 
