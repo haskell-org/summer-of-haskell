@@ -64,6 +64,8 @@ And maybe fix them!
 
 ## Size
 
+Estimated at 175 hours.
+
 The first deliverable, described in Phase 1, is **small**. By choosing from the
 Phase 2 options, however, the project can be extended to **medium** or **large**
 as suits the circumstances.

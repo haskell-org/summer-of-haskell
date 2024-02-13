@@ -52,5 +52,4 @@ exporting the data in a format suitable for use by *hackage-server*.
 
 ## Difficulty and size
 
-**TODO**: we would like someone familiar with *hackage-server* to
-provide difficulty and size estimates.
+Intermediate difficulty - 175 Hours

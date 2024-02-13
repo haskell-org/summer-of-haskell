@@ -27,6 +27,8 @@ Fendor
 
 **Difficulty and size**
 
+Intermediate - 175 hours
+
 The project itself is not too difficult, as there is lots of prior work and many low hanging fruits.
 However, there is a fair amount of working with the internals of Haskell Language Server which can be intimidating as they tend to be underdocumented.
 

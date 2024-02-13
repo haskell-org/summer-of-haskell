@@ -22,4 +22,8 @@ Gershom is willing to mentor
 
 ## Difficulty and size
 
-The difficulty of implementation is medium at most, but this will require somebody who is able to thoughtfully inventory, think through, and propose the specifics of a solution, ideally with prior experience with cabal project files as a user, and also with a sense of existing user workflows. The size of the project is likely **medium**.
+The difficulty of implementation is medium at most, but this will require
+somebody who is able to thoughtfully inventory, think through, and propose the
+specifics of a solution, ideally with prior experience with cabal project files
+as a user, and also with a sense of existing user workflows. The size of the
+project is likely 175 hours.
