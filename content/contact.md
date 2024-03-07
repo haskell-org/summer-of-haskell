@@ -7,7 +7,7 @@ title: Contact
 The Summer of Haskell is organised by the
 [Haskell.org Committee](https://wiki.haskell.org/Haskell.org_committee).  You
 can reach us by sending an email to `committee [AT] haskell.org`.
-Alternatively, you can contact `m [AT] jaspervdj.be` directly.
+Alternatively, you can contact Aaron Allen `aaronallen8455 [AT] gmail.com` directly.
 
 There is also an IRC channel called `#haskell` on
 [libera](https://libera.chat/) where you can ask for help.  More info on our
