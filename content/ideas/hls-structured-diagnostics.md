@@ -3,7 +3,7 @@ title: Use GHCs Structured Diagnostics in HLS
 ---
 
 Haskell Language Server provides many quick fixes and refactoring to
-fix common errors and warnings reported by GHC.This is done in the
+fix common errors and warnings reported by GHC. This is done in the
 [`hls-refactor-plugin`](https://github.com/haskell/haskell-language-server/tree/
 master/plugins/hls-refactor-plugin), but is implemented by manually parsing the
 text of GHCs error/warning messages. However, since GHC 9.2, GHC provides a
@@ -25,10 +25,10 @@ expression parsing of plain text messages.
 
 References:
 
-- https://github.com/haskell/haskell-language-server/issues/2014
-- https://gitlab.haskell.org/ghc/ghc/-/issues/18516
-- https://github.com/ghc-proposals/ghc-proposals/pull/306
-- https://gitlab.haskell.org/ghc/ghc/-/wikis/Errors-as-(structured)-values
+- <https://github.com/haskell/haskell-language-server/issues/2014>
+- <https://gitlab.haskell.org/ghc/ghc/-/issues/18516>
+- <https://github.com/ghc-proposals/ghc-proposals/pull/306>
+- <https://gitlab.haskell.org/ghc/ghc/-/wikis/Errors-as-(structured)-values>
 
 **Mentorship**
 
