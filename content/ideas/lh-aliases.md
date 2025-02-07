@@ -55,7 +55,7 @@ There is a [corresponding issue][] in the Liquid Haskell repo.
 
 ## Outcomes
 
-The main outcomes are a pull request with the implementation tests and code
+The main outcomes are a pull request with the implementation, tests, and code
 documentation, and a discussion of the analysis and the design in the corresponding
 issue.
 
