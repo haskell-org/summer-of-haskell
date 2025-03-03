@@ -23,7 +23,7 @@ be qualified now, in order to dissambiguate equal names that come from different
 modules. There is an exception though, when it comes to type and predicate
 aliases. For technical reasons, this constructs have been left behind in the refactoring.
 
-[a refactoring]: https://github.com/ucsd-progsys/liquidhaskell/issues/2961
+[a refactoring]: https://github.com/ucsd-progsys/liquidhaskell/issues/2169
 
 As the reference documentation explains, type aliases can be used to shorten specifications.
 Instead of writing a spec like:
