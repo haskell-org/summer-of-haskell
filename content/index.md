@@ -14,5 +14,6 @@ to open-source Haskell contributions, age 18 years or older, in most countries.
 
 # Google Summer of Code 2025
 
-We are currently [looking for ideas](/ideas.html) that students/contributors
-could work on during Google Summer of Code 2025.
+**Haskell has been selected for Google Summer of Code 2025!**
+
+Prospective contributors can begin submitting proposals against our [project ideas](/ideas.html) on March 24th.
