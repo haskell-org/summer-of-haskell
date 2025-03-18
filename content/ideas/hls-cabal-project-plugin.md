@@ -7,6 +7,7 @@ title: Language Server support for cabal.project files
 Introduce a new Haskell Language Server plugin, which provides IDE-features for `cabal.project` files.
 
 Some possible features include:
+
 * Diagnostics
 * Completions of
     * keywords
