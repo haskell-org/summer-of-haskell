@@ -36,6 +36,6 @@ This project will only accept participants with prior contributions to HLS or `l
 
 Mentors: fendor, TBD
 
-Project size: 180hrs, the scope could be expanded to 350hrs
+Project size: 175hrs, the scope could be expanded to 350hrs
 
 Difficulty: Medium

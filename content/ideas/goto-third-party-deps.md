@@ -25,6 +25,6 @@ This project will only accept participants with prior contributions to HLS.
 
 Mentors: fendor, wz1000
 
-Project size: 350hrs, 180hrs if experienced
+Project size: 350hrs, 175hrs if experienced
 
 Difficulty: Hard

@@ -1,5 +1,5 @@
 ---
-title: xeus-haskell: Precompilation and Caching for Instant Startup
+title: xeus-haskell - Precompilation and Caching for Instant Startup
 ---
 
 ## Project Context
@@ -30,5 +30,7 @@ environment is ready for execution instantly.
   caching strategies.
 
 **Mentors:** [Masaya Taniguchi](https://github.com/tani)
+
 **Project Size:** 175h (Medium)
+
 **Difficulty:** Medium

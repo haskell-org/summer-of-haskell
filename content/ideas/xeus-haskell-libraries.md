@@ -1,5 +1,5 @@
 ---
-title: xeus-haskell: Library Expansion and Packaging for MicroHs
+title: xeus-haskell - Library Expansion and Packaging for MicroHs
 ---
 
 ## Project Context
@@ -35,5 +35,7 @@ its library ecosystem.
   `conda-forge`.
 
 **Mentors:** [Masaya Taniguchi](https://github.com/tani)
+
 **Project Size:** 175h (Medium) / 350h (Large)
+
 **Difficulty:** Medium

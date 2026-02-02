@@ -1,5 +1,5 @@
 ---
-title: xeus-haskell: Interactive Widgets for Haskell Notebooks
+title: xeus-haskell - Interactive Widgets for Haskell Notebooks
 ---
 
 ## Project Context
@@ -33,5 +33,7 @@ manipulate data visualizations in real-time.
   system in another language.
 
 **Mentors:** [Masaya Taniguchi](https://github.com/tani)
+
 **Project Size:** 175h (Medium) / 350h (Large)
+
 **Difficulty:** Medium

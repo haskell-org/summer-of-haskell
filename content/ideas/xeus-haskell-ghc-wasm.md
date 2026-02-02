@@ -1,5 +1,5 @@
 ---
-title: xeus-haskell: GHC/Wasm Backend Integration Prototype
+title: xeus-haskell - GHC/Wasm Backend Integration Prototype
 ---
 
 ## Project Context
@@ -34,5 +34,7 @@ production workflows in the browser.
   development.
 
 **Mentors:** [Masaya Taniguchi](https://github.com/tani)
+
 **Project Size:** 350h (Large)
+
 **Difficulty:** Hard
