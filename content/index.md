@@ -14,6 +14,4 @@ to open-source Haskell contributions, age 18 years or older, in most countries.
 
 # Google Summer of Code 2026
 
-**Haskell has been selected for Google Summer of Code 2026!**
-
-Prospective contributors can begin submitting proposals against our [project ideas](/ideas.html) on March 16th.
+[GSoC 2026 has concluded](https://blog.haskell.org/gsoc-2026/). We hope to participate again in 2027!
